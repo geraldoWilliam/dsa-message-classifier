@@ -1,0 +1,701 @@
+{
+  "thread_id" : "-1",
+  "events" : [ {
+    "conclusion" : {
+      "msg_id" : "6f533839-7301-434e-b5a8-5af9a06b77b4",
+      "outcomes" : [ {
+        "entities" : [ {
+          "confidence" : 1,
+          "wisp" : "58bc59c6-3467-4ca7-8e4d-3cd97ae974ee",
+          "name" : "question-message",
+          "start" : 0,
+          "end" : 14,
+          "body" : "bagaimana cara",
+          "value" : {
+            "type" : "value",
+            "value" : "Bagaimana cara"
+          }
+        }, {
+          "role" : "origin",
+          "confidence" : 0.9803453729986735,
+          "wisp" : "5722be14-b746-4fa6-a3b6-5c6bf9df1405",
+          "name" : "location",
+          "start" : 20,
+          "end" : 31,
+          "body" : "fasilkom ui",
+          "value" : {
+            "suggested" : true,
+            "type" : "value",
+            "value" : "fasilkom ui"
+          }
+        }, {
+          "role" : "destination",
+          "confidence" : 0.9651667136329593,
+          "wisp" : "5722be14-b746-4fa6-a3b6-5c6bf9df1405",
+          "name" : "location",
+          "start" : 35,
+          "end" : 47,
+          "body" : "central park",
+          "value" : {
+            "suggested" : true,
+            "type" : "value",
+            "value" : "central park"
+          }
+        }, {
+          "confidence" : 0.9997349860626891,
+          "wisp" : "58bc5759-1323-477b-91f9-a7602da2dbba",
+          "name" : "intent",
+          "value" : "ask-for-direction"
+        } ],
+        "confidence" : null,
+        "_text" : "bagaimana cara dari fasilkom ui ke central park?",
+        "intent" : "default_intent",
+        "intent_id" : "58bc5759-eb17-4ef6-9c2b-76bf94617034"
+      } ],
+      "_text" : "bagaimana cara dari fasilkom ui ke central park?"
+    },
+    "instance_name" : "TanyaJalan",
+    "highlight" : { },
+    "uid" : "github:9531164",
+    "instance_id" : "58bc5759-1d0a-4c03-9324-3ee230dfdeb0",
+    "from" : ":msg",
+    "at" : "2017-03-06T16:20:13.567Z",
+    "context" : {
+      "reference_time" : "2017-03-06T16:20:12.444Z"
+    },
+    "thread_id" : "-1",
+    "version" : "20160516",
+    "confidence" : null,
+    "user_instance" : "adamyordan_30dfdeb0",
+    "diag" : {
+      "msg_id" : "6f533839-7301-434e-b5a8-5af9a06b77b4",
+      "outcomes" : [ {
+        "entities" : {
+          "question_message" : [ {
+            "confidence" : 1,
+            "start" : 0,
+            "end" : 14,
+            "body" : "bagaimana cara",
+            "value" : {
+              "value" : "Bagaimana cara"
+            },
+            "entity" : "question-message"
+          } ],
+          "origin" : [ {
+            "role" : "origin",
+            "confidence" : 0.9803453729986735,
+            "start" : 20,
+            "end" : 31,
+            "body" : "fasilkom ui",
+            "value" : {
+              "value" : "fasilkom ui"
+            },
+            "entity" : "location"
+          } ],
+          "destination" : [ {
+            "role" : "destination",
+            "confidence" : 0.9651667136329593,
+            "start" : 35,
+            "end" : 47,
+            "body" : "central park",
+            "value" : {
+              "value" : "central park"
+            },
+            "entity" : "location"
+          } ],
+          "intent" : [ {
+            "confidence" : 0.9997349860626891,
+            "value" : "ask-for-direction",
+            "entity" : "intent"
+          } ]
+        },
+        "confidence" : null,
+        "_text" : "bagaimana cara dari fasilkom ui ke central park?",
+        "intent" : "default_intent",
+        "intent_id" : "58bc5759-eb17-4ef6-9c2b-76bf94617034"
+      } ],
+      "_text" : "bagaimana cara dari fasilkom ui ke central park?"
+    }
+  }, {
+    "conclusion" : {
+      "msg_id" : "559d9ce1-8a08-4f7e-8dbb-874e7e6ddf8f",
+      "outcomes" : [ {
+        "entities" : [ {
+          "confidence" : 1,
+          "wisp" : "58bc59c6-3467-4ca7-8e4d-3cd97ae974ee",
+          "name" : "question-message",
+          "start" : 0,
+          "end" : 14,
+          "body" : "bagaimana cara",
+          "value" : {
+            "type" : "value",
+            "value" : "Bagaimana cara"
+          }
+        }, {
+          "role" : "origin",
+          "confidence" : 0.9803453729986735,
+          "wisp" : "5722be14-b746-4fa6-a3b6-5c6bf9df1405",
+          "name" : "location",
+          "start" : 20,
+          "end" : 31,
+          "body" : "fasilkom ui",
+          "value" : {
+            "suggested" : true,
+            "type" : "value",
+            "value" : "fasilkom ui"
+          }
+        }, {
+          "role" : "destination",
+          "confidence" : 0.9651667136329593,
+          "wisp" : "5722be14-b746-4fa6-a3b6-5c6bf9df1405",
+          "name" : "location",
+          "start" : 35,
+          "end" : 47,
+          "body" : "central park",
+          "value" : {
+            "suggested" : true,
+            "type" : "value",
+            "value" : "central park"
+          }
+        }, {
+          "confidence" : 0.9997349860626891,
+          "wisp" : "58bc5759-1323-477b-91f9-a7602da2dbba",
+          "name" : "intent",
+          "value" : "ask-for-direction"
+        } ],
+        "confidence" : null,
+        "_text" : "bagaimana cara dari fasilkom ui ke central park?",
+        "intent" : "default_intent",
+        "intent_id" : "58bc5759-eb17-4ef6-9c2b-76bf94617034"
+      } ],
+      "_text" : "bagaimana cara dari fasilkom ui ke central park?"
+    },
+    "instance_name" : "TanyaJalan",
+    "highlight" : { },
+    "uid" : "github:9531164",
+    "instance_id" : "58bc5759-1d0a-4c03-9324-3ee230dfdeb0",
+    "from" : ":msg",
+    "at" : "2017-03-06T16:25:17.576Z",
+    "context" : {
+      "reference_time" : "2017-03-06T16:25:17.562Z"
+    },
+    "thread_id" : "-1",
+    "version" : "20160516",
+    "confidence" : null,
+    "user_instance" : "adamyordan_30dfdeb0",
+    "diag" : {
+      "msg_id" : "559d9ce1-8a08-4f7e-8dbb-874e7e6ddf8f",
+      "outcomes" : [ {
+        "entities" : {
+          "question_message" : [ {
+            "confidence" : 1,
+            "start" : 0,
+            "end" : 14,
+            "body" : "bagaimana cara",
+            "value" : {
+              "value" : "Bagaimana cara"
+            },
+            "entity" : "question-message"
+          } ],
+          "origin" : [ {
+            "role" : "origin",
+            "confidence" : 0.9803453729986735,
+            "start" : 20,
+            "end" : 31,
+            "body" : "fasilkom ui",
+            "value" : {
+              "value" : "fasilkom ui"
+            },
+            "entity" : "location"
+          } ],
+          "destination" : [ {
+            "role" : "destination",
+            "confidence" : 0.9651667136329593,
+            "start" : 35,
+            "end" : 47,
+            "body" : "central park",
+            "value" : {
+              "value" : "central park"
+            },
+            "entity" : "location"
+          } ],
+          "intent" : [ {
+            "confidence" : 0.9997349860626891,
+            "value" : "ask-for-direction",
+            "entity" : "intent"
+          } ]
+        },
+        "confidence" : null,
+        "_text" : "bagaimana cara dari fasilkom ui ke central park?",
+        "intent" : "default_intent",
+        "intent_id" : "58bc5759-eb17-4ef6-9c2b-76bf94617034"
+      } ],
+      "_text" : "bagaimana cara dari fasilkom ui ke central park?"
+    }
+  }, {
+    "conclusion" : {
+      "msg_id" : "5ed5208d-6f41-4dd5-885e-ab3a6954c84c",
+      "outcomes" : [ {
+        "entities" : [ {
+          "confidence" : 1,
+          "wisp" : "58bc59c6-3467-4ca7-8e4d-3cd97ae974ee",
+          "name" : "question-message",
+          "start" : 0,
+          "end" : 14,
+          "body" : "bagaimana cara",
+          "value" : {
+            "type" : "value",
+            "value" : "Bagaimana cara"
+          }
+        }, {
+          "role" : "origin",
+          "confidence" : 0.9803453729986735,
+          "wisp" : "5722be14-b746-4fa6-a3b6-5c6bf9df1405",
+          "name" : "location",
+          "start" : 20,
+          "end" : 31,
+          "body" : "fasilkom ui",
+          "value" : {
+            "suggested" : true,
+            "type" : "value",
+            "value" : "fasilkom ui"
+          }
+        }, {
+          "role" : "destination",
+          "confidence" : 0.9651667136329593,
+          "wisp" : "5722be14-b746-4fa6-a3b6-5c6bf9df1405",
+          "name" : "location",
+          "start" : 35,
+          "end" : 47,
+          "body" : "central park",
+          "value" : {
+            "suggested" : true,
+            "type" : "value",
+            "value" : "central park"
+          }
+        }, {
+          "confidence" : 0.9997349860626891,
+          "wisp" : "58bc5759-1323-477b-91f9-a7602da2dbba",
+          "name" : "intent",
+          "value" : "ask-for-direction"
+        } ],
+        "confidence" : null,
+        "_text" : "bagaimana cara dari fasilkom ui ke central park?",
+        "intent" : "default_intent",
+        "intent_id" : "58bc5759-eb17-4ef6-9c2b-76bf94617034"
+      } ],
+      "_text" : "bagaimana cara dari fasilkom ui ke central park?"
+    },
+    "instance_name" : "TanyaJalan",
+    "highlight" : { },
+    "uid" : "github:9531164",
+    "instance_id" : "58bc5759-1d0a-4c03-9324-3ee230dfdeb0",
+    "from" : ":msg",
+    "at" : "2017-03-06T16:29:46.985Z",
+    "context" : {
+      "reference_time" : "2017-03-06T16:29:46.718Z"
+    },
+    "thread_id" : "-1",
+    "version" : "20160516",
+    "confidence" : null,
+    "user_instance" : "adamyordan_30dfdeb0",
+    "diag" : {
+      "msg_id" : "5ed5208d-6f41-4dd5-885e-ab3a6954c84c",
+      "outcomes" : [ {
+        "entities" : {
+          "question_message" : [ {
+            "confidence" : 1,
+            "start" : 0,
+            "end" : 14,
+            "body" : "bagaimana cara",
+            "value" : {
+              "value" : "Bagaimana cara"
+            },
+            "entity" : "question-message"
+          } ],
+          "origin" : [ {
+            "role" : "origin",
+            "confidence" : 0.9803453729986735,
+            "start" : 20,
+            "end" : 31,
+            "body" : "fasilkom ui",
+            "value" : {
+              "value" : "fasilkom ui"
+            },
+            "entity" : "location"
+          } ],
+          "destination" : [ {
+            "role" : "destination",
+            "confidence" : 0.9651667136329593,
+            "start" : 35,
+            "end" : 47,
+            "body" : "central park",
+            "value" : {
+              "value" : "central park"
+            },
+            "entity" : "location"
+          } ],
+          "intent" : [ {
+            "confidence" : 0.9997349860626891,
+            "value" : "ask-for-direction",
+            "entity" : "intent"
+          } ]
+        },
+        "confidence" : null,
+        "_text" : "bagaimana cara dari fasilkom ui ke central park?",
+        "intent" : "default_intent",
+        "intent_id" : "58bc5759-eb17-4ef6-9c2b-76bf94617034"
+      } ],
+      "_text" : "bagaimana cara dari fasilkom ui ke central park?"
+    }
+  }, {
+    "conclusion" : {
+      "msg_id" : "32291550-a1f4-4f9f-8f27-118492368baf",
+      "outcomes" : [ {
+        "entities" : [ {
+          "confidence" : 1,
+          "wisp" : "58bc59c6-3467-4ca7-8e4d-3cd97ae974ee",
+          "name" : "question-message",
+          "start" : 0,
+          "end" : 14,
+          "body" : "bagaimana cara",
+          "value" : {
+            "type" : "value",
+            "value" : "Bagaimana cara"
+          }
+        }, {
+          "role" : "origin",
+          "confidence" : 0.9803453729986735,
+          "wisp" : "5722be14-b746-4fa6-a3b6-5c6bf9df1405",
+          "name" : "location",
+          "start" : 20,
+          "end" : 31,
+          "body" : "fasilkom ui",
+          "value" : {
+            "suggested" : true,
+            "type" : "value",
+            "value" : "fasilkom ui"
+          }
+        }, {
+          "role" : "destination",
+          "confidence" : 0.9651667136329593,
+          "wisp" : "5722be14-b746-4fa6-a3b6-5c6bf9df1405",
+          "name" : "location",
+          "start" : 35,
+          "end" : 47,
+          "body" : "central park",
+          "value" : {
+            "suggested" : true,
+            "type" : "value",
+            "value" : "central park"
+          }
+        }, {
+          "confidence" : 0.9997349860626891,
+          "wisp" : "58bc5759-1323-477b-91f9-a7602da2dbba",
+          "name" : "intent",
+          "value" : "ask-for-direction"
+        } ],
+        "confidence" : null,
+        "_text" : "bagaimana cara dari fasilkom ui ke central park?",
+        "intent" : "default_intent",
+        "intent_id" : "58bc5759-eb17-4ef6-9c2b-76bf94617034"
+      } ],
+      "_text" : "bagaimana cara dari fasilkom ui ke central park?"
+    },
+    "instance_name" : "TanyaJalan",
+    "highlight" : { },
+    "uid" : "github:9531164",
+    "instance_id" : "58bc5759-1d0a-4c03-9324-3ee230dfdeb0",
+    "from" : ":msg",
+    "at" : "2017-03-06T16:30:02.894Z",
+    "context" : {
+      "reference_time" : "2017-03-06T16:30:02.877Z"
+    },
+    "thread_id" : "-1",
+    "version" : "20160516",
+    "confidence" : null,
+    "user_instance" : "adamyordan_30dfdeb0",
+    "diag" : {
+      "msg_id" : "32291550-a1f4-4f9f-8f27-118492368baf",
+      "outcomes" : [ {
+        "entities" : {
+          "question_message" : [ {
+            "confidence" : 1,
+            "start" : 0,
+            "end" : 14,
+            "body" : "bagaimana cara",
+            "value" : {
+              "value" : "Bagaimana cara"
+            },
+            "entity" : "question-message"
+          } ],
+          "origin" : [ {
+            "role" : "origin",
+            "confidence" : 0.9803453729986735,
+            "start" : 20,
+            "end" : 31,
+            "body" : "fasilkom ui",
+            "value" : {
+              "value" : "fasilkom ui"
+            },
+            "entity" : "location"
+          } ],
+          "destination" : [ {
+            "role" : "destination",
+            "confidence" : 0.9651667136329593,
+            "start" : 35,
+            "end" : 47,
+            "body" : "central park",
+            "value" : {
+              "value" : "central park"
+            },
+            "entity" : "location"
+          } ],
+          "intent" : [ {
+            "confidence" : 0.9997349860626891,
+            "value" : "ask-for-direction",
+            "entity" : "intent"
+          } ]
+        },
+        "confidence" : null,
+        "_text" : "bagaimana cara dari fasilkom ui ke central park?",
+        "intent" : "default_intent",
+        "intent_id" : "58bc5759-eb17-4ef6-9c2b-76bf94617034"
+      } ],
+      "_text" : "bagaimana cara dari fasilkom ui ke central park?"
+    }
+  }, {
+    "conclusion" : {
+      "msg_id" : "de7a7204-023c-45b2-a260-f4f973d6ca1d",
+      "outcomes" : [ {
+        "entities" : [ {
+          "confidence" : 1,
+          "wisp" : "58bc59c6-3467-4ca7-8e4d-3cd97ae974ee",
+          "name" : "question-message",
+          "start" : 0,
+          "end" : 14,
+          "body" : "bagaimana cara",
+          "value" : {
+            "type" : "value",
+            "value" : "Bagaimana cara"
+          }
+        }, {
+          "role" : "origin",
+          "confidence" : 0.9803453729986735,
+          "wisp" : "5722be14-b746-4fa6-a3b6-5c6bf9df1405",
+          "name" : "location",
+          "start" : 20,
+          "end" : 31,
+          "body" : "fasilkom ui",
+          "value" : {
+            "suggested" : true,
+            "type" : "value",
+            "value" : "fasilkom ui"
+          }
+        }, {
+          "role" : "destination",
+          "confidence" : 0.9651667136329593,
+          "wisp" : "5722be14-b746-4fa6-a3b6-5c6bf9df1405",
+          "name" : "location",
+          "start" : 35,
+          "end" : 47,
+          "body" : "central park",
+          "value" : {
+            "suggested" : true,
+            "type" : "value",
+            "value" : "central park"
+          }
+        }, {
+          "confidence" : 0.9997349860626891,
+          "wisp" : "58bc5759-1323-477b-91f9-a7602da2dbba",
+          "name" : "intent",
+          "value" : "ask-for-direction"
+        } ],
+        "confidence" : null,
+        "_text" : "bagaimana cara dari fasilkom ui ke central park?",
+        "intent" : "default_intent",
+        "intent_id" : "58bc5759-eb17-4ef6-9c2b-76bf94617034"
+      } ],
+      "_text" : "bagaimana cara dari fasilkom ui ke central park?"
+    },
+    "instance_name" : "TanyaJalan",
+    "highlight" : { },
+    "uid" : "github:9531164",
+    "instance_id" : "58bc5759-1d0a-4c03-9324-3ee230dfdeb0",
+    "from" : ":msg",
+    "at" : "2017-03-06T16:30:36.875Z",
+    "context" : {
+      "reference_time" : "2017-03-06T16:30:36.833Z"
+    },
+    "thread_id" : "-1",
+    "version" : "20160516",
+    "confidence" : null,
+    "user_instance" : "adamyordan_30dfdeb0",
+    "diag" : {
+      "msg_id" : "de7a7204-023c-45b2-a260-f4f973d6ca1d",
+      "outcomes" : [ {
+        "entities" : {
+          "question_message" : [ {
+            "confidence" : 1,
+            "start" : 0,
+            "end" : 14,
+            "body" : "bagaimana cara",
+            "value" : {
+              "value" : "Bagaimana cara"
+            },
+            "entity" : "question-message"
+          } ],
+          "origin" : [ {
+            "role" : "origin",
+            "confidence" : 0.9803453729986735,
+            "start" : 20,
+            "end" : 31,
+            "body" : "fasilkom ui",
+            "value" : {
+              "value" : "fasilkom ui"
+            },
+            "entity" : "location"
+          } ],
+          "destination" : [ {
+            "role" : "destination",
+            "confidence" : 0.9651667136329593,
+            "start" : 35,
+            "end" : 47,
+            "body" : "central park",
+            "value" : {
+              "value" : "central park"
+            },
+            "entity" : "location"
+          } ],
+          "intent" : [ {
+            "confidence" : 0.9997349860626891,
+            "value" : "ask-for-direction",
+            "entity" : "intent"
+          } ]
+        },
+        "confidence" : null,
+        "_text" : "bagaimana cara dari fasilkom ui ke central park?",
+        "intent" : "default_intent",
+        "intent_id" : "58bc5759-eb17-4ef6-9c2b-76bf94617034"
+      } ],
+      "_text" : "bagaimana cara dari fasilkom ui ke central park?"
+    }
+  }, {
+    "conclusion" : {
+      "msg_id" : "b5934df2-3129-4eda-98b3-cf60ee9ff5f4",
+      "outcomes" : [ {
+        "entities" : [ {
+          "confidence" : 1,
+          "wisp" : "58bc59c6-3467-4ca7-8e4d-3cd97ae974ee",
+          "name" : "question-message",
+          "start" : 0,
+          "end" : 14,
+          "body" : "bagaimana cara",
+          "value" : {
+            "type" : "value",
+            "value" : "Bagaimana cara"
+          }
+        }, {
+          "role" : "origin",
+          "confidence" : 0.9803453729986735,
+          "wisp" : "5722be14-b746-4fa6-a3b6-5c6bf9df1405",
+          "name" : "location",
+          "start" : 20,
+          "end" : 31,
+          "body" : "fasilkom ui",
+          "value" : {
+            "suggested" : true,
+            "type" : "value",
+            "value" : "fasilkom ui"
+          }
+        }, {
+          "role" : "destination",
+          "confidence" : 0.9651667136329593,
+          "wisp" : "5722be14-b746-4fa6-a3b6-5c6bf9df1405",
+          "name" : "location",
+          "start" : 35,
+          "end" : 47,
+          "body" : "central park",
+          "value" : {
+            "suggested" : true,
+            "type" : "value",
+            "value" : "central park"
+          }
+        }, {
+          "confidence" : 0.9997349860626891,
+          "wisp" : "58bc5759-1323-477b-91f9-a7602da2dbba",
+          "name" : "intent",
+          "value" : "ask-for-direction"
+        } ],
+        "confidence" : null,
+        "_text" : "bagaimana cara dari fasilkom ui ke central park?",
+        "intent" : "default_intent",
+        "intent_id" : "58bc5759-eb17-4ef6-9c2b-76bf94617034"
+      } ],
+      "_text" : "bagaimana cara dari fasilkom ui ke central park?"
+    },
+    "instance_name" : "TanyaJalan",
+    "highlight" : { },
+    "uid" : "github:9531164",
+    "instance_id" : "58bc5759-1d0a-4c03-9324-3ee230dfdeb0",
+    "from" : ":msg",
+    "at" : "2017-03-06T16:31:06.297Z",
+    "context" : {
+      "reference_time" : "2017-03-06T16:31:06.279Z"
+    },
+    "thread_id" : "-1",
+    "version" : "20160516",
+    "confidence" : null,
+    "user_instance" : "adamyordan_30dfdeb0",
+    "diag" : {
+      "msg_id" : "b5934df2-3129-4eda-98b3-cf60ee9ff5f4",
+      "outcomes" : [ {
+        "entities" : {
+          "question_message" : [ {
+            "confidence" : 1,
+            "start" : 0,
+            "end" : 14,
+            "body" : "bagaimana cara",
+            "value" : {
+              "value" : "Bagaimana cara"
+            },
+            "entity" : "question-message"
+          } ],
+          "origin" : [ {
+            "role" : "origin",
+            "confidence" : 0.9803453729986735,
+            "start" : 20,
+            "end" : 31,
+            "body" : "fasilkom ui",
+            "value" : {
+              "value" : "fasilkom ui"
+            },
+            "entity" : "location"
+          } ],
+          "destination" : [ {
+            "role" : "destination",
+            "confidence" : 0.9651667136329593,
+            "start" : 35,
+            "end" : 47,
+            "body" : "central park",
+            "value" : {
+              "value" : "central park"
+            },
+            "entity" : "location"
+          } ],
+          "intent" : [ {
+            "confidence" : 0.9997349860626891,
+            "value" : "ask-for-direction",
+            "entity" : "intent"
+          } ]
+        },
+        "confidence" : null,
+        "_text" : "bagaimana cara dari fasilkom ui ke central park?",
+        "intent" : "default_intent",
+        "intent_id" : "58bc5759-eb17-4ef6-9c2b-76bf94617034"
+      } ],
+      "_text" : "bagaimana cara dari fasilkom ui ke central park?"
+    }
+  } ],
+  "doc_count" : 3406
+}
