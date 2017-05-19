@@ -1,0 +1,195 @@
+  MultnomialNB, biased training data
+[ 0.8377193   0.86237189  0.83553598  0.83676471  0.78023599]
+Accuracy: 0.83 (+/- 0.05)
+[[1650    1   13    0    0    0    5]
+ [  24  480    2    0    0    1    3]
+ [   4    0  534    0    0    0    0]
+ [  10   30    3   30    1    0    8]
+ [   8   21    2    0   80    1    5]
+ [   3   48    0    0    1   95    4]
+ [ 124    4   24    1    1   11  174]]
+                           precision    recall  f1-score   support
+
+asking-question-direction       0.91      0.99      0.95      1669
+    asking-question-other       0.82      0.94      0.88       510
+ asking-question-schedule       0.92      0.99      0.96       538
+ giving-negative-feedback       0.97      0.37      0.53        82
+ giving-positive-feedback       0.96      0.68      0.80       117
+                 greeting       0.88      0.63      0.73       151
+                    other       0.87      0.51      0.65       339
+
+              avg / total       0.89      0.89      0.88      3406
+
+*****************************
+
+MultinomialNB, biased training data, feature selected
+[ 0.8494152   0.87408492  0.83847283  0.84264706  0.77138643]
+Accuracy: 0.84 (+/- 0.07)
+[[1651    1   13    0    0    0    4]
+ [  24  480    2    0    0    1    3]
+ [   4    0  534    0    0    0    0]
+ [  10   23    2   41    1    0    5]
+ [   6   16    2    0   86    1    6]
+ [   3   47    0    0    1   96    4]
+ [ 123    3   24    3    1   11  174]]
+                           precision    recall  f1-score   support
+
+asking-question-direction       0.91      0.99      0.95      1669
+    asking-question-other       0.84      0.94      0.89       510
+ asking-question-schedule       0.93      0.99      0.96       538
+ giving-negative-feedback       0.93      0.50      0.65        82
+ giving-positive-feedback       0.97      0.74      0.83       117
+                 greeting       0.88      0.64      0.74       151
+                    other       0.89      0.51      0.65       339
+
+              avg / total       0.90      0.90      0.89      3406
+
+*****************************
+
+MultinomialNB, balanced training data
+[ 0.70588235  0.7394958   0.74107143  0.70535714  0.69642857]
+Accuracy: 0.72 (+/- 0.04)
+[[79  0  3  0  0  0  0]
+ [ 3 78  1  0  0  0  0]
+ [ 0  0 82  0  0  0  0]
+ [ 6  0  0 74  2  0  0]
+ [ 2  0  1  0 78  1  0]
+ [ 2  0  0  0  1 79  0]
+ [18  0  3  0  3  6 52]]
+                           precision    recall  f1-score   support
+
+asking-question-direction       0.72      0.96      0.82        82
+    asking-question-other       1.00      0.95      0.97        82
+ asking-question-schedule       0.91      1.00      0.95        82
+ giving-negative-feedback       1.00      0.90      0.95        82
+ giving-positive-feedback       0.93      0.95      0.94        82
+                 greeting       0.92      0.96      0.94        82
+                    other       1.00      0.63      0.78        82
+
+              avg / total       0.93      0.91      0.91       574
+
+*****************************
+
+MultinomialNB, balanced training data, feature selected
+[ 0.68907563  0.73109244  0.71428571  0.6875      0.71428571]
+Accuracy: 0.71 (+/- 0.03)
+[[78  0  4  0  0  0  0]
+ [ 4 77  1  0  0  0  0]
+ [ 0  0 82  0  0  0  0]
+ [ 6  0  0 73  3  0  0]
+ [19  0  1  0 61  1  0]
+ [ 6  0  0  0  1 75  0]
+ [45  0  3  1  3  6 24]]
+                           precision    recall  f1-score   support
+
+asking-question-direction       0.49      0.95      0.65        82
+    asking-question-other       1.00      0.94      0.97        82
+ asking-question-schedule       0.90      1.00      0.95        82
+ giving-negative-feedback       0.99      0.89      0.94        82
+ giving-positive-feedback       0.90      0.74      0.81        82
+                 greeting       0.91      0.91      0.91        82
+                    other       1.00      0.29      0.45        82
+
+              avg / total       0.88      0.82      0.81       574
+
+*****************************
+
+
+
+
+DecisionTree, biased training data
+[ 0.78508772  0.82869693  0.74596182  0.73382353  0.75663717]
+Accuracy: 0.77 (+/- 0.07)
+[[1663    0    2    0    0    0    4]
+ [   1  487    0    0    0    7   15]
+ [   0    0  538    0    0    0    0]
+ [   0    0    0   76    0    0    6]
+ [   0    0    0    0  112    1    4]
+ [   0    4    0    0    1  143    3]
+ [   7    1    8    2    3   13  305]]
+                           precision    recall  f1-score   support
+
+asking-question-direction       1.00      1.00      1.00      1669
+    asking-question-other       0.99      0.95      0.97       510
+ asking-question-schedule       0.98      1.00      0.99       538
+ giving-negative-feedback       0.97      0.93      0.95        82
+ giving-positive-feedback       0.97      0.96      0.96       117
+                 greeting       0.87      0.95      0.91       151
+                    other       0.91      0.90      0.90       339
+
+              avg / total       0.98      0.98      0.98      3406
+
+*****************************
+
+DecisionTree, biased training data, feature selected
+[ 0.8625731   0.89165447  0.87812041  0.86470588  0.77286136]
+Accuracy: 0.85 (+/- 0.08)
+[[1665    0    2    0    0    0    2]
+ [   4  483    0    0    0    7   16]
+ [   0    0  538    0    0    0    0]
+ [   0    0    0   76    0    0    6]
+ [   0    0    0    0  112    1    4]
+ [   0    4    0    0    1  143    3]
+ [  26    1   10    2    3   13  284]]
+                           precision    recall  f1-score   support
+
+asking-question-direction       0.98      1.00      0.99      1669
+    asking-question-other       0.99      0.95      0.97       510
+ asking-question-schedule       0.98      1.00      0.99       538
+ giving-negative-feedback       0.97      0.93      0.95        82
+ giving-positive-feedback       0.97      0.96      0.96       117
+                 greeting       0.87      0.95      0.91       151
+                    other       0.90      0.84      0.87       339
+
+              avg / total       0.97      0.97      0.97      3406
+
+*****************************
+
+DecisionTree, balanced training data
+[ 0.72268908  0.72268908  0.76785714  0.6875      0.74107143]
+Accuracy: 0.73 (+/- 0.05)
+[[82  0  0  0  0  0  0]
+ [ 0 79  0  3  0  0  0]
+ [ 0  0 82  0  0  0  0]
+ [ 0  0  0 82  0  0  0]
+ [ 0  0  0  2 79  1  0]
+ [ 0  0  0  2  1 79  0]
+ [ 0  0  2  6  1  4 69]]
+                           precision    recall  f1-score   support
+
+asking-question-direction       1.00      1.00      1.00        82
+    asking-question-other       1.00      0.96      0.98        82
+ asking-question-schedule       0.98      1.00      0.99        82
+ giving-negative-feedback       0.86      1.00      0.93        82
+ giving-positive-feedback       0.98      0.96      0.97        82
+                 greeting       0.94      0.96      0.95        82
+                    other       1.00      0.84      0.91        82
+
+              avg / total       0.97      0.96      0.96       574
+
+*****************************
+
+DecisionTree, balanced training data, feature selected
+[ 0.70588235  0.68067227  0.75        0.66071429  0.6875    ]
+Accuracy: 0.70 (+/- 0.06)
+[[82  0  0  0  0  0  0]
+ [ 0 78  0  0  0  0  4]
+ [ 0  1 81  0  0  0  0]
+ [ 0  0  0 76  0  0  6]
+ [ 0  0  0  0 63  1 18]
+ [ 0  0  0  0  1 75  6]
+ [ 1  1  1  0  2  4 73]]
+                           precision    recall  f1-score   support
+
+asking-question-direction       0.99      1.00      0.99        82
+    asking-question-other       0.97      0.95      0.96        82
+ asking-question-schedule       0.99      0.99      0.99        82
+ giving-negative-feedback       1.00      0.93      0.96        82
+ giving-positive-feedback       0.95      0.77      0.85        82
+                 greeting       0.94      0.91      0.93        82
+                    other       0.68      0.89      0.77        82
+
+              avg / total       0.93      0.92      0.92       574
+
+*****************************
+
