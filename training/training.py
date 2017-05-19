@@ -89,7 +89,7 @@ target.write("\n")
 
 predicted_umlp_all = cross_val_predict(umlp, X_extra, y_extra, cv=10)
 target.write("MLP UnBalanced Data 10-Cross : ")
-target.write(repr(metrics.accuracy_score(y_extra, predicted_umlp_all))))
+target.write(repr(metrics.accuracy_score(y_extra, predicted_umlp_all)))
 target.write("\n")
 
 predicted_umlp = cross_val_predict(umlp, X, y, cv=10)
