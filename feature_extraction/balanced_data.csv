@@ -1,0 +1,575 @@
+id,text,intent,datetime
+3247.0,hi,greeting,1488875442.0
+2639.0,dari ui ke alam sutera,asking-question-direction,1490326642.0
+1075.0,tanyajalan perkenalin,asking-question-other,1492143964.0
+2931.0,thanks,giving-positive-feedback,1489912605.0
+1121.0,undefined,other,1492032296.0
+3041.0,tanyajalan perkenalkan,greeting,1489906931.0
+2919.0,yaah ga direply makasih,giving-positive-feedback,1489911934.0
+1156.0,dari senayan ke monas,asking-question-direction,1492040770.0
+3266.0,payah,giving-negative-feedback,1488876344.0
+2282.0,jalan bye,greeting,1490474662.0
+1203.0,jadwal krl pasar minggu,asking-question-schedule,1491959705.0
+302.0,aja,asking-question-other,1492494495.0
+848.0,tuh tong,asking-question-other,1492417294.0
+2614.0,sih,asking-question-other,1490253809.0
+3206.0,thanks,giving-positive-feedback,1488859677.0
+1644.0,tampilkan jadwal krl stasiun manggarai,asking-question-schedule,1491173214.0
+2786.0,dari stasiun jakarta kota ke monas,asking-question-schedule,1490002757.0
+3101.0,nice,giving-positive-feedback,1488913478.0
+2811.0,oke,greeting,1489920566.0
+2569.0,berangkat dari universitas indonesia ke halte kuningan madya,asking-question-direction,1490416935.0
+1777.0,keren cool,giving-positive-feedback,1490804546.0
+675.0,tanyajalan perkenalin,asking-question-other,1492449922.0
+3102.0,thanks,giving-positive-feedback,1488913533.0
+582.0,aja,asking-question-other,1492469881.0
+2601.0,terima kasih,giving-positive-feedback,1490234181.0
+1965.0,jadwal krl bekasi,asking-question-schedule,1490559865.0
+2306.0,jadwal krl stasiun pondok cina,asking-question-schedule,1490427927.0
+3061.0,parah,giving-negative-feedback,1489907259.0
+1640.0,boom,other,1491082955.0
+3171.0,tanyajalan perkenalkan,greeting,1489903327.0
+1421.0,haha,other,1491723151.0
+3063.0,aduh bgt 2 kereta ,giving-negative-feedback,1489907286.0
+1932.0,tampilkan jadwal krl stasiun tebet,asking-question-schedule,1490520701.0
+270.0,aja,asking-question-other,1492634007.0
+1615.0,jadwal krl stasiun tanahabang,asking-question-schedule,1490940793.0
+2205.0,cek jadwal krl stasiun universitas indonesia,asking-question-schedule,1490443322.0
+1961.0,berangkat dari ui ke malang,asking-question-direction,1490558582.0
+3245.0,tanyajalan,greeting,1488874885.0
+2531.0,jadwal krl stasiun maja,asking-question-schedule,1490415383.0
+741.0,rute busway,asking-question-schedule,1492422792.0
+1263.0,halo,greeting,1492020993.0
+2548.0,surga,other,1490416228.0
+2575.0,,other,1490417187.0
+1391.0,terimakasih ya,giving-positive-feedback,1491938918.0
+191.0,cek jadwal krl stasiun manggarai,asking-question-schedule,1492812776.0
+1556.0,help,asking-question-other,1491636348.0
+2256.0,jakarta ke lamongan,asking-question-direction,1490472019.0
+3086.0,meruya ke slipi,asking-question-direction,1489909476.0
+3147.0,wow,giving-positive-feedback,1489901950.0
+915.0,,other,1492228153.0
+1262.0,aja,asking-question-other,1492017462.0
+2989.0,lu,giving-negative-feedback,1489916527.0
+2059.0,jadwal krl stasiun klapasawit,asking-question-schedule,1490500655.0
+2718.0,jadwal krl stasiun manggarai,asking-question-schedule,1489994343.0
+3203.0,ke ancol,other,1488859650.0
+575.0,dari ui ke rumahku,asking-question-direction,1492466068.0
+1952.0,berangkat dari ui ke museum fathillah,asking-question-direction,1490554852.0
+1394.0,bye,greeting,1491938974.0
+2542.0,jadwal krl rawa buntu,asking-question-schedule,1490415733.0
+3366.0,berangkat dari fasilkom ke tanah abang,asking-question-direction,1488855982.0
+1392.0,masasih,asking-question-other,1491938928.0
+1072.0,tanyajalan perkenalin,asking-question-other,1492141006.0
+1141.0,tanyajalan perkenalin,asking-question-other,1492033338.0
+2029.0,ya gapapa,other,1490498812.0
+3052.0,seru,giving-positive-feedback,1489907116.0
+1875.0,stasiun kota ke kota tua,asking-question-direction,1490690179.0
+2481.0,ui ke rumah jodoh,other,1490424686.0
+1454.0,hi,greeting,1491877820.0
+2547.0,ah tai bet,giving-negative-feedback,1490416028.0
+2450.0,dari rumah gua ke rumah temen,other,1490423587.0
+2524.0,jadwal krl,other,1490415298.0
+3343.0,dari grogol ke ancol,asking-question-direction,1488853324.0
+3030.0,ancol ke poris,asking-question-direction,1489906147.0
+709.0,,other,1492421603.0
+3367.0,hi,greeting,1488856113.0
+2987.0,bot bangsat,giving-negative-feedback,1489916369.0
+3207.0,woi,giving-positive-feedback,1488860270.0
+1086.0,yaallah jalan kaki,giving-negative-feedback,1492161867.0
+1238.0,oke,giving-positive-feedback,1491979483.0
+2918.0,bagus deh,giving-positive-feedback,1489911922.0
+2637.0,tampilkan jadwal krl stasiun pondokcina,asking-question-schedule,1490325033.0
+2962.0,makasih,giving-positive-feedback,1489915558.0
+1909.0,solo ke bekasi,asking-question-direction,1490511245.0
+1358.0,aja,asking-question-other,1491920649.0
+364.0,tanyajalan perkenalin,asking-question-other,1492513408.0
+3236.0,terima kasih,giving-positive-feedback,1488870279.0
+1829.0,dari jakarta ke makassar,asking-question-direction,1490655526.0
+3057.0,nih asyik bgtttt,giving-positive-feedback,1489907153.0
+2571.0,hai,greeting,1490417133.0
+1537.0,dari semanggi ke slipi,asking-question-direction,1491632475.0
+907.0,rute busway,asking-question-schedule,1492210038.0
+1858.0,undefined,other,1490683358.0
+1558.0,gimana,asking-question-other,1491637125.0
+2053.0,anjing,giving-negative-feedback,1490500618.0
+2767.0,thanks,giving-positive-feedback,1489998426.0
+2746.0,halo,greeting,1489997036.0
+1923.0,pademangan ke grogol busway,asking-question-direction,1490515254.0
+3017.0,dari jojga ke surabya,asking-question-direction,1489905698.0
+936.0,ke sicc,other,1492312343.0
+3051.0,seru,giving-positive-feedback,1489907116.0
+3399.0,payah,giving-negative-feedback,1488859619.0
+3250.0,tanyajalan bye,greeting,1488875899.0
+1297.0,yeay,giving-positive-feedback,1492029815.0
+224.0,yah,other,1492631191.0
+3253.0,jih,giving-negative-feedback,1488875963.0
+2986.0,taunya gara2 ni bot badjingan,giving-negative-feedback,1489916362.0
+1698.0,jadwal krl,asking-question-schedule,1491511464.0
+2015.0,salah,giving-negative-feedback,1490493742.0
+581.0,dari ui ke puncak,asking-question-direction,1492466184.0
+322.0,app nih,asking-question-other,1492497726.0
+2915.0,no,giving-negative-feedback,1489911777.0
+1291.0,jelek,giving-negative-feedback,1492026597.0
+1420.0,wow,giving-positive-feedback,1491723145.0
+189.0,aja,asking-question-other,1492810529.0
+207.0,jelambar,other,1492594761.0
+1823.0,jadwal krl stasiun citayam ke tebet,asking-question-schedule,1490645480.0
+2968.0,sedih,giving-negative-feedback,1489916086.0
+3268.0,wkwk,giving-positive-feedback,1488876419.0
+2908.0,gilaaaaaa,giving-negative-feedback,1489911738.0
+1465.0,jadwal stasiun universitas indonesia,asking-question-schedule,1491883092.0
+882.0,aja,asking-question-other,1492420048.0
+2755.0,hi,greeting,1489997799.0
+1418.0,hai,greeting,1491723131.0
+640.0,universitas indonesia,other,1492446610.0
+2994.0,sih,greeting,1489918387.0
+122.0,berangkat dari uui,asking-question-direction,1492645293.0
+1198.0,jadwal  trans jakarta,asking-question-schedule,1492065352.0
+2609.0,tanyajalan bye,greeting,1490241651.0
+2573.0,,giving-negative-feedback,1490417156.0
+1958.0,tampilkan jadwal krl stasiun manggarai,asking-question-schedule,1490558541.0
+804.0,kalo motor,other,1492415122.0
+1526.0,thanks,giving-positive-feedback,1491610365.0
+2172.0,add,other,1490484291.0
+3001.0,tanyajalan perkenalkan,greeting,1489904971.0
+2543.0,fakya,other,1490415740.0
+1382.0,aja,asking-question-other,1491938478.0
+733.0,tanyajalan perkenalin,asking-question-other,1492422099.0
+3398.0,payah,giving-negative-feedback,1488859618.0
+13.0,cek jadwal krl stasiun pocin,asking-question-schedule,1492901710.0
+1577.0,juniar sih,asking-question-other,1491637963.0
+199.0,tampilkan jadwal krl stasiun manggarai,asking-question-schedule,1492834504.0
+1971.0,jadwal busway,asking-question-schedule,1490570735.0
+2717.0,jadwal krl stasiun manggarai,asking-question-schedule,1489994326.0
+3200.0,ga,giving-negative-feedback,1488859624.0
+1088.0,tanyajalan perkenalin,asking-question-other,1492163577.0
+3029.0,udah wkwk,other,1489906120.0
+2891.0,hai,greeting,1489985140.0
+393.0,jadwal krl stasiun tanjung priok,asking-question-schedule,1492574189.0
+2360.0,bu ditambah rutenya trs cari shortest pathnya ,giving-negative-feedback,1490431647.0
+2912.0,,giving-positive-feedback,1489911760.0
+754.0,gausah sok2 maaf,giving-negative-feedback,1492424328.0
+2369.0,berangkat dari ke jodohku,other,1490432518.0
+3112.0,dari denpasar ke kuta,asking-question-direction,1488914074.0
+1498.0,berangkat dari graha xl ke pwc,asking-question-direction,1491892413.0
+1303.0,tampilkan jadwal krl stasiun manggarai,asking-question-schedule,1491894011.0
+2043.0,ya,asking-question-other,1490500003.0
+1653.0,terimakasih thankyou,giving-positive-feedback,1491283045.0
+3201.0,mantap,giving-positive-feedback,1488859629.0
+596.0,aja,asking-question-other,1492469910.0
+1601.0,jadwal krl stasiun cikini,asking-question-schedule,1490856108.0
+3255.0,tanyajalan bye,greeting,1488876019.0
+2404.0,ah payah nih anak buah lu to,giving-negative-feedback,1490420258.0
+545.0,jadwal krl manggarai,asking-question-schedule,1492460087.0
+1204.0,tanyajalan perkenalin,asking-question-other,1491964663.0
+797.0,halo,greeting,1492440258.0
+36.0,tampilkan jadwal krl stasiun manggarai,asking-question-schedule,1493078598.0
+3114.0,tunjukkan jalan dari poris ke grogol,asking-question-direction,1488914367.0
+97.0,jadwal krl stasiun bogor,asking-question-schedule,1493245805.0
+1266.0,aja,asking-question-other,1492021101.0
+3090.0,pergi ke pik dari ui,asking-question-direction,1489909559.0
+766.0,tanyajalan perkenalin,asking-question-other,1492425460.0
+2374.0,wow,giving-positive-feedback,1490432725.0
+3381.0,woi,greeting,1488856951.0
+987.0,hii,other,1492402235.0
+1393.0,perkenalkan,other,1491938972.0
+3396.0,ga,giving-negative-feedback,1488859207.0
+598.0,aja,asking-question-other,1492469910.0
+175.0,ga dibales,other,1492737127.0
+648.0,thank you,giving-positive-feedback,1492446846.0
+3169.0,tanyajalan perkenalkan,greeting,1489903097.0
+2802.0,tanyajalan perkenalkan,greeting,1489919334.0
+1390.0,cupu,giving-negative-feedback,1491938917.0
+1659.0,jadwal krl stasiun universitas indonesia,asking-question-schedule,1491288918.0
+3254.0,ya elah tanah abang mulu,giving-negative-feedback,1488875980.0
+2990.0,masukin ke hati,other,1489916555.0
+2862.0,perkenalan,greeting,1489961326.0
+3192.0,halo,greeting,1489904022.0
+1592.0,hi,greeting,1491689427.0
+2695.0,hehe sama2,giving-positive-feedback,1490406455.0
+1647.0,booom,other,1491188790.0
+2954.0,cupu,giving-negative-feedback,1489914830.0
+2102.0,5 jam anjerr wkwkwk,giving-negative-feedback,1490475494.0
+2466.0,mcd bogor,other,1490424167.0
+1236.0,tanyajalan perkenalin,asking-question-other,1491979462.0
+2123.0,bego bin wkwkk,giving-negative-feedback,1490476257.0
+2907.0,gilaaa,giving-negative-feedback,1489911733.0
+1048.0,aja,asking-question-other,1492129081.0
+2984.0,dari ke komas,other,1489916338.0
+2844.0,dari ke,other,1489953748.0
+2340.0,what is this,asking-question-other,1490430450.0
+1264.0,hai,greeting,1492021000.0
+3316.0,boom,other,1488845214.0
+2339.0,what is this,asking-question-other,1490430438.0
+919.0,kerets,giving-positive-feedback,1492228260.0
+3070.0,dari kutek ke fasilkom,asking-question-direction,1489907535.0
+2741.0,jadwal krl stasiun manggarai,asking-question-schedule,1489996157.0
+2704.0,helloworld,greeting,1489993714.0
+2905.0,halo,greeting,1489911725.0
+2041.0,hai,greeting,1490499986.0
+3175.0,yah sedih,giving-negative-feedback,1489903601.0
+2993.0,,greeting,1489918382.0
+2967.0,,giving-negative-feedback,1489916080.0
+2806.0,,giving-negative-feedback,1489919688.0
+3059.0,ga coba males,giving-negative-feedback,1489907236.0
+941.0,aja,asking-question-other,1492331675.0
+3048.0,semangat,giving-positive-feedback,1489907077.0
+2737.0,dari menteng pulo ke gdp venture,asking-question-direction,1489995489.0
+1353.0,jadwal krl stasiun universitas indonesia,asking-question-schedule,1491903362.0
+3394.0,thanks,giving-positive-feedback,1488859192.0
+3213.0,nice,giving-positive-feedback,1488864360.0
+793.0,dari stasiun tg priok ke universitas persada yai,asking-question-direction,1492438386.0
+2801.0,tanyajalan bye,greeting,1489919216.0
+51.0,pulang ke jalan kampung marga jaya,asking-question-direction,1493098514.0
+3054.0,ui ke gi,asking-question-direction,1489907132.0
+2028.0,sebenernya kalo ke tanah abang mending kereta ke stasiun tanah abang kalo dari st karet kalo ke kuningan,giving-negative-feedback,1490498802.0
+2063.0,jadwal krl stasiun tanah abang,asking-question-schedule,1490500921.0
+2812.0,gamau,giving-negative-feedback,1489920583.0
+3349.0,manta0,giving-positive-feedback,1488853760.0
+2917.0,payah,giving-negative-feedback,1489911905.0
+1213.0,aja,asking-question-other,1491967576.0
+3261.0,wih,giving-positive-feedback,1488876183.0
+2501.0,hoam,giving-negative-feedback,1490408880.0
+2086.0,bekasi ke palembang,asking-question-direction,1490503317.0
+3373.0,halo,greeting,1488856409.0
+2588.0,berangkat dari a ke b,other,1490417699.0
+2724.0,hi,greeting,1489994818.0
+687.0,rute depok bogor,asking-question-direction,1492451648.0
+1414.0,rute trans jakarta,asking-question-schedule,1491722582.0
+3370.0,hi,greeting,1488856327.0
+3110.0,tanyajalan kenalin,greeting,1488913789.0
+2328.0,yee pea,other,1490430016.0
+3153.0,tips,other,1489901990.0
+3315.0,mantap,giving-positive-feedback,1488844991.0
+1047.0,tanyajalan perkenalin,asking-question-other,1492129081.0
+1065.0,aja,asking-question-other,1492137238.0
+2527.0,tampilkan jadwal krl stasiun manggarai,asking-question-schedule,1490415328.0
+2940.0,,giving-negative-feedback,1489914378.0
+874.0,tanyajalan bye,other,1492419849.0
+2057.0,hahahaha,other,1490500650.0
+1963.0,jadwal krl bekasi,asking-question-schedule,1490558724.0
+1711.0,tampilkan jadwal krl stasiun manggarai,asking-question-schedule,1490717635.0
+103.0,jadwal krl jakarta kota,asking-question-schedule,1492638602.0
+2168.0,,other,1490483892.0
+499.0,aja,asking-question-other,1492494250.0
+800.0,aja,asking-question-other,1492415093.0
+2068.0,3 menit al nyong nek mlaku 10 menit deneng,other,1490501905.0
+724.0,aja,asking-question-other,1492421932.0
+2953.0,ga,giving-negative-feedback,1489914828.0
+3125.0,hai,greeting,1488936451.0
+2982.0,dari ke tebet,other,1489916249.0
+1820.0,berangkat dari smpn 7 bandung ke bip,asking-question-direction,1490603420.0
+2038.0,cek jadwal krl stasiun rawa buntu,asking-question-schedule,1490499777.0
+2230.0,pinang ranti ke lamongan,asking-question-direction,1490467720.0
+75.0,aja,asking-question-other,1493233280.0
+2901.0,dari jembatan 2 ke singapore,asking-question-direction,1489911130.0
+3210.0,selamat malam,greeting,1488863876.0
+2512.0,jadwal stasiun duri,asking-question-schedule,1490411958.0
+931.0,dari depok ke sentul international convention center,asking-question-direction,1492312300.0
+2490.0,berangkat dari ui ke aeon,asking-question-direction,1490424975.0
+2655.0,dari ui ke margo city,asking-question-direction,1490332252.0
+2951.0,jelek,giving-negative-feedback,1489914817.0
+4.0,halo,greeting,1492898226.0
+3108.0,payah,giving-negative-feedback,1488913658.0
+2648.0,,giving-positive-feedback,1490328996.0
+1831.0,,giving-negative-feedback,1490655583.0
+563.0,dari ui ke ipb,asking-question-direction,1492460770.0
+860.0,jadwal krl nambo,asking-question-schedule,1492418412.0
+3163.0,tanyajalan,greeting,1489902904.0
+1793.0,jadwal busway,asking-question-schedule,1490839900.0
+2952.0,parah,giving-negative-feedback,1489914824.0
+3395.0,gajelas,giving-negative-feedback,1488859198.0
+538.0,sistem gimana,other,1492460054.0
+2830.0,thx brii,giving-positive-feedback,1489952146.0
+2757.0,berangkat dari sabang ke merauke,asking-question-direction,1489997816.0
+937.0,ke sicc,other,1492312352.0
+3109.0,tanyajalan kenalin,greeting,1488913779.0
+3107.0,wow,giving-positive-feedback,1488913653.0
+487.0,ngapain aja,asking-question-other,1492486104.0
+2971.0,dari mimpi ke kenyataan,other,1489916115.0
+3276.0,tunjukin jalan dari kemang ke slipi,asking-question-direction,1488880891.0
+2651.0,terima kasih,giving-positive-feedback,1490331598.0
+2935.0,hai,greeting,1489913824.0
+2715.0,halo,greeting,1489994303.0
+2022.0,sial,giving-negative-feedback,1490496099.0
+2607.0,nice,giving-positive-feedback,1490241576.0
+2487.0,jadwal stasiun manggarai,asking-question-schedule,1490424851.0
+2143.0,cot,giving-negative-feedback,1490478907.0
+2111.0,wkwkw iqbhal,other,1490475612.0
+1163.0,tanyajalan perkenalin,asking-question-other,1492045626.0
+3197.0,tanyajalan bye,greeting,1489904857.0
+3128.0,hi,greeting,1489888662.0
+2957.0,mantap,giving-positive-feedback,1489914839.0
+1475.0,,other,1491887375.0
+1181.0,gimana yah,other,1492047593.0
+3257.0,tanyajalan bye,greeting,1488876033.0
+2533.0,jadwal krl stasiun bekasi,asking-question-schedule,1490415401.0
+2721.0,intro,greeting,1489994651.0
+2017.0,tampilkan jadwal krl stasiun manggarai,asking-question-schedule,1490493791.0
+2227.0,dari rumahku ke jodohku,asking-question-direction,1490466155.0
+107.0,tanyajalan perkenalin,asking-question-other,1492640051.0
+2956.0,haha,giving-positive-feedback,1489914836.0
+2462.0,dari matamu matamu ku jatuh cinta,other,1490423945.0
+2945.0,payah,giving-negative-feedback,1489914555.0
+2002.0,jadwal krl bogor,asking-question-schedule,1490492110.0
+3050.0,parah,giving-negative-feedback,1489907101.0
+1071.0,tampilkan jadwal krl stasiun manggarai,asking-question-schedule,1492140570.0
+3239.0,fly,other,1488871943.0
+1859.0,halo,greeting,1490689155.0
+2121.0,bandung ke jakarta,asking-question-direction,1490476201.0
+719.0,tanyajalan perkenalin,asking-question-other,1492421822.0
+2617.0,wahh,giving-positive-feedback,1490254256.0
+1562.0,wih,giving-positive-feedback,1491637174.0
+1539.0,wow,giving-positive-feedback,1491633386.0
+3145.0,cek jadwal krl stasiun universitas indonesia,asking-question-schedule,1489901516.0
+2678.0,wahhh,giving-positive-feedback,1490345923.0
+1159.0,tanyajalan perkenalin,asking-question-other,1492043287.0
+3216.0,payah,giving-negative-feedback,1488865087.0
+2234.0,dibikin pake ,asking-question-other,1490468405.0
+330.0,gang dolly gin,giving-positive-feedback,1492497812.0
+1936.0,mangga,giving-positive-feedback,1490547780.0
+416.0,aja,asking-question-other,1492471205.0
+461.0,tampilkan jadwal krl stasiun tangerang,asking-question-schedule,1492478536.0
+3273.0,nice,giving-positive-feedback,1488880375.0
+759.0,undefined,other,1492424441.0
+3299.0,tanyajalan kenalkan dirimu,greeting,1488910433.0
+2798.0,halo,greeting,1490234117.0
+2519.0,berangkat dari ui ke monas,asking-question-direction,1490414757.0
+173.0,gamauu,giving-negative-feedback,1492737094.0
+790.0,cek jadwal krl stasiun ui,asking-question-schedule,1492437558.0
+1729.0,ycy,other,1490774720.0
+3320.0,alah,giving-negative-feedback,1488845745.0
+983.0,krl tanah abang,giving-positive-feedback,1492392545.0
+2264.0,berangkat dari mampang prapatan ke ui,asking-question-direction,1490472834.0
+2640.0,tanyajalan perkenalkan,greeting,1490326839.0
+2600.0,terima kasih,giving-positive-feedback,1490234175.0
+3168.0,tanyajalan bye,greeting,1489903041.0
+3274.0,wih,giving-positive-feedback,1488880378.0
+2966.0,yahh gt,giving-negative-feedback,1489916076.0
+1056.0,dari depok ke hati nya,asking-question-direction,1492133076.0
+2955.0,bagus deh,giving-positive-feedback,1489914834.0
+198.0,tampilkan jadwal krl stasiun manggarai,asking-question-schedule,1492833834.0
+2916.0,jelek,giving-negative-feedback,1489911901.0
+395.0,aja,asking-question-other,1492577207.0
+2690.0,keren bgt ,giving-positive-feedback,1490406318.0
+2622.0,nice,giving-positive-feedback,1490254326.0
+861.0,berangkat dari cibinong ke pasar minggu,asking-question-direction,1492418458.0
+2941.0,bodo ah,giving-negative-feedback,1489914388.0
+1587.0,cupu,giving-negative-feedback,1491648906.0
+284.0,berangkat dari ui ke ancol,asking-question-direction,1492637560.0
+2906.0,gila,giving-negative-feedback,1489911730.0
+1206.0,coba jadwal krl stasiun tanah abang,asking-question-schedule,1491964697.0
+753.0,cupu lu,giving-negative-feedback,1492424314.0
+1281.0,aja,asking-question-other,1492022285.0
+1978.0,kece banget sih berfaedah,giving-positive-feedback,1490570933.0
+17.0,jadwal krl bogor,asking-question-schedule,1492902200.0
+1789.0,banget,giving-negative-feedback,1490836780.0
+583.0,tanyajalan perkenalin,asking-question-other,1492469882.0
+3380.0,gilz,giving-positive-feedback,1488856809.0
+2055.0,jadwal krl stasiun la,asking-question-schedule,1490500633.0
+2781.0,iya,greeting,1490002673.0
+313.0,gua menteng,other,1492497683.0
+3369.0,hi,greeting,1488856286.0
+1513.0,alamatnya salah,giving-negative-feedback,1491513169.0
+2605.0,tanyajalan bye,greeting,1490241396.0
+2478.0,jadwal kereta api pasar senen ke kutoarjo,asking-question-schedule,1490424566.0
+807.0,motor,other,1492415132.0
+3103.0,cacad,giving-negative-feedback,1488913541.0
+2691.0,yampun kerenn,giving-positive-feedback,1490406343.0
+2277.0,test,other,1490474154.0
+3270.0,tanyajalan,greeting,1488877398.0
+1276.0,,other,1492021999.0
+2821.0,bogor ke scbd,asking-question-direction,1489941954.0
+3118.0,mantap,giving-positive-feedback,1488929775.0
+3149.0,pergi haha,giving-positive-feedback,1489901968.0
+2662.0,jakarta ke papua,asking-question-direction,1490334316.0
+1571.0,fast,giving-positive-feedback,1491637713.0
+2711.0,jadwal krl stasiun manggarai,asking-question-schedule,1489994087.0
+3130.0,halo,greeting,1489888720.0
+1396.0,tanyajalan perkenalin,asking-question-other,1491953553.0
+1656.0,jadwal krl stasiun tebet,asking-question-schedule,1491288442.0
+2593.0,berangkat dari pondok kelapa ke bogor,asking-question-direction,1490417874.0
+3040.0,tanyajalan perkenalkan,greeting,1489906896.0
+1697.0,jadwal,asking-question-schedule,1491511455.0
+3164.0,tanyajalan perkenalkan,greeting,1489902916.0
+2119.0,cot,giving-negative-feedback,1490476170.0
+2215.0,dari bogor ke rumah yumna,asking-question-direction,1490462899.0
+949.0,tampilkan jadwal krl stasiun bekasi,asking-question-schedule,1492360765.0
+2496.0,kaka,other,1490425462.0
+729.0,aja,asking-question-other,1492421970.0
+2469.0,susah sia,giving-negative-feedback,1490424193.0
+631.0,prima medicha,other,1492446398.0
+1583.0,heh,other,1491645061.0
+2525.0,coba stasiun manggatai,other,1490415306.0
+3183.0,pergi dari fasilkom ui ke ancol,asking-question-direction,1489903736.0
+383.0,i,other,1492551927.0
+1663.0,berangkat dari ui ke gandaria city,asking-question-direction,1491340184.0
+1150.0,dd,other,1492035921.0
+2359.0,berangkat dari pondok gede ke ui,asking-question-direction,1490431617.0
+3116.0,helloworld,greeting,1488929709.0
+2707.0,helloworld,greeting,1489994056.0
+2118.0,payah tai,giving-negative-feedback,1490476157.0
+1506.0,jadwal krl universitasindonesia,asking-question-schedule,1491512468.0
+2377.0,ui ke rumah pacar,other,1490435753.0
+2831.0,tanyajalan bye,greeting,1489952156.0
+1208.0,tampilkan jadwal krl stasiun tanahabang,asking-question-schedule,1491964747.0
+1343.0,aja,asking-question-other,1491903160.0
+451.0,ah cupu,giving-negative-feedback,1492474314.0
+1024.0,berangkat dari stasiun bekasi ke rs pik,asking-question-direction,1492070340.0
+3287.0,sih,greeting,1488881466.0
+1616.0,jadwal krl stasiun ui,asking-question-schedule,1490940811.0
+1050.0,yee makasih,giving-positive-feedback,1492129133.0
+1836.0,trimaksih,giving-positive-feedback,1490655905.0
+327.0,berangkat dari menteng asri ke gang dolly,asking-question-direction,1492497797.0
+2504.0,undefined,other,1490409777.0
+2961.0,jadwal stasiun boom,other,1489915392.0
+256.0,jadwal pesawat garuda,asking-question-schedule,1492632195.0
+954.0,aja,asking-question-other,1492377660.0
+3003.0,tanyajalan bye,greeting,1489904976.0
+144.0,ngoding ke tp,asking-question-direction,1492648597.0
+2389.0,berangkat dari pantai menganti ke pantai ayah,asking-question-direction,1490438426.0
+1830.0,ngarang banget deh,giving-negative-feedback,1490655578.0
+2263.0,undefined,other,1490472454.0
+2619.0,wow,giving-positive-feedback,1490254291.0
+2788.0,tampilkan jadwal krl stasiun jakartakota,asking-question-schedule,1490032414.0
+2674.0,hi,greeting,1490345407.0
+2231.0,jalan kerumah mantan,asking-question-other,1490468335.0
+2680.0,wow,giving-positive-feedback,1490345955.0
+2005.0,ancol bekasi gimana jalannya,giving-positive-feedback,1490492172.0
+1233.0,halo,greeting,1491978751.0
+1329.0,dari depok ke depok,asking-question-direction,1491897290.0
+304.0,dari bandara soekarno hatta ke bogor,asking-question-direction,1492497598.0
+2401.0,berangkat dari alan ke jodohnya,other,1490418100.0
+1286.0,aja,asking-question-other,1492026269.0
+1408.0,ngapain aja,asking-question-other,1491722331.0
+1258.0,tanyajalan perkenalin,asking-question-other,1492014337.0
+880.0,aja,asking-question-other,1492420011.0
+365.0,dari depok ke kokas,asking-question-direction,1492540545.0
+786.0,tanyajalan perkenalin,asking-question-other,1492437408.0
+829.0,tanyajalan perkenalin,asking-question-other,1492416425.0
+399.0,aja,asking-question-other,1492592897.0
+1654.0,thanks tanyajalan for everything,giving-positive-feedback,1491287209.0
+1269.0,hu,giving-negative-feedback,1492021168.0
+1967.0,makasih jalan,giving-positive-feedback,1490568383.0
+3004.0,dari sabang merauke,asking-question-direction,1489904988.0
+242.0,dari ui ke kebun raya bogor,asking-question-direction,1492631594.0
+1628.0,tampilkan jadwal krl stasiun jakartakota,asking-question-schedule,1491016004.0
+307.0,jadwal krl,asking-question-schedule,1492497628.0
+806.0,berangkat dari ui ke sunter,asking-question-direction,1492415129.0
+589.0,tanyajalan perkenalin,asking-question-other,1492469905.0
+1218.0,bis lebak bulus,other,1491968046.0
+2992.0,,greeting,1489918376.0
+2920.0,dari tanjung barat,other,1489912308.0
+1295.0,dari ancol ke pluit,asking-question-direction,1492029809.0
+2045.0,kendaraan,other,1490500019.0
+1313.0,berangkat dari ui ke mentenf,asking-question-direction,1491894327.0
+483.0,tampilkan jadwal krl stasiun cikini,asking-question-schedule,1492486046.0
+320.0,jalan,giving-negative-feedback,1492497719.0
+2467.0,dari dramaga ke ui,asking-question-direction,1490424177.0
+2482.0,ui ke rumah pacar,other,1490424695.0
+676.0,aja,asking-question-other,1492450112.0
+2988.0,kick dah,giving-negative-feedback,1489916400.0
+2976.0,dari ke bandung,other,1489916166.0
+884.0,hai,other,1492420066.0
+1732.0,thank you,giving-positive-feedback,1490774800.0
+673.0,arahnya gimana,other,1492448235.0
+1254.0,aja,asking-question-other,1491988871.0
+3214.0,ga,giving-negative-feedback,1488864645.0
+1138.0,tanyajalan perkenalin,asking-question-other,1492033145.0
+524.0,commuterline,other,1492459927.0
+1968.0,bye jalan,other,1490568394.0
+1235.0,pergi ke pluit dari depok,asking-question-direction,1491978773.0
+2161.0,jadwal commuter line depok,asking-question-schedule,1490482135.0
+3023.0,tanyajalan perkenalan,greeting,1489905838.0
+2627.0,dari singkawang ke pontianak,asking-question-direction,1490324627.0
+3167.0,tanyajalan perkenalkan,greeting,1489903037.0
+991.0,aja,asking-question-other,1492402321.0
+323.0,elah 50 menit,other,1492497728.0
+623.0,aja,asking-question-other,1492444027.0
+831.0,,asking-question-other,1492416437.0
+221.0,dari surabaya ke its,asking-question-direction,1492631127.0
+2615.0,,giving-positive-feedback,1490253826.0
+379.0,gamau tau jadwal krl stasiun poris,asking-question-schedule,1492551783.0
+2155.0,ui ke taman kebalen indah jalan nusa indah,asking-question-direction,1490481765.0
+2414.0,mending jalan kaki anjir,giving-negative-feedback,1490421807.0
+3121.0,dari grogol ke cimory,asking-question-direction,1488929804.0
+1279.0,tanyajalan perkenalin,asking-question-other,1492022015.0
+2775.0,jadwal stasiun boom,other,1489999155.0
+1482.0,thanks teman jalan,giving-positive-feedback,1491887526.0
+625.0,rute busway,asking-question-schedule,1492444117.0
+810.0,tanyajalan perkenalin,asking-question-other,1492415162.0
+183.0,aja,asking-question-other,1492807317.0
+3156.0,tanyajalan,greeting,1489902035.0
+2914.0,,giving-negative-feedback,1489911774.0
+672.0,arahnya gimana,other,1492448235.0
+257.0,cek jadwal pesawat garuda,asking-question-schedule,1492632211.0
+2065.0,dari gang bogowonto nomor 2a kebumen ke jalan kapten piere tendean 40 b kebumen,asking-question-direction,1490501875.0
+3170.0,tanyajalan bye,greeting,1489903103.0
+1209.0,tanyajalan perkenalin,asking-question-other,1491964757.0
+904.0,tanyajalan perkenalin,asking-question-other,1492209850.0
+3386.0,gamau,giving-negative-feedback,1488858762.0
+841.0,keren,other,1492416823.0
+2813.0,iya gpp,greeting,1489920589.0
+2555.0,hai,greeting,1490416337.0
+1557.0,mantap,giving-positive-feedback,1491637107.0
+1497.0,berangkat dari karet ke pwc,asking-question-direction,1491892381.0
+2003.0,tampilkan jadwal krl stasiun bogor,asking-question-schedule,1490492127.0
+1679.0,jadwal krl stasiun universitas indonesia,asking-question-schedule,1491452709.0
+1315.0,halo,greeting,1491894378.0
+2113.0,jadwal krl stasiun gambir,asking-question-schedule,1490475898.0
+1006.0,tanyajalan perkenalin,asking-question-other,1492068854.0
+3045.0,tanyajalan perkenalkan,greeting,1489906993.0
+1977.0,tampilkan jadwal krl stasiun pondokcina,asking-question-schedule,1490570906.0
+2978.0,dari ke gundar,other,1489916211.0
+2608.0,nice,giving-positive-feedback,1490241636.0
+93.0,aja,asking-question-other,1493245780.0
+3300.0,dari fasilkom ui ke central park,asking-question-direction,1488792674.0
+2285.0,gak repot,giving-negative-feedback,1490474987.0
+1148.0,jadwal stasiun manggarai,asking-question-schedule,1492035903.0
+2136.0,babi,giving-negative-feedback,1490477957.0
+2027.0,buset bener wkwk krl dari pondok cina ke tanah abang trus transit ke pondok ranji dari gojek ke ciledug,giving-negative-feedback,1490498728.0
+1416.0,,asking-question-other,1491722617.0
+2700.0,hi,greeting,1489992300.0
+2837.0,tanah abang,other,1489953607.0
+2950.0,bagus ya,giving-positive-feedback,1489914741.0
+1669.0,jadwal krl stasiun manggarai,asking-question-schedule,1491418629.0
+2819.0,dari ke daan mogot,other,1489939668.0
+981.0,ancol ke pademangan,asking-question-direction,1492392331.0
+2656.0,dari meruya ke central park,asking-question-direction,1490332274.0
+666.0,dari lenteng agung ke seoul,asking-question-direction,1492447504.0
+2911.0,ga,giving-negative-feedback,1489911756.0
+3185.0,dari rumah rusun bci ke tokopedia,asking-question-direction,1489903757.0
+2780.0,woahh,giving-positive-feedback,1490002668.0
+2599.0,berangkat dari ui ke nganjuk,asking-question-direction,1490418067.0
+2729.0,tai,giving-negative-feedback,1489994951.0
+3039.0,tanyajalan perkenalkan,greeting,1489906879.0
+1788.0,,asking-question-other,1490836773.0
+1733.0,,other,1490774812.0
+1634.0,tampilkan jadwal krl stasiun bekasi,asking-question-schedule,1491019620.0
+3151.0,thanks,giving-positive-feedback,1489901980.0
+1521.0,thankyouuu,giving-positive-feedback,1491607955.0
+156.0,tanyajalan perkenalin,asking-question-other,1492712687.0
+3165.0,tanyajalan perkenalkan,greeting,1489902934.0
+2209.0,tampilkan jadwal krl stasiun pondokcina,asking-question-schedule,1490457570.0
+3265.0,oke dimaafkan,giving-positive-feedback,1488876338.0
+3237.0,search,other,1488871937.0
+2944.0,payah,giving-negative-feedback,1489914550.0
+1568.0,bohong,giving-negative-feedback,1491637685.0
+2405.0,cupu abi,giving-negative-feedback,1490420327.0
+2998.0,wkwkw ben,giving-positive-feedback,1489919193.0
+3292.0,nice,giving-positive-feedback,1488881982.0
+3152.0,haha,giving-positive-feedback,1489901983.0
+948.0,ui ke kota tua,asking-question-direction,1492341556.0
+2109.0,nunjukkin jalan ngasih pesan sosial madnah keren tuh kalo bot susbm lo selipin pesan sosial,giving-positive-feedback,1490475561.0
+1377.0,tanyajalan perkenalin,asking-question-other,1491933433.0
+3218.0,hai,greeting,1488869256.0
+3038.0,tanyajalan perkenalkan,greeting,1489906764.0
+890.0,berangkat dari depok ke fasilkom ui,asking-question-direction,1492420254.0
+2980.0,bego,giving-negative-feedback,1489916226.0
+2567.0,berangkat dari pacil ke kutek,asking-question-direction,1490416827.0
+2748.0,jadwal kereta stasiun manggarai,asking-question-schedule,1489997165.0
+2728.0,ah tai,giving-negative-feedback,1489994942.0
+1110.0,tanyajalan perkenalin,asking-question-other,1492032029.0
+30.0,tanyajalan perkenalin,asking-question-other,1493003046.0
+1861.0,halo,greeting,1490689494.0
