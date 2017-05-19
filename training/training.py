@@ -5,6 +5,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import cross_val_predict
 from sklearn.feature_selection import SelectFromModel
 import pickle
+import threading
 from sys import argv
 target = open("metadata", 'w')
 #label
@@ -93,7 +94,7 @@ target.write("\n")
 
 predicted = cross_val_predict(umlp, X, y, cv=10)
 target.write("MLP UnBalanced Data 10-Cross to balanced Data: ")
-target.write(repr(metrics.accuracy_score(, predicted)))
+target.write(repr(metrics.accuracy_score(y, predicted)))
 target.write("\n")
 pickle.dump(mlp, open("UMLPAllFeature.p","wb"))
 
