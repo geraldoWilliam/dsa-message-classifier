@@ -27,23 +27,40 @@ y_extra = pd.read_csv('../feature_extraction/label').values.ravel() #Force LOL
 #select = SelectKBest(chi2, k=2)
 #X_new = select.fit_transform(X, y) 
 
-from sklearn.naive_bayes import BernoulliNB
-bnb = BernoulliNB()
-bnb.fit(X,y)
-target.write("BNB Balanced Data score: ")
-target.write(repr(bnb.score(X,y)))
+from sklearn.naive_bayes import MultinomialNB
+mnm = MultinomialNB()
+mnm.fit(X,y)
+target.write("mnm Balanced Data score: ")
+target.write(repr(mnm.score(X,y)))
 target.write("\n")
 
-predicted = cross_val_predict(bnb, X, y, cv=10)
-target.write("BNB Balanced Data 10-Cross fold: ")
+predicted = cross_val_predict(mnm, X, y, cv=10)
+target.write("mnm Balanced Data 10-Cross fold: ")
 target.write(repr(metrics.accuracy_score(y, predicted)))
 target.write("\n")
 
-predicted = cross_val_predict(bnb, X_extra, y_extra, cv=10)
-target.write("BNB Balanced Data 10-Cross fold All Data: ")
+predicted = cross_val_predict(mnm, X_extra, y_extra, cv=10)
+target.write("mnm Balanced Data 10-Cross fold All Data: ")
 target.write(repr(metrics.accuracy_score(y_extra, predicted)))
 target.write("\n")
-pickle.dump(bnb, open("BNBAllFeature.p","wb"))
+pickle.dump(mnm, open("mnmAllFeature.p","wb"))
+
+umnm = MultinomialNB()
+umnm.fit(X_extra,y_extra)
+target.write("mnm UnBalanced Data score: ")
+target.write(repr(umnm.score(X_extra,y_extra)))
+target.write("\n")
+
+predicted = cross_val_predict(umnm, X_extra, y_extra, cv=10)
+target.write("mnm UnBalanced Data 10-Cross fold All Data : ")
+target.write(repr(metrics.accuracy_score(y_extra, predicted)))
+target.write("\n")
+
+predicted = cross_val_predict(umnm, X, y, cv=10)
+target.write("mnm UnBalanced Data 10-Cross fold All Data to balanced: ")
+target.write(repr(metrics.accuracy_score(y, predicted)))
+target.write("\n")
+pickle.dump(umnm, open("UmnmAllFeature.p","wb"))
 
 from sklearn.neural_network import MLPClassifier
 mlp = MLPClassifier(solver='lbfgs', alpha=1e-5,hidden_layer_sizes=(25, 100))
@@ -62,4 +79,22 @@ target.write("MLP Balanced Data 10-Cross Extra All Data: ")
 target.write(repr(metrics.accuracy_score(y_extra, predicted)))
 target.write("\n")
 pickle.dump(mlp, open("MLPAllFeature.p","wb"))
+
+umlp = MLPClassifier(solver='lbfgs', alpha=1e-5,hidden_layer_sizes=(25, 100))
+umlp.fit(X_extra,y_extra)
+target.write("MLP UnBalanced Data score: ")
+target.write(repr(umlp.score(X_extra,y_extra)))
+target.write("\n")
+
+predicted = cross_val_predict(umlp, X_extra, y_extra, cv=10)
+target.write("MLP UnBalanced Data 10-Cross : ")
+target.write(repr(metrics.accuracy_score(y_extra, predicted)))
+target.write("\n")
+
+predicted = cross_val_predict(umlp, X, y, cv=10)
+target.write("MLP UnBalanced Data 10-Cross to balanced Data: ")
+target.write(repr(metrics.accuracy_score(, predicted)))
+target.write("\n")
+pickle.dump(mlp, open("UMLPAllFeature.p","wb"))
+
 target.close()

@@ -4,6 +4,7 @@ clean:
     rm --force feature_extraction/*.csv
     rm --force feature_extraction/balanced_label feature_extraction/label
     rm --force training/*.p
+    rm --force training/metadata
 preprocess:
     python preprocessing/make_csv.py
     python preprocessing/convert_intent.py
