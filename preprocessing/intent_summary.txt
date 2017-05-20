@@ -1,9 +1,0 @@
-Unique intents:
-7
-asking-question-direction 1669
-giving-positive-feedback 117
-greeting 151
-giving-negative-feedback 82
-other 339
-asking-question-other 510
-asking-question-schedule 538
