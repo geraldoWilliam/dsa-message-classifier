@@ -1,6 +1,12 @@
-BNB Balanced Data score: 0.90243902439024393
-BNB Balanced Data 10-Cross fold: 0.70731707317073167
-BNB Balanced Data 10-Cross fold All Data: 0.78596594245449203
+mnm Balanced Data score: 0.9006968641114983
+mnm Balanced Data 10-Cross fold: 0.72299651567944256
+mnm Balanced Data 10-Cross fold All Data: 0.8352906635349383
+mnm UnBalanced Data score: 0.89342337052260712
+mnm UnBalanced Data 10-Cross fold All Data : 0.8352906635349383
+mnm UnBalanced Data 10-Cross fold All Data to balanced: 0.72299651567944256
 MLP Balanced Data score: 0.9616724738675958
-MLP Balanced Data 10-Cross : 0.71254355400696867
-MLP Balanced Data 10-Cross Extra All Data: 0.83587786259541985
+MLP Balanced Data 10-Cross : 0.72648083623693382
+MLP Balanced Data 10-Cross Extra All Data: 0.83000587199060483
+MLP UnBalanced Data score: 0.97592483852025835
+MLP UnBalanced Data 10-Cross : 0.83763945977686438
+MLP UnBalanced Data 10-Cross to balanced Data: 0.72473867595818819
