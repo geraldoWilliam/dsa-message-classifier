@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Intent Recognizer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="nav">
+    <h3>Intent Recognizer</h3>    
+  </div>
+  <div class="container">
+    <form id="form-message" autocomplete="off">
+      <input type="text" id="input-message" placeholder="Enter message">
+      <input type="submit" id="btn-submit">
+      <span id="loading-message">Loading...</span>
+    </form>
+  </div>
+  <div class="container">
+    <span class="subtitle">Sentences</span>
+    <span id="message-text">-</span>
+    <span class="subtitle">Predicted Intent</span>
+    <span id="message-intent">-</span>
+    <span class="subtitle">Details</span>
+    <pre id="message-details">-</pre>
+  </div>
+  <div id="credit">
+    By Adam Jordan, Geraldo William, Aulia Astrico
+  </div>
+  <script type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
