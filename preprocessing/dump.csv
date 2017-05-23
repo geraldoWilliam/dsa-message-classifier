@@ -1,1105 +1,1105 @@
 id,text,intent,datetime
-0,Dari rawamangun ke kokas,ask-for-direction,1492886491
-1,Dari rawamangun ke Kota kasablanka,ask-for-direction,1492886502
-2,Kamu bisa apa aja?,help,1492898204
-3,TanyaJalan perkenalin diri dong,intro,1492898204
+0,Dari rawamangun ke kokas,asking-question-direction,1492886491
+1,Dari rawamangun ke Kota kasablanka,asking-question-direction,1492886502
+2,Kamu bisa apa aja?,asking-question-other,1492898204
+3,TanyaJalan perkenalin diri dong,asking-question-other,1492898204
 4,halo,greeting,1492898226
-5,jalan dari Bogor ke malang?,ask-for-direction,1492898242
-6,jalan dari Bogor ke malang?,ask-for-direction,1492898242
-7,cariin jalan dong,ask-permission-to-ask,1492898252
-8,jalan dari Slipi ke karet?,ask-for-direction,1492898271
-9,Kamu bisa apa aja?,help,1492901653
-10,TanyaJalan perkenalin diri dong,intro,1492901655
-11,Bagi jadwal krl,ask-for-schedule-krl,1492901682
-12,Cek jadwal krl stasiun ui,ask-for-schedule-krl,1492901695
-13,Cek jadwal krl stasiun pocin,ask-for-schedule-krl,1492901710
-14,Cek jadwal krl stasiun pondok cina,ask-for-schedule-krl,1492901724
-15,Kamu bisa apa aja?,help,1492902155
-16,jadwal krl,ask-for-schedule-krl,1492902182
-17,jadwal krl bogor,ask-for-schedule-krl,1492902200
-18,tampilkan lebih banyak jadwal krl stasiun BOGOR,ask-for-schedule-krl-complete,1492902207
-19,TanyaJalan perkenalin diri dong,intro,1492907273
-20,Kamu bisa apa aja?,help,1492907273
-21,Dari stasiun ui ke limelight,ask-for-direction,1492969693
-22,Dari ui ke limelight,ask-for-direction,1492969696
-23,tampilkan lebih banyak jadwal krl stasiun MANGGARAI,ask-for-schedule-krl-complete,1492971732
-24,tampilkan lebih banyak jadwal krl stasiun MANGGARAI,ask-for-schedule-krl-complete,1492972077
-25,Dari ui ke lebak bulus,ask-for-direction,1492972587
-26,TanyaJalan perkenalin diri dong,intro,1492972686
-27,Dari ui ke cempaka lestari raya,ask-for-direction,1492972704
-28,Dari ui ke cilandak town square,ask-for-direction,1492972987
-29,Dari stasiun tebet ke festival plaza,ask-for-direction,1492986017
-30,TanyaJalan perkenalin diri dong,intro,1493003046
-31,Berangkat dari Balai Kota Depok ke Fasilkom UI,ask-for-direction,1493003081
-32,Kamu bisa apa aja?,help,1493078166
-33,Dari otista ke tripvisto,ask-for-direction,1493078193
-34,Dari otista ke tripvisto,ask-for-direction,1493078193
-35,tampilkan lebih banyak jadwal krl stasiun JATINEGARA,ask-for-schedule-krl-complete,1493078575
-36,tampilkan lebih banyak jadwal krl stasiun manggarai,ask-for-schedule-krl-complete,1493078598
-37,tampilkan lebih banyak jadwal krl stasiun manggarai,ask-for-schedule-krl-complete,1493078598
-38,tampilkan lebih banyak jadwal krl stasiun manggarai,ask-for-schedule-krl-complete,1493078598
-39,tampilkan lebih banyak jadwal krl stasiun manggarai,ask-for-schedule-krl-complete,1493079917
-40,tampilkan lebih banyak jadwal krl stasiun universitasindonesia,ask-for-schedule-krl-complete,1493079950
-41,Cara ke bukalapak,ask-for-direction,1493091969
-42,Cara ke bukalapak,ask-for-direction,1493091969
-43,Cara ke bukalapak,ask-for-direction,1493091969
-44,Cara ke bukalapak,ask-for-direction,1493091969
-45,Dari UI ke bukalapak,ask-for-direction,1493091985
-46,dari ui ke tanah kusir,ask-for-direction,1493096656
-47,dari ui ke tanah kusir,ask-for-direction,1493096656
-48,dari ui ke tanah kusir,ask-for-direction,1493096656
-49,dari ui ke tanah kusir,ask-for-direction,1493096656
-50,dari ui ke tanah kusir,ask-for-direction,1493096656
-51,Pulang ke jalan kampung Marga Jaya lewat mana,ask-for-direction,1493098514
-52,Pulang ke daerah jalan kampung Marga Jaya Serpong lewat mana,ask-for-direction,1493098574
-53,Pulang ke Pondok Indah lewat mana,ask-for-direction,1493098614
-54,Pulang ke Pondok Indah lewat mana,ask-for-direction,1493098614
-55,stasiun pondok ranji ke kalibata,ask-for-direction,1493100394
-56,stasiun pondok ranji ke kalibata,ask-for-direction,1493100394
-57,stasiun pondok ranji ke kalibata,ask-for-direction,1493100394
-58,Bagaimana cara dari bogor ke kota Kasablanka,ask-for-direction,1493102619
-59,Dari ui ke ariobimo central,ask-for-direction,1493138062
-60,Dari ui ke ariobimo central,ask-for-direction,1493138062
-61,Dari ui ke ariobimo central,ask-for-direction,1493138062
-62,Dari ui ke sentul,ask-for-direction,1493196177
-63,"Dari ui ke sentul, bogor",ask-for-direction,1493196192
-64,"Dari ui ke sentul, bogor",ask-for-direction,1493196192
-65,"Dari ui ke sentul, bogor",ask-for-direction,1493196192
-66,"Dari ui ke sentul, bogor",ask-for-direction,1493196192
-67,"Dari ui ke sentul, bogor",ask-for-direction,1493196192
-68,dari tanjung barat ke kampus perbanas,ask-for-direction,1493213065
-69,Kamu bisa apa aja?,help,1493233280
-70,Kamu bisa apa aja?,help,1493233280
-71,Kamu bisa apa aja?,help,1493233280
-72,Kamu bisa apa aja?,help,1493233280
-73,Kamu bisa apa aja?,help,1493233280
-74,Kamu bisa apa aja?,help,1493233280
-75,Kamu bisa apa aja?,help,1493233280
-76,TanyaJalan perkenalin diri dong,intro,1493233281
-77,TanyaJalan perkenalin diri dong,intro,1493233281
-78,TanyaJalan perkenalin diri dong,intro,1493233281
-79,Dari universitas indonesia ke fx sudirman,ask-for-direction,1493236197
-80,Dari universitas indonesia ke fx sudirman,ask-for-direction,1493236197
-81,Dari universitas indonesia ke fx sudirman,ask-for-direction,1493236197
-82,Dari universitas indonesia ke fx sudirman,ask-for-direction,1493236197
-83,Dari universitas indonesia ke fx sudirman,ask-for-direction,1493236197
-84,Dari universitas indonesia ke fx sudirman,ask-for-direction,1493236197
-85,TanyaJalan perkenalin diri dong,intro,1493245767
-86,TanyaJalan perkenalin diri dong,intro,1493245767
-87,TanyaJalan perkenalin diri dong,intro,1493245767
-88,TanyaJalan perkenalin diri dong,intro,1493245767
-89,TanyaJalan perkenalin diri dong,intro,1493245767
-90,Kamu bisa apa aja?,help,1493245780
-91,Kamu bisa apa aja?,help,1493245780
-92,Kamu bisa apa aja?,help,1493245780
-93,Kamu bisa apa aja?,help,1493245780
-94,Kamu bisa apa aja?,help,1493245780
-95,Jadwal krl stasiun bogor,ask-for-schedule-krl,1493245805
-96,Jadwal krl stasiun bogor,ask-for-schedule-krl,1493245805
-97,Jadwal krl stasiun bogor,ask-for-schedule-krl,1493245805
-98,Jadwal krl stasiun bogor,ask-for-schedule-krl,1493245805
-99,Jadwal krl stasiun bogor,ask-for-schedule-krl,1493245805
-100,Jadwal krl kota,ask-for-schedule-krl,1492638576
-101,Jadwal krl ui,ask-for-schedule-krl,1492638586
-102,Jadwal krl stasiun ui,ask-for-schedule-krl,1492638593
-103,Jadwal krl jakarta kota,ask-for-schedule-krl,1492638602
-104,Kamu bisa apa aja?,help,1492640047
-105,TanyaJalan perkenalin diri dong,intro,1492640048
-106,TanyaJalan perkenalin diri dong,intro,1492640048
-107,TanyaJalan perkenalin diri dong,intro,1492640051
-108,Kamu bisa apa aja?,help,1492640051
-109,Dari fasilkom ke indomaret,ask-for-direction,1492642137
-110,Dari fasilkom ke fib,ask-for-direction,1492642147
-111,Hai,,1492642218
-112,Kamu bisa apa aja?,help,1492644286
-113,TanyaJalan perkenalkan diri dong,intro,1492644308
-114,Dari pangkalpinang ke sungailiat,ask-for-direction,1492644344
-115,Dari bandara soekarno hatta ke unj,ask-for-direction,1492644439
-116,Dari bandara soekarna hatta ke ui,ask-for-direction,1492644491
-117,Ongkos dari bandara soekarno hatta ke ui,ask-for-direction,1492644567
-118,Ongkos nya? ):,,1492644650
-119,Ongkos bus jurusan bandara soekarna hatta terminal pasar minggu,ask-for-direction,1492644687
-120,Dari beji ke pondok maharta,ask-for-direction,1492644763
-121,Cek jadwal krl stasiun ui,ask-for-schedule-krl,1492644877
-122,Berangkat dari uui,ask-for-direction,1492645293
-123,dari ui ke bogor,ask-for-direction,1492645307
-124,Fasilkom ke tokyo,ask-for-direction,1492647993
-125,Tokyo ke kyoto,ask-for-direction,1492648069
-126,Tokyo ke osaka,ask-for-direction,1492648094
-127,Fasilkom ke rumah,ask-for-direction,1492648110
-128,Fasilkom ke kutek,ask-for-direction,1492648188
-129,Fasilkom ke margonda,ask-for-direction,1492648215
-130,Fasilkom ke ntu,ask-for-direction,1492648225
-131,Fasilkom ke itb,ask-for-direction,1492648233
-132,ITB ke ugm,ask-for-direction,1492648270
-133,UGM ke itb,ask-for-direction,1492648275
-134,UI ke SMAN 71,ask-for-direction,1492648297
-135,UI ke kalimalang,ask-for-direction,1492648304
-136,UI ke duren sawit,ask-for-direction,1492648312
-137,UI ke bekasi,ask-for-direction,1492648324
-138,Jalan ke kutek,ask-for-direction,1492648366
-139,Fasilkom ke antartika,ask-for-direction,1492648415
-140,Fasilkom ke tokyo,ask-for-direction,1492648423
-141,Margonda ke kelapa dua,ask-for-direction,1492648470
-142,Cara ngoding,,1492648561
-143,Cek ngoding,,1492648570
-144,Ngoding ke tp,ask-for-direction,1492648597
-145,Pergi ke tanah Abang dari 5 tahun ke depan,ask-for-direction,1492648659
-146,Tanah Abang ke 5 tahun ke depan,ask-for-direction,1492648712
-147,Jadwal krl stasiun universitas indonesia,ask-for-schedule-krl,1492649449
-148,Berangkat dari Depok ke Bogor.,ask-for-direction,1492650782
-149,Dari ciganjur ke unj,ask-for-direction,1492658903
-150,Cipedak ke slipi jaya,ask-for-direction,1492659010
-151,Kamu bisa apa aja?,help,1492659052
-152,TanyaJalan perkenalin diri dong,intro,1492659053
-153,Jadwal krl stasiun citayem,ask-for-schedule-krl,1492709269
-154,Tendean ke cawang,ask-for-direction,1492709931
-155,Kamu bisa apa aja?,help,1492712687
-156,TanyaJalan perkenalin diri dong,intro,1492712687
-157,Pergi ke Halim Perdana Kusumah dari Fatmawati,ask-for-direction,1492712706
-158,Dari jakarta ke sini,ask-for-direction,1492721079
-159,Pergi ke Ciputat dari Cililitan,ask-for-direction,1492724898
-160,Ui ke gunadarma kampus e,ask-for-direction,1492730463
-161,Ui ke kelapa dua,ask-for-direction,1492730513
-162,Ui ke brimob kelapa dua,ask-for-direction,1492730572
-163,berangkat dari ui ke man 13 jakarta,ask-for-direction,1492734754
-164,TanyaJalan perkenalin diri dong,intro,1492736926
-165,Kamu bisa apa aja?,help,1492736926
-166,Dari fasilkom ui ke fisip ui,ask-for-direction,1492736965
-167,Dari fasilkom ui ke fakultas hukum,ask-for-direction,1492737004
-168,Dari fasilkom ui ke grand Indonesia,ask-for-direction,1492737021
-169,Dari surga ke neraka,ask-for-direction,1492737044
-170,Bagi rute busway,ask-transjakarta,1492737074
-171,Yahh:((,,1492737082
-172,Mager,,1492737088
-173,Gamauu,negative-feedback,1492737094
-174,🐱,,1492737109
-175,Kok ga dibales?,,1492737127
-176,Tarif krl,,1492737138
-177,Dari Kukusan Teknik ke Kukusan Kelurahan,ask-for-direction,1492746189
-178,Dari UI ke Botani Square,ask-for-direction,1492746383
-179,Dari kuningan ke scbd,ask-for-direction,1492748366
-180,Berangkat sudirman ke kuningan,ask-for-direction,1492748410
-181,Berangkat sudirman ke rasuna said,ask-for-direction,1492748441
-182,Dari Fasilkom UI ke Plaza Senayan,ask-for-direction,1492755633
-183,Kamu bisa apa aja?,help,1492807317
-184,Jadwal krl universitasindonesia,ask-for-schedule-krl,1492807318
-185,tampilkan lebih banyak jadwal krl stasiun UNIVERSITASINDONESIA,ask-for-schedule-krl-complete,1492807350
-186,Jadwal krl universitasindonesia,ask-for-schedule-krl,1492807775
-187,Jadwal krl universitasindonesia,ask-for-schedule-krl,1492808229
-188,Jadwal krl universitasindonesia,ask-for-schedule-krl,1492808236
-189,Kamu bisa apa aja?,help,1492810529
-190,Cek jadwal krl stasiun karet,ask-for-schedule-krl,1492810542
-191,Cek jadwal krl stasiun manggarai,ask-for-schedule-krl,1492812776
-192,Berangkat dari Undip Tembalang ke Ngaliyan,ask-for-direction,1492819281
-193,Kamu bisa apa aja?,help,1492821379
-194,Dari ui ke rawamangun,ask-for-direction,1492821402
-195,tampilkan lebih banyak jadwal krl stasiun MANGGARAI,ask-for-schedule-krl-complete,1492832191
-196,tampilkan lebih banyak jadwal krl stasiun Jakarta Kota,ask-for-schedule-krl-complete,1492832246
-197,tampilkan lebih banyak jadwal krl stasiun MANGGARAI,ask-for-schedule-krl-complete,1492832863
-198,tampilkan lebih banyak jadwal krl stasiun MANGGARAI,ask-for-schedule-krl-complete,1492833834
-199,tampilkan lebih banyak jadwal krl stasiun MANGGARAI,ask-for-schedule-krl-complete,1492834504
-200,Ke tambun,ask-for-direction,1492593007
-201,TanyaJalan perkenalin diri dong,intro,1492593094
-202,Berangkat dari bekasi ke tambun,ask-for-direction,1492593245
-203,Berangkat dari bekasi ke tambun,ask-for-direction,1492593245
-204,Bandung ke tambun ?,ask-for-direction,1492593348
-205,Tambun ke puncak ?,ask-for-direction,1492593883
-206,Kamu bisa apa aja?,help,1492594739
-207,Jelambar,,1492594761
-208,Berangkat dari jelambar ke bendungan hilir,ask-for-direction,1492594791
-209,TanyaJalan perkenalin diri dong,intro,1492594807
-210,Kamu bisa apa aja?,help,1492594830
-211,Berangkat dari Kukusan ke Margo City Square.,ask-for-direction,1492624841
-212,Dari ignatius rahardi ke ignatius raka,ask-for-direction,1492630377
-213,dari margonda ke komplek bdn,ask-for-direction,1492630797
-214,TanyaJalan perkenalin diri dong,intro,1492630976
-215,TanyaJalan perkenalin diri dong,intro,1492630985
-216,Kamu bisa apa aja?,help,1492630985
-217,Kamu bisa apa aja?,help,1492630998
-218,Bagaimana cara ke bandara halim dari fasilkom,ask-for-direction,1492631001
-219,Berapa lama ke pondok bambu,ask-for-direction,1492631019
-220,Dari halim ke surabaya,ask-for-direction,1492631100
-221,Dari surabaya ke its,ask-for-direction,1492631127
-222,Dari bandara halim ke its,ask-for-direction,1492631160
-223,Dari bandara halim ke its naik pesawat,ask-for-direction,1492631185
-224,Yah,,1492631191
-225,Kamu bisa ngapain aja,help,1492631198
-226,Jadwal krl universitas indonesia,ask-for-schedule-krl,1492631208
-227,TanyaJalan perkenalin diri dong,intro,1492631246
-228,Dari fasilkom ke bahy&co,ask-for-direction,1492631249
-229,Kamu bisa apa aja?,help,1492631253
-230,Dari ui ke cibubur junction,ask-for-direction,1492631261
-231,Dari Jakarta ke antartica,ask-for-direction,1492631285
-232,Kamu bisa apa aja?,help,1492631312
-233,Dari rumah ke kampus,ask-for-direction,1492631320
-234,Kamu bisa apa aja?,help,1492631349
-235,Dari UI ke tokyo,ask-for-direction,1492631349
-236,Bagaimana cara dari Sabang ke Merauke?,ask-for-direction,1492631351
-237,Ehe,,1492631369
-238,Berangkat dari ui ke ancol,ask-for-direction,1492631377
-239,Berangkat dari ui ke pim,ask-for-direction,1492631379
-240,Cek jadwal cgk,ask-for-schedule-krl,1492631381
-241,Dari new York ke london,ask-for-direction,1492631407
-242,Dari UI ke kebun raya bogor,ask-for-direction,1492631594
-243,Dari UI ke dago,ask-for-direction,1492631647
-244,Dari universitas indonesia ke muncul setu,ask-for-direction,1492632005
-245,Dari UI ke rumah waifu,ask-for-direction,1492632021
-246,Kamu bisa apa aja?,help,1492632043
-247,TanyaJalan perkenalin diri dong,intro,1492632055
-248,Dari ui ke bekasi,ask-for-direction,1492632088
-249,Dari ui ke bandung,ask-for-direction,1492632101
-250,Dari universitas indonesia ke permata pamulang,ask-for-direction,1492632104
-251,Dari ui ke papua,ask-for-direction,1492632110
-252,Berangkat dari Kutek ke Fasilkom UI,ask-for-direction,1492632120
-253,Dari ugm ke malioboro,ask-for-direction,1492632134
-254,Dari universitas indonesia ke iti muncul,ask-for-direction,1492632134
-255,Dari ui ke ugm,ask-for-direction,1492632152
-256,Jadwal pesawat garuda,ask-for-schedule-krl,1492632195
-257,Cek jadwal pesawat garuda,ask-for-schedule-krl,1492632211
-258,Dari ui ke hatimu,ask-for-direction,1492632258
-259,TanyaJalan perkenalin diri dong,intro,1492632317
-260,Dari gunung putri ke fasilkom ui,ask-for-direction,1492632819
-261,Kamu bisa apa aja?,help,1492633157
-262,Tanyajalan bye,bye,1492633190
-263,Yolo,,1492633198
-264,Serpong ke tanah abang,ask-for-direction,1492633305
-265,Serpong ke ui,ask-for-direction,1492633371
-266,Jadwal KRL stasiun Bekasi,ask-for-schedule-krl,1492633427
-267,tampilkan lebih banyak jadwal krl stasiun BEKASI,ask-for-schedule-krl-complete,1492633440
-268,Berangkat dari UI ke Margonda City,ask-for-direction,1492633463
-269,TanyaJalan perkenalin diri dong,intro,1492633991
-270,Kamu bisa apa aja?,help,1492634007
-271,Ke palembang square dari indralaya,ask-for-direction,1492634026
-272,Dari kutek ke kutek,ask-for-direction,1492634164
-273,Berangkat dari ui ke bandung,ask-for-direction,1492635213
-274,TanyaJalan perkenalin diri dong,intro,1492635246
-275,dari universitas sumatera utara ke plaza medan fair,ask-for-direction,1492635268
-276,Jadwal krl stasiun jakarta kota,ask-for-schedule-krl,1492635285
-277,dari politeknik negeri sriwijaya ke sman 1 palembang,ask-for-direction,1492635999
-278,TanyaJalan perkenalin diri dong,intro,1492636873
-279,Kamu bisa apa aja?,help,1492636883
-280,Cek jadwal krl bojong gede,ask-for-schedule-krl,1492636922
-281,tampilkan lebih banyak jadwal krl stasiun BOJONGGEDE,ask-for-schedule-krl-complete,1492636949
-282,Dari unsri ke ps,ask-for-direction,1492637320
-283,Dari universitas sriwijaya ke palembang square,ask-for-direction,1492637334
-284,Berangkat dari UI ke ancol,ask-for-direction,1492637560
-285,berangkat dari hatiku ke hatimu,ask-for-direction,1492637785
-286,berangkat dari madrid ke depok,ask-for-direction,1492637807
-287,berangkat dari palembang ke baturaja,ask-for-direction,1492637829
-288,berangkat dari indralaya ke palembang,ask-for-direction,1492637852
-289,berangkat dari depok ke cibinong,ask-for-direction,1492637868
-290,Dari fasilkom ke perpusat,ask-for-direction,1492638312
-291,Dari fasilkom ke perpusat ui,ask-for-direction,1492638336
-292,Dari ugm ke malioboro,ask-for-direction,1492638368
-293,Dari binus ke gading serpong,ask-for-direction,1492638391
-294,Dari ugm ke fasilkom,ask-for-direction,1492638454
-295,Dari fasilkom ke fib,ask-for-direction,1492638482
-296,Mares ke pocin,ask-for-direction,1492638509
-297,Jadwal kereta,ask-for-schedule-krl,1492638540
-298,Jadwal krl ui ke kota,ask-for-direction,1492638555
-299,Jadwal krl ui kota,ask-for-schedule-krl,1492638569
-300,Kamu bisa apa aja?,help,1492494280
-301,Kamu bisa apa aja?,help,1492494495
-302,Kamu bisa apa aja?,help,1492494495
-303,Kamu bisa apa aja?,help,1492494495
-304,Dari bandara soekarno hatta ke bogor,ask-for-direction,1492497598
-305,Kamu bisa apa aja?,help,1492497613
-306,Kamu bisa apa aja?,help,1492497618
-307,Bagi jadwal krl,ask-for-schedule-krl,1492497628
-308,Berangkat dari sini ke rumah doi,ask-for-direction,1492497631
-309,"Yaudah deh, berangkat dari sini ke rumah adi",ask-for-direction,1492497667
-310,Berangkat dari Taman Corat Coret ke Sempur,ask-for-direction,1492497667
-311,Halo tanya jalan,,1492497673
-312,WTF,,1492497682
-313,Gua di menteng,,1492497683
-314,Stasiun pasar turi ke bogor,ask-for-direction,1492497687
-315,MANTAP,positive-feedback,1492497694
-316,undefined,,1492497696
-317,"""Hati Elan ke hati mantan""",ask-for-direction,1492497708
-318,"Lan, sorry",,1492497715
-319,Tolol gitu doang ganemu,,1492497718
-320,Tidak ada jalan,negative-feedback,1492497719
-321,undefined,,1492497724
-322,App apaan nih,intro,1492497726
-323,ELAH MASA 50 MENIT,,1492497728
-324,Menteng asri ke gang dolly,ask-for-direction,1492497728
-325,TanyaJalan bye,bye,1492497737
-326,Gblk masa gabisa,,1492497737
-327,Berangkat dari Menteng Asri ke Gang Dolly,ask-for-direction,1492497797
-328,Ah tai,,1492497805
-329,Dari glukosa ke piruvat,ask-for-direction,1492497811
-330,Gang dolly mana dulu gin,positive-feedback,1492497812
-331,ITB ke UI,ask-for-direction,1492497830
-332,Berangkat dari Menteng Asri ke Gang Selot,ask-for-direction,1492497830
-333,Dari rumah gua ke rumah doi trus ngaterin dia buat prom abis itu balik lagi,ask-for-direction,1492497851
-334,Jadwal krl stasiun Cikini,ask-for-schedule-krl,1492501481
-335,tampilkan lebih banyak jadwal krl stasiun CIKINI,ask-for-schedule-krl-complete,1492501491
-336,Pinang Ranti ke Universitas Tadulako,ask-for-direction,1492502888
-337,SMAN 48 Jakarta ke SMAN 78 Jakarta,ask-for-direction,1492502916
-338,SMAN 78 ke SMAN 48,ask-for-direction,1492502963
-339,Dari kukusan ke lebak bulus,ask-for-direction,1492503382
-340,Kamu bisa apa aja?,help,1492508141
-341,Dari grand indonesia ke supermall karawaci,ask-for-direction,1492508186
-342,Dari pasar baru ke fasilkom ui,ask-for-direction,1492508206
-343,Dari jakarta ke medan,ask-for-direction,1492508245
-344,Jadwal krl stasiun sawah besar,ask-for-schedule-krl,1492508274
-345,tampilkan lebih banyak jadwal krl stasiun SAWAHBESAR,ask-for-schedule-krl-complete,1492508293
-346,Kamu bisa apa aja?,help,1492510569
-347,Ui ke fatahillah,ask-for-direction,1492512905
-348,Jakarta ke jogja,ask-for-direction,1492512932
-349,Ugm ke malioboro,ask-for-direction,1492512953
-350,TanyaJalan perkenalin diri dong,intro,1492512994
-351,Kamu bisa apa aja?,help,1492512995
-352,Padang ke pariaman,ask-for-direction,1492513010
-353,Mau pergi dari prambanan ke borobudur nih,ask-for-direction,1492513040
-354,Bagi wisata malioboro dong,,1492513066
-355,Malioboro,,1492513079
-356,Rute busway,ask-transjakarta,1492513093
-357,Sidoarjo ke trowulan,ask-for-direction,1492513126
-358,Rute bus jurusan exprees joyoboyo ke mojokerto,ask-for-direction,1492513276
-359,Bus joyoboyo,,1492513292
-360,Bus joyoboyo ke mojokerto,ask-for-direction,1492513316
-361,Joyoboyo ke mojokerto,ask-for-direction,1492513331
-362,Ugm ke gunung merapi,ask-for-direction,1492513376
-363,Ugm ke merapi,ask-for-direction,1492513385
-364,TanyaJalan perkenalin diri dong,intro,1492513408
-365,Dari depok ke kokas,ask-for-direction,1492540545
-366,Kamu bisa apa aja?,help,1492540594
-367,tampilkan lebih banyak jadwal krl stasiun SAWAHBESAR,ask-for-schedule-krl-complete,1492543667
-368,Kamu bisa apa aja?,help,1492548144
-369,dari buaran ke depok town square,ask-for-direction,1492548169
-370,dari buaran ke ui,ask-for-direction,1492548182
-371,dari buaran ke depok,ask-for-direction,1492548195
-372,bagi rute busway dong,ask-transjakarta,1492548214
-373,dari klender ke beji,ask-for-direction,1492548258
-374,TanyaJalan perkenalin diri dong,intro,1492551487
-375,Kamu bisa apa aja?,help,1492551496
-376,Kenalin,,1492551720
-377,Perkenalin,,1492551727
-378,TanyaJalan,intro,1492551736
-379,Aku gamau tau jadwal krl stasiun poris,ask-for-schedule-krl,1492551783
-380,Kamu,,1492551918
-381,U,,1492551924
-382,U,,1492551925
-383,I,,1492551927
-384,J,,1492551929
-385,J,,1492551932
-386,lenteng agung ke kokas,ask-for-direction,1492556830
-387,lenteng agung ke kota kasablanka,ask-for-direction,1492556846
-388,dari lenteng agung ke kota kasablanka,ask-for-direction,1492556868
-389,Rute stasiun depok ke stasiun senen,ask-for-schedule-krl,1492563732
-390,Rute stasiun senen,ask-for-schedule-krl,1492563747
-391,Rute stasiun senin,ask-for-schedule-krl,1492563753
-392,Dari tangcit ke gajah mada,ask-for-direction,1492567541
-393,Jadwal KRL stasiun tanjung priok,ask-for-schedule-krl,1492574189
-394,tampilkan lebih banyak jadwal krl stasiun TANJUNGPRIUK,ask-for-schedule-krl-complete,1492574198
-395,Kamu bisa apa aja?,help,1492577207
-396,TanyaJalan perkenalin diri dong,intro,1492577231
-397,rute dari gubeng surabaya ke pasar turi,ask-for-direction,1492577285
-398,Tes kakak,,1492592553
-399,Kamu bisa apa aja?,help,1492592897
-400,Kamu bisa apa aja?,help,1492469911
-401,TanyaJalan perkenalin diri dong,intro,1492469912
-402,Kamu bisa apa aja?,help,1492469913
-403,TanyaJalan perkenalin diri dong,intro,1492469913
-404,Kamu bisa apa aja?,help,1492469913
-405,TanyaJalan perkenalin diri dong,intro,1492469913
-406,TanyaJalan perkenalin diri dong,intro,1492469914
-407,TanyaJalan perkenalin diri dong,intro,1492469915
-408,Pondok cina ke sudirman,ask-for-direction,1492469977
-409,Pondok cina ke sudirman,ask-for-direction,1492469977
-410,Jadwal krl pondok cina,ask-for-schedule-krl,1492469978
-411,Jadwal krl pondok cina,ask-for-schedule-krl,1492469978
-412,"Tanya dong, dari mangga besar ke tanggerang city mall",ask-for-direction,1492470794
-413,Tanya jalan dari mangga besar ke tanggerang city mall dong,ask-for-direction,1492471042
-414,Tanya jalan dari mangga besar ke tanggerang city mall dong,ask-for-direction,1492471065
-415,Kamu bisa apa aja?,help,1492471189
-416,Kamu bisa apa aja?,help,1492471205
-417,Bagi rutel krl donh,ask-transjakarta,1492471211
-418,Kamu bisa apa aja?,help,1492471234
-419,Kamu bisa apa aja?,help,1492471261
-420,Kamu bisa apa aja?,help,1492471264
-421,Kamu bisa apa aja?,help,1492471295
-422,Kamu bisa apa aja?,help,1492471298
-423,TanyaJalan perkenalin diri dong,intro,1492471540
-424,TanyaJalan perkenalin diri dong,intro,1492471553
-425,Kamu bisa apa aja?,help,1492471555
-426,TanyaJalan perkenalin diri dong,intro,1492471555
-427,Kamu bisa apa aja?,help,1492471557
-428,TanyaJalan perkenalin diri dong,intro,1492471558
-429,Kamu bisa apa aja?,help,1492471559
-430,Kamu bisa apa aja?,help,1492471563
-431,TanyaJalan perkenalin diri dong,intro,1492471566
-432,Kamu bisa apa aja?,help,1492471568
-433,Kamu bisa apa aja?,help,1492471572
-434,TanyaJalan perkenalin diri dong,intro,1492471575
-435,Dari depok ke senayan,ask-for-direction,1492471576
-436,TanyaJalan perkenalin diri dong,intro,1492471577
-437,Dari slipi ke senen,ask-for-direction,1492471997
-438,Kamu bisa apa aja?,help,1492472034
-439,Kamu bisa apa aja?,help,1492474072
-440,TanyaJalan perkenalin diri dong,intro,1492474072
-441,dari manggarai ke aceh,ask-for-direction,1492474087
-442,dari jalan pariaman ke jalan teuku meurah adam,ask-for-direction,1492474104
-443,pergi ke matraman dari banfung,ask-for-direction,1492474124
-444,pergi ke matraman dari aceh,ask-for-direction,1492474143
-445,pergi ke matraman dari medan,ask-for-direction,1492474151
-446,pergi ke matraman dari tegal,ask-for-direction,1492474164
-447,pergi ke matraman dari jambi,ask-for-direction,1492474221
-448,pergi ke matraman dari bali,ask-for-direction,1492474266
-449,pergi ke grand indonesia dari pariaman,ask-for-direction,1492474285
-450,pergi ke matraman dari manggarai,ask-for-direction,1492474303
-451,ah cupu,negative-feedback,1492474314
-452,masih banyak yg gabisa,,1492474327
-453,rute bis,ask-transjakarta,1492474366
-454,rute kereta bandung,ask-for-direction,1492474391
-455,berangkat dari slipi ke jawa,ask-for-direction,1492474412
-456,Dari lenmarc ke st louis 1,ask-for-direction,1492477295
-457,Berangkat dari lenmarc ke smak st. Louis 1,ask-for-direction,1492477312
-458,Berangkat dari lenmarc ke polisi istimewa,ask-for-direction,1492477328
-459,Cek jadwal stasiun tangerang,ask-for-schedule-krl,1492478502
-460,Cek jadwal stasiun duri,ask-for-schedule-krl,1492478512
-461,tampilkan lebih banyak jadwal krl stasiun TANGERANG,ask-for-schedule-krl-complete,1492478536
-462,tampilkan lebih banyak jadwal krl stasiun TANGERANG,ask-for-schedule-krl-complete,1492478542
-463,tampilkan lebih banyak jadwal krl stasiun DURI,ask-for-schedule-krl-complete,1492478652
-464,Dari serdang ke ruma,ask-for-direction,1492478852
-465,Dari serdang ke bulungan,ask-for-direction,1492478863
-466,Berangkat dari serdang ke bulungan,ask-for-direction,1492478876
-467,Jadwal krl universitasindonesia,ask-for-schedule-krl,1492479902
-468,Jadwal krl universitasindonesia,ask-for-schedule-krl,1492481330
-469,TanyaJalan perkenalin diri dong,intro,1492481363
-470,Kamu bisa apa aja?,help,1492481363
-471,Jadwal krl universitasindonesia,ask-for-schedule-krl,1492481905
-472,berangkat dari grogol ke depok,ask-for-direction,1492482651
-473,berangkat dari grogol ke depok,ask-for-direction,1492482651
-474,Berangkat dari harmoni ke alam sutera,ask-for-direction,1492482753
-475,Berangkat dari gajah mada ke alam sutera,ask-for-direction,1492482829
-476,TanyaJalan perkenalin diri dong,intro,1492485869
-477,Kamu bisa apa aja?,help,1492485884
-478,Bogor Salemba ui,,1492485907
-479,Bagaimana cara dari stasiun Bogor ke metropole,ask-for-direction,1492485929
-480,Bagaimana cara dari graha orange ke salemba ui,ask-for-direction,1492485975
-481,Jadwal kereta cikini,ask-for-schedule-krl,1492486006
-482,Jadwal krl stasiun Cikini,ask-for-schedule-krl,1492486035
-483,tampilkan lebih banyak jadwal krl stasiun CIKINI,ask-for-schedule-krl-complete,1492486046
-484,Jadwal krl stasiun Cikini dari jam 21.30,ask-for-schedule-krl,1492486067
-485,Jadwal krl stasiun Cikini jam 21.30,ask-for-schedule-krl,1492486076
-486,Jadwal krl stasiun Cikini antara jam 21.30 hingga 22.00,ask-for-schedule-krl,1492486094
-487,Kamu bisa ngapain aja,help,1492486104
-488,Bagi rute busway,ask-transjakarta,1492486120
-489,TanyaJalan perkenalin diri dong,intro,1492486618
-490,Kamu bisa apa aja?,help,1492486639
-491,Dari depok dua ke tebet yang enak naik apa ya?,ask-for-direction,1492486688
-492,Siapa pembuat kamu?,intro,1492486763
-493,Siapa pencipta kamu?,intro,1492486778
-494,Apa itu tuhan?,,1492486785
-495,Siapa kamu?,intro,1492486797
-496,Stasiun Bogor ke UPNVJ,ask-for-direction,1492488451
-497,Berangkat dari Kukusan ke ITC.,ask-for-direction,1492494087
-498,Berangkat dari Kukusan ke ITC Depok.,ask-for-direction,1492494172
-499,Kamu bisa apa aja?,help,1492494250
-500,Cek jadwal krl cawang ke kampung bandan,ask-for-direction,1492454580
-501,Cek jadwal krl cawang,ask-for-schedule-krl,1492454628
-502,Tebet ke grogol,ask-for-direction,1492454754
-503,Rute busway tebet ke grogol,ask-for-direction,1492454819
-504,Busway pancoran ke tanjung duren,ask-for-direction,1492454877
-505,Bagi rute busway,ask-transjakarta,1492454924
-506,Kamu bisa apa aja?,help,1492455764
-507,Dari petojo utara 3 ke bank dki suryopranoto,ask-for-direction,1492455797
-508,Bagi rute busway dong,ask-transjakarta,1492455846
-509,Kamu bisa apa aja?,help,1492455884
-510,Dari UI ke kemenlu,ask-for-direction,1492455934
-511,dari rumah gua ke rumah bayu,ask-for-direction,1492456033
-512,Jakarta ke Malang,ask-for-direction,1492456174
-513,Jakarta ke Surabaya,ask-for-direction,1492456184
-514,Jakarta ke Jakarta,ask-for-direction,1492456218
-515,dari polsek jagakarsa ke villa bintaro regensi,ask-for-direction,1492456292
-516,dari stasiun jurangmangu ke lottemart,ask-for-direction,1492456338
-517,dari stasiun jurangmangu ke lottemart bintaro,ask-for-direction,1492456376
-518,dari stasiun jurangmangu ke lottemart bintaro,ask-for-direction,1492456376
-519,TanyaJalan perkenalin diri dong,intro,1492459364
-520,Kamu bisa apa aja?,help,1492459364
-521,berangkat dari rawamangun ke ui,ask-for-direction,1492459449
-522,bagi rute angkot,ask-transjakarta,1492459904
-523,bagi rute,,1492459917
-524,bagi commuterline,,1492459927
-525,jalan ke itb,ask-for-direction,1492459939
-526,jalan ke its,ask-for-direction,1492459965
-527,jalan ke its,ask-for-direction,1492459965
-528,jalan ke pulogadung,ask-for-direction,1492459977
-529,jalan ke unpad,ask-for-direction,1492459989
-530,jalan ke batam,ask-for-direction,1492460000
-531,jalan ke batam,ask-for-direction,1492460000
-532,batam,,1492460006
-533,batam,,1492460006
-534,jalan ke madura,ask-for-direction,1492460014
-535,jalan ke unbraw,ask-for-direction,1492460023
-536,jalan ke ub,ask-for-direction,1492460028
-537,jalan ke ugm,ask-for-direction,1492460034
-538,sistem kamu gimana,,1492460054
-539,sistem kamu gimana,,1492460054
-540,enaknya kemana ya,,1492460061
-541,Dari FISIP UI ke rusun Jatinegara,ask-for-direction,1492460063
-542,saran lokasi,,1492460069
-543,jadwal angkot,ask-for-schedule-krl,1492460077
-544,jadwal krl,ask-for-schedule-krl,1492460081
-545,jadwal krl manggarai,ask-for-schedule-krl,1492460087
-546,Kamu bisa apa aja?,help,1492460385
-547,Dari sabang ke merauke,ask-for-direction,1492460452
-548,Dari simpang lima ke  kebun raya bogor,ask-for-direction,1492460475
-549,Jakarta ke bogor,ask-for-direction,1492460509
-550,Bogor ke pare,ask-for-direction,1492460537
-551,Bogor ke rangkasbitung,ask-for-direction,1492460580
-552,Bogor ke rangkasbitung,ask-for-direction,1492460580
-553,Bogor ke rangkasbitung,ask-for-direction,1492460580
-554,Bogor ke rangkasbitung,ask-for-direction,1492460580
-555,Bogor ke rangkas bitung,ask-for-direction,1492460603
-556,Dari UI ke ITB,ask-for-direction,1492460611
-557,UI ke UGM,ask-for-direction,1492460632
-558,Dari UI ke UGM,ask-for-direction,1492460640
-559,Dari UI ke Unair,ask-for-direction,1492460646
-560,Dari UI ke universitas airlangga surabaya,ask-for-direction,1492460669
-561,TanyaJalan perkenalin diri dong,intro,1492460706
-562,Dari hati gue ke hati mantan,ask-for-direction,1492460744
-563,Dari ui ke ipb,ask-for-direction,1492460770
-564,Dari ui ke ipb,ask-for-direction,1492460770
-565,dari UI ke Margo city,ask-for-direction,1492465742
-566,dari UI ke Margo city,ask-for-direction,1492465742
-567,dari UI ke Margo city,ask-for-direction,1492465743
-568,Dari UI ke vidi arena,ask-for-direction,1492465907
-569,Dari UI ke vidi arena,ask-for-direction,1492465908
-570,Dari UI ke vidi arena,ask-for-direction,1492465908
-571,Dari UI ke vidi arena,ask-for-direction,1492465908
-572,dari UI ke rumah gua,ask-for-direction,1492466044
-573,dari UI ke rumah gua,ask-for-direction,1492466045
-574,dari UI ke rumahku,ask-for-direction,1492466068
-575,dari UI ke rumahku,ask-for-direction,1492466068
-576,dari UI ke rumahku,ask-for-direction,1492466068
-577,dari UI ke denpasar,ask-for-direction,1492466113
-578,dari UI ke pantai anyer,ask-for-direction,1492466169
-579,dari UI ke pantai anyer,ask-for-direction,1492466169
-580,dari UI ke puncak,ask-for-direction,1492466184
-581,dari UI ke puncak,ask-for-direction,1492466184
-582,Kamu bisa apa aja?,help,1492469881
-583,TanyaJalan perkenalin diri dong,intro,1492469882
-584,Kamu bisa apa aja?,help,1492469901
-585,TanyaJalan perkenalin diri dong,intro,1492469902
-586,Kamu bisa apa aja?,help,1492469904
-587,TanyaJalan perkenalin diri dong,intro,1492469904
-588,Kamu bisa apa aja?,help,1492469905
-589,TanyaJalan perkenalin diri dong,intro,1492469905
-590,Kamu bisa apa aja?,help,1492469906
-591,TanyaJalan perkenalin diri dong,intro,1492469906
-592,Kamu bisa apa aja?,help,1492469907
-593,TanyaJalan perkenalin diri dong,intro,1492469907
-594,Kamu bisa apa aja?,help,1492469909
-595,TanyaJalan perkenalin diri dong,intro,1492469909
-596,Kamu bisa apa aja?,help,1492469910
-597,TanyaJalan perkenalin diri dong,intro,1492469910
-598,Kamu bisa apa aja?,help,1492469910
-599,TanyaJalan perkenalin diri dong,intro,1492469911
-600,Kamu bisa apa aja?,help,1492440636
-601,TanyaJalan perkenalin diri dong,intro,1492440654
-602,Dari aku ke kamu,ask-for-direction,1492440663
-603,Dari rumah saya ke Fasilkom UI,ask-for-direction,1492440716
-604,Dari rumah saya ke rumah temen saya,ask-for-direction,1492440740
-605,TanyaJalan perkenalin diri dong,intro,1492441764
-606,Kamu bisa apa aja?,help,1492441771
-607,Tanah abang macet ga,,1492441787
-608,Ke jaksel dari pinang ranti,ask-for-direction,1492441820
-609,Kamu bisa apa aja?,help,1492442220
-610,Kamu bisa apa aja?,help,1492442220
-611,Kamu bisa apa aja?,help,1492442220
-612,Kamu bisa apa aja?,help,1492442220
-613,Kamu bisa apa aja?,help,1492442221
-614,TanyaJalan perkenalin diri dong,intro,1492442222
-615,dari citeureup ke cibinong city mall,ask-for-direction,1492442258
-616,dari cibinong ke depok,ask-for-direction,1492442272
-617,dari cibinong ke universitas indonesia,ask-for-direction,1492442306
-618,Kamu bisa apa aja?,help,1492443156
-619,TanyaJalan perkenalin diri dong,intro,1492443403
-620,cek jadwal krl stasiun Kemayoran,ask-for-schedule-krl,1492443423
-621,Kasih tau cara jalan dari kemayoran ke kebun raya bogor,ask-for-direction,1492443751
-622,TanyaJalan perkenalin diri dong,intro,1492444017
-623,Kamu bisa apa aja?,help,1492444027
-624,Pergi dari ITB ke fasilkom ui,ask-for-direction,1492444066
-625,Rute busway,ask-transjakarta,1492444117
-626,Kamu bisa apa aja?,help,1492444747
-627,Rumah saya ke sman 48,ask-for-direction,1492444773
-628,Kavling thomas ke sman 48,ask-for-direction,1492444813
-629,TanyaJalan perkenalin diri dong,intro,1492445870
-630,Kamu bisa apa aja?,help,1492446361
-631,Prima medicha,,1492446398
-632,Kamu bisa apa aja?,help,1492446406
-633,TanyaJalan perkenalin diri dong,intro,1492446428
-634,pergi ke tebet,ask-for-direction,1492446449
-635,pergi ke tebet dari jatibening,ask-for-direction,1492446465
-636,pergi ke tebet dari bekasi,ask-for-direction,1492446482
-637,Berangkat ke monas,ask-for-direction,1492446539
-638,Dari pangkalan jati ke monas,ask-for-direction,1492446554
-639,Kamu bisa apa aja?,help,1492446584
-640,Universitas Indonesia,,1492446610
-641,Bagi rute angkot dong,ask-transjakarta,1492446679
-642,Bagi rute angkot 05 dong,ask-transjakarta,1492446691
-643,Berangkat dari Grand Depok City ke Fasilkom UI,ask-for-direction,1492446726
-644,Kamu bisa apa aja?,help,1492446737
-645,Berangkat dari saharjo ke buaran,ask-for-direction,1492446795
-646,Dari depok ke bekasi berapa lama?,ask-for-direction,1492446801
-647,Berangkat dari bogor ke jakarta,ask-for-direction,1492446813
-648,Thank you,positive-feedback,1492446846
-649,Kamu bisa apa aja?,help,1492447110
-650,Jadwal krl sudimara,ask-for-schedule-krl,1492447152
-651,tampilkan lebih banyak jadwal krl stasiun SUDIMARA,ask-for-schedule-krl-complete,1492447170
-652,TanyaJalan perkenalin diri dong,intro,1492447180
-653,Kamu bisa apa aja?,help,1492447197
-654,Purwokerto ke jakarta,ask-for-direction,1492447217
-655,Kamu bisa apa aja?,help,1492447255
-656,UI ke jagakarsa,ask-for-direction,1492447282
-657,Bagi rute busway dong,ask-transjakarta,1492447326
-658,TanyaJalan perkenalin diri dong,intro,1492447346
-659,stasiun senen ke ui,ask-for-direction,1492447353
-660,Bagaimana cara dari Dago ke Prima medicha,ask-for-direction,1492447364
-661,Berangkat dari lenteng agung ke fasilkom UI,ask-for-direction,1492447388
-662,Dari lenteng agung ke margo city,ask-for-direction,1492447420
-663,Dari rumah ke rumah mantan,ask-for-direction,1492447448
-664,TanyaJalan perkenalin diri dong,intro,1492447451
-665,Dari lenteng agung ke myeongdong,ask-for-direction,1492447479
-666,Dari lenteng agung ke seoul,ask-for-direction,1492447504
-667,tampilkan lebih banyak jadwal krl stasiun LENTENGAGUNG,ask-for-schedule-krl-complete,1492447553
-668,TanyaJalan perkenalin diri dong,intro,1492448140
-669,TanyaJalan perkenalin diri dong,intro,1492448140
-670,Kamu bisa apa aja?,help,1492448156
-671,Arah dari senayan ke cinere lewat mana ya ?,ask-for-direction,1492448201
-672,Arahnya gimana,,1492448235
-673,Arahnya gimana,,1492448235
-674,Arahnya gimana,,1492448235
-675,TanyaJalan perkenalin diri dong,intro,1492449922
-676,Kamu bisa apa aja?,help,1492450112
-677,Dari paris ke bandung,ask-for-direction,1492450137
-678,Bagi rute krl,ask-transjakarta,1492450149
-679,Jadwal krl bogor,ask-for-schedule-krl,1492450167
-680,TanyaJalan perkenalin diri dong,intro,1492450207
-681,Kamu bisa apa aja?,help,1492450509
-682,Bagaimana cara dari Bogor ke Monas?,ask-for-direction,1492450553
-683,Kamu bisa apa aja?,help,1492451578
-684,TanyaJalan perkenalin diri dong,intro,1492451598
-685,Rute Depok Kuningan,ask-for-direction,1492451621
-686,Bagaimana cara dari Depok ke Kuningan,ask-for-direction,1492451637
-687,Rute Depok Bogor,ask-for-direction,1492451648
-688,Dari Depok ke Semanggi,ask-for-direction,1492451660
-689,Pergi ke bogor dari stasiun pasar turi,ask-for-direction,1492451678
-690,Kamu bisa apa aja?,help,1492452537
-691,Tolong tunjukan jalan dari daerah Kukusan sampai ke Kampus UI di Depok.,ask-for-direction,1492452726
-692,Kamu bisa apa aja?,help,1492452817
-693,TanyaJalan perkenalin diri dong,intro,1492452838
-694,TanyaJalan perkenalin diri dong,intro,1492452849
-695,Berangkat dari Depok ke Bogor.,ask-for-direction,1492452945
-696,Berangkat dari Depok ke Bekasi.,ask-for-direction,1492453033
-697,Berangkat dari Terminal Pinang Ranti ke Hotel Borobudur,ask-for-direction,1492453603
-698,TanyaJalan perkenalin diri dong,intro,1492454534
-699,Kamu bisa apa aja?,help,1492454559
-700,dari depok ke pertamina,ask-for-direction,1492420756
-701,Kamu bisa apa aja?,help,1492420793
-702,Dari The Guesthouse Mediapura ke Lotte Shopping Avenue,ask-for-direction,1492420795
-703,Dari Cotton Room ke UI Depok,ask-for-direction,1492420835
-704,Okay gapapa,,1492420867
-705,Depok ke Ciomas,ask-for-direction,1492421031
-706,tampilkan lebih banyak jadwal krl stasiun BEKASI,ask-for-schedule-krl-complete,1492421123
-707,Dari UB ke Batu,ask-for-direction,1492421570
-708,Berangkat dari UB ke kota batu,ask-for-direction,1492421596
-709,Waduh,,1492421603
-710,Gak,,1492421615
-711,Dari Depok ke Semanggi,ask-for-direction,1492421630
-712,Dari Monas ke Istana Presiden,ask-for-direction,1492421657
-713,Kamu bisa apa aja?,help,1492421662
-714,Dari Jl. Istana Merdeka ke Monas,ask-for-direction,1492421683
-715,Dari Mangga Dua ke Ui,ask-for-direction,1492421697
-716,Dari UB ke terminal arjosari gimana?,ask-for-direction,1492421719
-717,Dari ITB ke Kawah Putih,ask-for-direction,1492421753
-718,dari universitas brawijaya ke terminal arjosari gimana?,ask-for-direction,1492421760
-719,TanyaJalan perkenalin diri dong,intro,1492421822
-720,Kamu bisa apa aja?,help,1492421837
-721,Jakarta ke Bandung,ask-for-direction,1492421868
-722,Jakarta Malang,,1492421913
-723,Jakarta ke Malaysia,ask-for-direction,1492421927
-724,Kamu bisa apa aja?,help,1492421932
-725,Jakarta ke Malang,ask-for-direction,1492421936
-726,TanyaJalan perkenalin diri dong,intro,1492421951
-727,Kamu bisa apa aja?,help,1492421954
-728,TanyaJalan perkenalin diri dong,intro,1492421955
-729,Kamu bisa apa aja?,help,1492421970
-730,Pergi ke Temanggunv dari Purwokerto,ask-for-direction,1492422008
-731,undefined,,1492422029
-732,Kebayoran baru ke ancol,ask-for-direction,1492422078
-733,TanyaJalan perkenalin diri dong,intro,1492422099
-734,tampilkan lebih banyak jadwal krl stasiun DEPOK,ask-for-schedule-krl-complete,1492422193
-735,Bagi rute busway dong,ask-transjakarta,1492422212
-736,TanyaJalan perkenalin diri dong,intro,1492422718
-737,Kamu bisa apa aja?,help,1492422729
-738,Dari kota ke roxy,ask-for-direction,1492422749
-739,Kamu bisa apa aja?,help,1492422764
-740,Busway ke pik,ask-for-direction,1492422780
-741,Bagi rute busway dong,ask-transjakarta,1492422792
-742,Pergi ke depok dari kota,ask-for-direction,1492422863
-743,Jakarta ke Bandung,ask-for-direction,1492422882
-744,Jakarta ke Medan,ask-for-direction,1492422904
-745,Jakarta ke Bali,ask-for-direction,1492422915
-746,JAKARTA KE MALAMG,ask-for-direction,1492422922
-747,TanyaJalan perkenalin diri dong,intro,1492423285
-748,dari cijantung ke serpong,ask-for-direction,1492423317
-749,dari cijantung ke melawai,ask-for-direction,1492423374
-750,Hey,,1492423581
-751,berangkat dari stasiun bogor ke botani,ask-for-direction,1492424129
-752,berangkat dari stasiun bogor ke botani square,ask-for-direction,1492424163
-753,Cupu lu(?),negative-feedback,1492424314
-754,Gausah sok2 minta maaf,negative-feedback,1492424328
-755,Apasi,,1492424334
-756,Tau gak,,1492424363
-757,TanyaJalan perkenalin diri dong,intro,1492424400
-758,Kamu bisa apa aja?,help,1492424412
-759,undefined,,1492424441
-760,Kamu bisa apa aja?,help,1492424445
-761,TanyaJalan perkenalin diri dong,intro,1492424457
-762,Ancol ke pluit,ask-for-direction,1492424474
-763,Pondok ranji,,1492424981
-764,Berangkat dari bintaro ke bekasi,ask-for-direction,1492424994
-765,Berangkat dari bintaro ke pondok indah,ask-for-direction,1492425021
-766,TanyaJalan perkenalin diri dong,intro,1492425460
-767,TanyaJalan perkenalin diri dong,intro,1492425460
-768,Kamu bisa apa aja?,help,1492425487
-769,Fatmawati ke jakarta,ask-for-direction,1492425533
-770,Fatmawati ke univ indo,ask-for-direction,1492425600
-771,TanyaJalan perkenalin diri dong,intro,1492425725
-772,Kamu bisa apa aja?,help,1492425747
-773,Jadwal krl dong,ask-for-schedule-krl,1492425788
-774,Jadwal krl stasiun bojong,ask-for-schedule-krl,1492425812
-775,Jadwal krl stasiun universitas indonesia,ask-for-schedule-krl,1492425835
-776,tampilkan lebih banyak jadwal krl stasiun UNIVERSITASINDONESIA,ask-for-schedule-krl-complete,1492425863
-777,Dari jatiwaringin ke ragunan,ask-for-direction,1492427121
-778,Dari jatiwaringin ke tebet,ask-for-direction,1492427164
-779,bekasi - blok m,,1492432367
-780,bekasi - kukusan,,1492432379
-781,kamu bisa ngapain aja?,help,1492432392
-782,Bekasi ke blok m,ask-for-direction,1492432411
-783,menteng ke blok m,ask-for-direction,1492432424
-784,dari bekasi ke blok m,ask-for-direction,1492432437
-785,dari pasar minggu ke blok m,ask-for-direction,1492432448
-786,TanyaJalan perkenalin diri dong,intro,1492437408
-787,Kamu bisa apa aja?,help,1492437438
-788,Cek jadwal krl dari bogor,ask-for-direction,1492437480
-789,Pergi ke bogor dari ui,ask-for-direction,1492437494
-790,Cek jadwal krl stasiun UI,ask-for-schedule-krl,1492437558
-791,Cek jadwal krl stasiun Pondok Cina,ask-for-schedule-krl,1492437575
-792,tampilkan lebih banyak jadwal krl stasiun PONDOKCINA,ask-for-schedule-krl-complete,1492437597
-793,Dari Stasiun Tg. Priok ke Universitas Persada YAI,ask-for-direction,1492438386
-794,TanyaJalan perkenalin diri dong,intro,1492440006
-795,Kamu bisa apa aja?,help,1492440025
-796,Berangkat tebet ke depok,ask-for-direction,1492440056
+5,jalan dari Bogor ke malang?,asking-question-direction,1492898242
+6,jalan dari Bogor ke malang?,asking-question-direction,1492898242
+7,cariin jalan dong,asking-question-direction,1492898252
+8,jalan dari Slipi ke karet?,asking-question-direction,1492898271
+9,Kamu bisa apa aja?,asking-question-other,1492901653
+10,TanyaJalan perkenalin diri dong,asking-question-other,1492901655
+11,Bagi jadwal krl,asking-question-schedule,1492901682
+12,Cek jadwal krl stasiun ui,asking-question-schedule,1492901695
+13,Cek jadwal krl stasiun pocin,asking-question-schedule,1492901710
+14,Cek jadwal krl stasiun pondok cina,asking-question-schedule,1492901724
+15,Kamu bisa apa aja?,asking-question-other,1492902155
+16,jadwal krl,asking-question-schedule,1492902182
+17,jadwal krl bogor,asking-question-schedule,1492902200
+18,tampilkan lebih banyak jadwal krl stasiun BOGOR,asking-question-schedule,1492902207
+19,TanyaJalan perkenalin diri dong,asking-question-other,1492907273
+20,Kamu bisa apa aja?,asking-question-other,1492907273
+21,Dari stasiun ui ke limelight,asking-question-direction,1492969693
+22,Dari ui ke limelight,asking-question-direction,1492969696
+23,tampilkan lebih banyak jadwal krl stasiun MANGGARAI,asking-question-schedule,1492971732
+24,tampilkan lebih banyak jadwal krl stasiun MANGGARAI,asking-question-schedule,1492972077
+25,Dari ui ke lebak bulus,asking-question-direction,1492972587
+26,TanyaJalan perkenalin diri dong,asking-question-other,1492972686
+27,Dari ui ke cempaka lestari raya,asking-question-direction,1492972704
+28,Dari ui ke cilandak town square,asking-question-direction,1492972987
+29,Dari stasiun tebet ke festival plaza,asking-question-direction,1492986017
+30,TanyaJalan perkenalin diri dong,asking-question-other,1493003046
+31,Berangkat dari Balai Kota Depok ke Fasilkom UI,asking-question-direction,1493003081
+32,Kamu bisa apa aja?,asking-question-other,1493078166
+33,Dari otista ke tripvisto,asking-question-direction,1493078193
+34,Dari otista ke tripvisto,asking-question-direction,1493078193
+35,tampilkan lebih banyak jadwal krl stasiun JATINEGARA,asking-question-schedule,1493078575
+36,tampilkan lebih banyak jadwal krl stasiun manggarai,asking-question-schedule,1493078598
+37,tampilkan lebih banyak jadwal krl stasiun manggarai,asking-question-schedule,1493078598
+38,tampilkan lebih banyak jadwal krl stasiun manggarai,asking-question-schedule,1493078598
+39,tampilkan lebih banyak jadwal krl stasiun manggarai,asking-question-schedule,1493079917
+40,tampilkan lebih banyak jadwal krl stasiun universitasindonesia,asking-question-schedule,1493079950
+41,Cara ke bukalapak,asking-question-direction,1493091969
+42,Cara ke bukalapak,asking-question-direction,1493091969
+43,Cara ke bukalapak,asking-question-direction,1493091969
+44,Cara ke bukalapak,asking-question-direction,1493091969
+45,Dari UI ke bukalapak,asking-question-direction,1493091985
+46,dari ui ke tanah kusir,asking-question-direction,1493096656
+47,dari ui ke tanah kusir,asking-question-direction,1493096656
+48,dari ui ke tanah kusir,asking-question-direction,1493096656
+49,dari ui ke tanah kusir,asking-question-direction,1493096656
+50,dari ui ke tanah kusir,asking-question-direction,1493096656
+51,Pulang ke jalan kampung Marga Jaya lewat mana,asking-question-direction,1493098514
+52,Pulang ke daerah jalan kampung Marga Jaya Serpong lewat mana,asking-question-direction,1493098574
+53,Pulang ke Pondok Indah lewat mana,asking-question-direction,1493098614
+54,Pulang ke Pondok Indah lewat mana,asking-question-direction,1493098614
+55,stasiun pondok ranji ke kalibata,asking-question-direction,1493100394
+56,stasiun pondok ranji ke kalibata,asking-question-direction,1493100394
+57,stasiun pondok ranji ke kalibata,asking-question-direction,1493100394
+58,Bagaimana cara dari bogor ke kota Kasablanka,asking-question-direction,1493102619
+59,Dari ui ke ariobimo central,asking-question-direction,1493138062
+60,Dari ui ke ariobimo central,asking-question-direction,1493138062
+61,Dari ui ke ariobimo central,asking-question-direction,1493138062
+62,Dari ui ke sentul,asking-question-direction,1493196177
+63,"Dari ui ke sentul, bogor",ask-for-direction
+64,"Dari ui ke sentul, bogor",ask-for-direction
+65,"Dari ui ke sentul, bogor",ask-for-direction
+66,"Dari ui ke sentul, bogor",ask-for-direction
+67,"Dari ui ke sentul, bogor",ask-for-direction
+68,dari tanjung barat ke kampus perbanas,asking-question-direction,1493213065
+69,Kamu bisa apa aja?,asking-question-other,1493233280
+70,Kamu bisa apa aja?,asking-question-other,1493233280
+71,Kamu bisa apa aja?,asking-question-other,1493233280
+72,Kamu bisa apa aja?,asking-question-other,1493233280
+73,Kamu bisa apa aja?,asking-question-other,1493233280
+74,Kamu bisa apa aja?,asking-question-other,1493233280
+75,Kamu bisa apa aja?,asking-question-other,1493233280
+76,TanyaJalan perkenalin diri dong,asking-question-other,1493233281
+77,TanyaJalan perkenalin diri dong,asking-question-other,1493233281
+78,TanyaJalan perkenalin diri dong,asking-question-other,1493233281
+79,Dari universitas indonesia ke fx sudirman,asking-question-direction,1493236197
+80,Dari universitas indonesia ke fx sudirman,asking-question-direction,1493236197
+81,Dari universitas indonesia ke fx sudirman,asking-question-direction,1493236197
+82,Dari universitas indonesia ke fx sudirman,asking-question-direction,1493236197
+83,Dari universitas indonesia ke fx sudirman,asking-question-direction,1493236197
+84,Dari universitas indonesia ke fx sudirman,asking-question-direction,1493236197
+85,TanyaJalan perkenalin diri dong,asking-question-other,1493245767
+86,TanyaJalan perkenalin diri dong,asking-question-other,1493245767
+87,TanyaJalan perkenalin diri dong,asking-question-other,1493245767
+88,TanyaJalan perkenalin diri dong,asking-question-other,1493245767
+89,TanyaJalan perkenalin diri dong,asking-question-other,1493245767
+90,Kamu bisa apa aja?,asking-question-other,1493245780
+91,Kamu bisa apa aja?,asking-question-other,1493245780
+92,Kamu bisa apa aja?,asking-question-other,1493245780
+93,Kamu bisa apa aja?,asking-question-other,1493245780
+94,Kamu bisa apa aja?,asking-question-other,1493245780
+95,Jadwal krl stasiun bogor,asking-question-schedule,1493245805
+96,Jadwal krl stasiun bogor,asking-question-schedule,1493245805
+97,Jadwal krl stasiun bogor,asking-question-schedule,1493245805
+98,Jadwal krl stasiun bogor,asking-question-schedule,1493245805
+99,Jadwal krl stasiun bogor,asking-question-schedule,1493245805
+100,Jadwal krl kota,asking-question-schedule,1492638576
+101,Jadwal krl ui,asking-question-schedule,1492638586
+102,Jadwal krl stasiun ui,asking-question-schedule,1492638593
+103,Jadwal krl jakarta kota,asking-question-schedule,1492638602
+104,Kamu bisa apa aja?,asking-question-other,1492640047
+105,TanyaJalan perkenalin diri dong,asking-question-other,1492640048
+106,TanyaJalan perkenalin diri dong,asking-question-other,1492640048
+107,TanyaJalan perkenalin diri dong,asking-question-other,1492640051
+108,Kamu bisa apa aja?,asking-question-other,1492640051
+109,Dari fasilkom ke indomaret,asking-question-direction,1492642137
+110,Dari fasilkom ke fib,asking-question-direction,1492642147
+111,Hai,greeting,1492642218
+112,Kamu bisa apa aja?,asking-question-other,1492644286
+113,TanyaJalan perkenalkan diri dong,asking-question-other,1492644308
+114,Dari pangkalpinang ke sungailiat,asking-question-direction,1492644344
+115,Dari bandara soekarno hatta ke unj,asking-question-direction,1492644439
+116,Dari bandara soekarna hatta ke ui,asking-question-direction,1492644491
+117,Ongkos dari bandara soekarno hatta ke ui,asking-question-direction,1492644567
+118,Ongkos nya? ):,asking-question-other,1492644650
+119,Ongkos bus jurusan bandara soekarna hatta terminal pasar minggu,asking-question-direction,1492644687
+120,Dari beji ke pondok maharta,asking-question-direction,1492644763
+121,Cek jadwal krl stasiun ui,asking-question-schedule,1492644877
+122,Berangkat dari uui,asking-question-direction,1492645293
+123,dari ui ke bogor,asking-question-direction,1492645307
+124,Fasilkom ke tokyo,asking-question-direction,1492647993
+125,Tokyo ke kyoto,asking-question-direction,1492648069
+126,Tokyo ke osaka,asking-question-direction,1492648094
+127,Fasilkom ke rumah,asking-question-direction,1492648110
+128,Fasilkom ke kutek,asking-question-direction,1492648188
+129,Fasilkom ke margonda,asking-question-direction,1492648215
+130,Fasilkom ke ntu,asking-question-direction,1492648225
+131,Fasilkom ke itb,asking-question-direction,1492648233
+132,ITB ke ugm,asking-question-direction,1492648270
+133,UGM ke itb,asking-question-direction,1492648275
+134,UI ke SMAN 71,asking-question-direction,1492648297
+135,UI ke kalimalang,asking-question-direction,1492648304
+136,UI ke duren sawit,asking-question-direction,1492648312
+137,UI ke bekasi,asking-question-direction,1492648324
+138,Jalan ke kutek,asking-question-direction,1492648366
+139,Fasilkom ke antartika,asking-question-direction,1492648415
+140,Fasilkom ke tokyo,asking-question-direction,1492648423
+141,Margonda ke kelapa dua,asking-question-direction,1492648470
+142,Cara ngoding,other,1492648561
+143,Cek ngoding,other,1492648570
+144,Ngoding ke tp,asking-question-direction,1492648597
+145,Pergi ke tanah Abang dari 5 tahun ke depan,asking-question-direction,1492648659
+146,Tanah Abang ke 5 tahun ke depan,asking-question-direction,1492648712
+147,Jadwal krl stasiun universitas indonesia,asking-question-direction,1492649449
+148,Berangkat dari Depok ke Bogor.,asking-question-direction,1492650782
+149,Dari ciganjur ke unj,asking-question-direction,1492658903
+150,Cipedak ke slipi jaya,asking-question-direction,1492659010
+151,Kamu bisa apa aja?,asking-question-other,1492659052
+152,TanyaJalan perkenalin diri dong,asking-question-other,1492659053
+153,Jadwal krl stasiun citayem,asking-question-schedule,1492709269
+154,Tendean ke cawang,asking-question-direction,1492709931
+155,Kamu bisa apa aja?,asking-question-other,1492712687
+156,TanyaJalan perkenalin diri dong,asking-question-other,1492712687
+157,Pergi ke Halim Perdana Kusumah dari Fatmawati,asking-question-direction,1492712706
+158,Dari jakarta ke sini,asking-question-direction,1492721079
+159,Pergi ke Ciputat dari Cililitan,asking-question-direction,1492724898
+160,Ui ke gunadarma kampus e,asking-question-direction,1492730463
+161,Ui ke kelapa dua,asking-question-direction,1492730513
+162,Ui ke brimob kelapa dua,asking-question-direction,1492730572
+163,berangkat dari ui ke man 13 jakarta,asking-question-direction,1492734754
+164,TanyaJalan perkenalin diri dong,asking-question-other,1492736926
+165,Kamu bisa apa aja?,asking-question-other,1492736926
+166,Dari fasilkom ui ke fisip ui,asking-question-direction,1492736965
+167,Dari fasilkom ui ke fakultas hukum,asking-question-direction,1492737004
+168,Dari fasilkom ui ke grand Indonesia,asking-question-direction,1492737021
+169,Dari surga ke neraka,asking-question-direction,1492737044
+170,Bagi rute busway,asking-question-direction,1492737074
+171,Yahh:((,giving-negative-feedback,1492737082
+172,Mager,giving-negative-feedback,1492737088
+173,Gamauu,giving-negative-feedback,1492737094
+174,🐱,other,1492737109
+175,Kok ga dibales?,giving-negative-feedback,1492737127
+176,Tarif krl,asking-question-other,1492737138
+177,Dari Kukusan Teknik ke Kukusan Kelurahan,asking-question-direction,1492746189
+178,Dari UI ke Botani Square,asking-question-direction,1492746383
+179,Dari kuningan ke scbd,asking-question-direction,1492748366
+180,Berangkat sudirman ke kuningan,asking-question-direction,1492748410
+181,Berangkat sudirman ke rasuna said,asking-question-direction,1492748441
+182,Dari Fasilkom UI ke Plaza Senayan,asking-question-direction,1492755633
+183,Kamu bisa apa aja?,asking-question-other,1492807317
+184,Jadwal krl universitasindonesia,asking-question-schedule,1492807318
+185,tampilkan lebih banyak jadwal krl stasiun UNIVERSITASINDONESIA,asking-question-schedule,1492807350
+186,Jadwal krl universitasindonesia,asking-question-schedule,1492807775
+187,Jadwal krl universitasindonesia,asking-question-schedule,1492808229
+188,Jadwal krl universitasindonesia,asking-question-schedule,1492808236
+189,Kamu bisa apa aja?,asking-question-other,1492810529
+190,Cek jadwal krl stasiun karet,asking-question-schedule,1492810542
+191,Cek jadwal krl stasiun manggarai,asking-question-schedule,1492812776
+192,Berangkat dari Undip Tembalang ke Ngaliyan,asking-question-direction,1492819281
+193,Kamu bisa apa aja?,asking-question-other,1492821379
+194,Dari ui ke rawamangun,asking-question-direction,1492821402
+195,tampilkan lebih banyak jadwal krl stasiun MANGGARAI,asking-question-schedule,1492832191
+196,tampilkan lebih banyak jadwal krl stasiun Jakarta Kota,asking-question-schedule,1492832246
+197,tampilkan lebih banyak jadwal krl stasiun MANGGARAI,asking-question-schedule,1492832863
+198,tampilkan lebih banyak jadwal krl stasiun MANGGARAI,asking-question-schedule,1492833834
+199,tampilkan lebih banyak jadwal krl stasiun MANGGARAI,asking-question-schedule,1492834504
+200,Ke tambun,asking-question-direction,1492593007
+201,TanyaJalan perkenalin diri dong,asking-question-other,1492593094
+202,Berangkat dari bekasi ke tambun,asking-question-schedule,1492593245
+203,Berangkat dari bekasi ke tambun,asking-question-schedule,1492593245
+204,Bandung ke tambun ?,asking-question-schedule,1492593348
+205,Tambun ke puncak ?,asking-question-schedule,1492593883
+206,Kamu bisa apa aja?,asking-question-other,1492594739
+207,Jelambar,other,1492594761
+208,Berangkat dari jelambar ke bendungan hilir,asking-question-direction,1492594791
+209,TanyaJalan perkenalin diri dong,asking-question-other,1492594807
+210,Kamu bisa apa aja?,asking-question-other,1492594830
+211,Berangkat dari Kukusan ke Margo City Square.,asking-question-direction,1492624841
+212,Dari ignatius rahardi ke ignatius raka,asking-question-direction,1492630377
+213,dari margonda ke komplek bdn,asking-question-direction,1492630797
+214,TanyaJalan perkenalin diri dong,asking-question-other,1492630976
+215,TanyaJalan perkenalin diri dong,asking-question-other,1492630985
+216,Kamu bisa apa aja?,asking-question-other,1492630985
+217,Kamu bisa apa aja?,asking-question-other,1492630998
+218,Bagaimana cara ke bandara halim dari fasilkom,asking-question-direction,1492631001
+219,Berapa lama ke pondok bambu,asking-question-direction,1492631019
+220,Dari halim ke surabaya,asking-question-direction,1492631100
+221,Dari surabaya ke its,asking-question-direction,1492631127
+222,Dari bandara halim ke its,asking-question-direction,1492631160
+223,Dari bandara halim ke its naik pesawat,asking-question-direction,1492631185
+224,Yah,giving-negative-feedback,1492631191
+225,Kamu bisa ngapain aja,asking-question-other,1492631198
+226,Jadwal krl universitas indonesia,asking-question-schedule,1492631208
+227,TanyaJalan perkenalin diri dong,asking-question-other,1492631246
+228,Dari fasilkom ke bahy&co,asking-question-direction,1492631249
+229,Kamu bisa apa aja?,asking-question-other,1492631253
+230,Dari ui ke cibubur junction,asking-question-direction,1492631261
+231,Dari Jakarta ke antartica,asking-question-direction,1492631285
+232,Kamu bisa apa aja?,asking-question-other,1492631312
+233,Dari rumah ke kampus,asking-question-direction,1492631320
+234,Kamu bisa apa aja?,asking-question-other,1492631349
+235,Dari UI ke tokyo,asking-question-direction,1492631349
+236,Bagaimana cara dari Sabang ke Merauke?,asking-question-direction,1492631351
+237,Ehe,other,1492631369
+238,Berangkat dari ui ke ancol,asking-question-direction,1492631377
+239,Berangkat dari ui ke pim,asking-question-direction,1492631379
+240,Cek jadwal cgk,asking-question-schedule,1492631381
+241,Dari new York ke london,asking-question-direction,1492631407
+242,Dari UI ke kebun raya bogor,asking-question-direction,1492631594
+243,Dari UI ke dago,asking-question-direction,1492631647
+244,Dari universitas indonesia ke muncul setu,asking-question-direction,1492632005
+245,Dari UI ke rumah waifu,asking-question-direction,1492632021
+246,Kamu bisa apa aja?,asking-question-other,1492632043
+247,TanyaJalan perkenalin diri dong,asking-question-other,1492632055
+248,Dari ui ke bekasi,asking-question-direction,1492632088
+249,Dari ui ke bandung,asking-question-direction,1492632101
+250,Dari universitas indonesia ke permata pamulang,asking-question-direction,1492632104
+251,Dari ui ke papua,asking-question-direction,1492632110
+252,Berangkat dari Kutek ke Fasilkom UI,asking-question-direction,1492632120
+253,Dari ugm ke malioboro,asking-question-direction,1492632134
+254,Dari universitas indonesia ke iti muncul,asking-question-direction,1492632134
+255,Dari ui ke ugm,asking-question-direction,1492632152
+256,Jadwal pesawat garuda,asking-question-schedule,1492632195
+257,Cek jadwal pesawat garuda,asking-question-schedule,1492632211
+258,Dari ui ke hatimu,asking-question-direction,1492632258
+259,TanyaJalan perkenalin diri dong,asking-question-other,1492632317
+260,Dari gunung putri ke fasilkom ui,asking-question-direction,1492632819
+261,Kamu bisa apa aja?,asking-question-other,1492633157
+262,Tanyajalan bye,other,1492633190
+263,Yolo,other,1492633198
+264,Serpong ke tanah abang,asking-question-direction,1492633305
+265,Serpong ke ui,asking-question-direction,1492633371
+266,Jadwal KRL stasiun Bekasi,asking-question-schedule,1492633427
+267,tampilkan lebih banyak jadwal krl stasiun BEKASI,asking-question-schedule,1492633440
+268,Berangkat dari UI ke Margonda City,asking-question-direction,1492633463
+269,TanyaJalan perkenalin diri dong,asking-question-other,1492633991
+270,Kamu bisa apa aja?,asking-question-other,1492634007
+271,Ke palembang square dari indralaya,asking-question-direction,1492634026
+272,Dari kutek ke kutek,asking-question-direction,1492634164
+273,Berangkat dari ui ke bandung,asking-question-direction,1492635213
+274,TanyaJalan perkenalin diri dong,asking-question-other,1492635246
+275,dari universitas sumatera utara ke plaza medan fair,asking-question-direction,1492635268
+276,Jadwal krl stasiun jakarta kota,asking-question-schedule,1492635285
+277,dari politeknik negeri sriwijaya ke sman 1 palembang,asking-question-direction,1492635999
+278,TanyaJalan perkenalin diri dong,asking-question-other,1492636873
+279,Kamu bisa apa aja?,asking-question-other,1492636883
+280,Cek jadwal krl bojong gede,asking-question-schedule,1492636922
+281,tampilkan lebih banyak jadwal krl stasiun BOJONGGEDE,asking-question-schedule,1492636949
+282,Dari unsri ke ps,asking-question-direction,1492637320
+283,Dari universitas sriwijaya ke palembang square,asking-question-direction,1492637334
+284,Berangkat dari UI ke ancol,asking-question-direction,1492637560
+285,berangkat dari hatiku ke hatimu,asking-question-direction,1492637785
+286,berangkat dari madrid ke depok,asking-question-direction,1492637807
+287,berangkat dari palembang ke baturaja,asking-question-direction,1492637829
+288,berangkat dari indralaya ke palembang,asking-question-direction,1492637852
+289,berangkat dari depok ke cibinong,asking-question-direction,1492637868
+290,Dari fasilkom ke perpusat,asking-question-direction,1492638312
+291,Dari fasilkom ke perpusat ui,asking-question-direction,1492638336
+292,Dari ugm ke malioboro,asking-question-direction,1492638368
+293,Dari binus ke gading serpong,asking-question-direction,1492638391
+294,Dari ugm ke fasilkom,asking-question-direction,1492638454
+295,Dari fasilkom ke fib,asking-question-direction,1492638482
+296,Mares ke pocin,asking-question-direction,1492638509
+297,Jadwal kereta,asking-question-schedule,1492638540
+298,Jadwal krl ui ke kota,asking-question-schedule,1492638555
+299,Jadwal krl ui kota,asking-question-schedule,1492638569
+300,Kamu bisa apa aja?,asking-question-other,1492494280
+301,Kamu bisa apa aja?,asking-question-other,1492494495
+302,Kamu bisa apa aja?,asking-question-other,1492494495
+303,Kamu bisa apa aja?,asking-question-other,1492494495
+304,Dari bandara soekarno hatta ke bogor,asking-question-direction,1492497598
+305,Kamu bisa apa aja?,asking-question-other,1492497613
+306,Kamu bisa apa aja?,asking-question-other,1492497618
+307,Bagi jadwal krl,asking-question-schedule,1492497628
+308,Berangkat dari sini ke rumah doi,asking-question-direction,1492497631
+309,"Yaudah deh, berangkat dari sini ke rumah adi",ask-for-direction
+310,Berangkat dari Taman Corat Coret ke Sempur,asking-question-direction,1492497667
+311,Halo tanya jalan,greeting,1492497673
+312,WTF,giving-negative-feedback,1492497682
+313,Gua di menteng,other,1492497683
+314,Stasiun pasar turi ke bogor,asking-question-direction,1492497687
+315,MANTAP,giving-positive-feedback,1492497694
+316,undefined,other,1492497696
+317,"""Hati Elan ke hati mantan""",asking-question-direction,1492497708
+318,"Lan, sorry",
+319,Tolol gitu doang ganemu,giving-negative-feedback,1492497718
+320,Tidak ada jalan,giving-negative-feedback,1492497719
+321,undefined,other,1492497724
+322,App apaan nih,asking-question-other,1492497726
+323,ELAH MASA 50 MENIT,giving-negative-feedback,1492497728
+324,Menteng asri ke gang dolly,asking-question-other,1492497728
+325,TanyaJalan bye,other,1492497737
+326,Gblk masa gabisa,giving-negative-feedback,1492497737
+327,Berangkat dari Menteng Asri ke Gang Dolly,asking-question-other,1492497797
+328,Ah tai,giving-negative-feedback,1492497805
+329,Dari glukosa ke piruvat,asking-question-direction,1492497811
+330,Gang dolly mana dulu gin,asking-question-direction,1492497812
+331,ITB ke UI,asking-question-direction,1492497830
+332,Berangkat dari Menteng Asri ke Gang Selot,asking-question-direction,1492497830
+333,Dari rumah gua ke rumah doi trus ngaterin dia buat prom abis itu balik lagi,asking-question-direction,1492497851
+334,Jadwal krl stasiun Cikini,asking-question-schedule,1492501481
+335,tampilkan lebih banyak jadwal krl stasiun CIKINI,asking-question-schedule,1492501491
+336,Pinang Ranti ke Universitas Tadulako,asking-question-direction,1492502888
+337,SMAN 48 Jakarta ke SMAN 78 Jakarta,asking-question-direction,1492502916
+338,SMAN 78 ke SMAN 48,asking-question-direction,1492502963
+339,Dari kukusan ke lebak bulus,asking-question-direction,1492503382
+340,Kamu bisa apa aja?,asking-question-other,1492508141
+341,Dari grand indonesia ke supermall karawaci,asking-question-direction,1492508186
+342,Dari pasar baru ke fasilkom ui,asking-question-direction,1492508206
+343,Dari jakarta ke medan,asking-question-direction,1492508245
+344,Jadwal krl stasiun sawah besar,asking-question-schedule,1492508274
+345,tampilkan lebih banyak jadwal krl stasiun SAWAHBESAR,asking-question-schedule,1492508293
+346,Kamu bisa apa aja?,asking-question-other,1492510569
+347,Ui ke fatahillah,asking-question-direction,1492512905
+348,Jakarta ke jogja,asking-question-direction,1492512932
+349,Ugm ke malioboro,asking-question-direction,1492512953
+350,TanyaJalan perkenalin diri dong,asking-question-other,1492512994
+351,Kamu bisa apa aja?,asking-question-other,1492512995
+352,Padang ke pariaman,asking-question-direction,1492513010
+353,Mau pergi dari prambanan ke borobudur nih,asking-question-direction,1492513040
+354,Bagi wisata malioboro dong,asking-question-other,1492513066
+355,Malioboro,other,1492513079
+356,Rute busway,asking-question-schedule,1492513093
+357,Sidoarjo ke trowulan,asking-question-direction,1492513126
+358,Rute bus jurusan exprees joyoboyo ke mojokerto,asking-question-direction,1492513276
+359,Bus joyoboyo,asking-question-schedule,1492513292
+360,Bus joyoboyo ke mojokerto,asking-question-schedule,1492513316
+361,Joyoboyo ke mojokerto,asking-question-direction,1492513331
+362,Ugm ke gunung merapi,asking-question-direction,1492513376
+363,Ugm ke merapi,asking-question-direction,1492513385
+364,TanyaJalan perkenalin diri dong,asking-question-other,1492513408
+365,Dari depok ke kokas,asking-question-direction,1492540545
+366,Kamu bisa apa aja?,asking-question-other,1492540594
+367,tampilkan lebih banyak jadwal krl stasiun SAWAHBESAR,asking-question-schedule,1492543667
+368,Kamu bisa apa aja?,asking-question-other,1492548144
+369,dari buaran ke depok town square,asking-question-direction,1492548169
+370,dari buaran ke ui,asking-question-direction,1492548182
+371,dari buaran ke depok,asking-question-direction,1492548195
+372,bagi rute busway dong,asking-question-schedule,1492548214
+373,dari klender ke beji,asking-question-direction,1492548258
+374,TanyaJalan perkenalin diri dong,asking-question-other,1492551487
+375,Kamu bisa apa aja?,asking-question-other,1492551496
+376,Kenalin,asking-question-other,1492551720
+377,Perkenalin,asking-question-other,1492551727
+378,TanyaJalan,other,1492551736
+379,Aku gamau tau jadwal krl stasiun poris,giving-negative-feedback,1492551783
+380,Kamu,other,1492551918
+381,U,other,1492551924
+382,U,other,1492551925
+383,I,other,1492551927
+384,J,other,1492551929
+385,J,other,1492551932
+386,lenteng agung ke kokas,asking-question-direction,1492556830
+387,lenteng agung ke kota kasablanka,asking-question-direction,1492556846
+388,dari lenteng agung ke kota kasablanka,asking-question-direction,1492556868
+389,Rute stasiun depok ke stasiun senen,asking-question-schedule,1492563732
+390,Rute stasiun senen,asking-question-schedule,1492563747
+391,Rute stasiun senin,asking-question-schedule,1492563753
+392,Dari tangcit ke gajah mada,asking-question-direction,1492567541
+393,Jadwal KRL stasiun tanjung priok,asking-question-schedule,1492574189
+394,tampilkan lebih banyak jadwal krl stasiun TANJUNGPRIUK,asking-question-schedule,1492574198
+395,Kamu bisa apa aja?,asking-question-other,1492577207
+396,TanyaJalan perkenalin diri dong,asking-question-other,1492577231
+397,rute dari gubeng surabaya ke pasar turi,asking-question-direction,1492577285
+398,Tes kakak,greeting,1492592553
+399,Kamu bisa apa aja?,asking-question-other,1492592897
+400,Kamu bisa apa aja?,asking-question-other,1492469911
+401,TanyaJalan perkenalin diri dong,asking-question-other,1492469912
+402,Kamu bisa apa aja?,asking-question-other,1492469913
+403,TanyaJalan perkenalin diri dong,asking-question-other,1492469913
+404,Kamu bisa apa aja?,asking-question-other,1492469913
+405,TanyaJalan perkenalin diri dong,asking-question-other,1492469913
+406,TanyaJalan perkenalin diri dong,asking-question-other,1492469914
+407,TanyaJalan perkenalin diri dong,asking-question-other,1492469915
+408,Pondok cina ke sudirman,asking-question-direction,1492469977
+409,Pondok cina ke sudirman,asking-question-direction,1492469977
+410,Jadwal krl pondok cina,asking-question-schedule,1492469978
+411,Jadwal krl pondok cina,asking-question-schedule,1492469978
+412,"Tanya dong, dari mangga besar ke tanggerang city mall",ask-for-direction
+413,Tanya jalan dari mangga besar ke tanggerang city mall dong,asking-question-direction,1492471042
+414,Tanya jalan dari mangga besar ke tanggerang city mall dong,asking-question-direction,1492471065
+415,Kamu bisa apa aja?,asking-question-other,1492471189
+416,Kamu bisa apa aja?,asking-question-other,1492471205
+417,Bagi rutel krl donh,asking-question-schedule,1492471211
+418,Kamu bisa apa aja?,asking-question-other,1492471234
+419,Kamu bisa apa aja?,asking-question-other,1492471261
+420,Kamu bisa apa aja?,asking-question-other,1492471264
+421,Kamu bisa apa aja?,asking-question-other,1492471295
+422,Kamu bisa apa aja?,asking-question-other,1492471298
+423,TanyaJalan perkenalin diri dong,asking-question-other,1492471540
+424,TanyaJalan perkenalin diri dong,asking-question-other,1492471553
+425,Kamu bisa apa aja?,asking-question-other,1492471555
+426,TanyaJalan perkenalin diri dong,asking-question-other,1492471555
+427,Kamu bisa apa aja?,asking-question-other,1492471557
+428,TanyaJalan perkenalin diri dong,asking-question-other,1492471558
+429,Kamu bisa apa aja?,asking-question-other,1492471559
+430,Kamu bisa apa aja?,asking-question-other,1492471563
+431,TanyaJalan perkenalin diri dong,asking-question-other,1492471566
+432,Kamu bisa apa aja?,asking-question-other,1492471568
+433,Kamu bisa apa aja?,asking-question-other,1492471572
+434,TanyaJalan perkenalin diri dong,asking-question-other,1492471575
+435,Dari depok ke senayan,asking-question-direction,1492471576
+436,TanyaJalan perkenalin diri dong,asking-question-other,1492471577
+437,Dari slipi ke senen,asking-question-direction,1492471997
+438,Kamu bisa apa aja?,asking-question-other,1492472034
+439,Kamu bisa apa aja?,asking-question-other,1492474072
+440,TanyaJalan perkenalin diri dong,asking-question-other,1492474072
+441,dari manggarai ke aceh,asking-question-direction,1492474087
+442,dari jalan pariaman ke jalan teuku meurah adam,asking-question-direction,1492474104
+443,pergi ke matraman dari banfung,asking-question-direction,1492474124
+444,pergi ke matraman dari aceh,asking-question-direction,1492474143
+445,pergi ke matraman dari medan,asking-question-direction,1492474151
+446,pergi ke matraman dari tegal,asking-question-direction,1492474164
+447,pergi ke matraman dari jambi,asking-question-direction,1492474221
+448,pergi ke matraman dari bali,asking-question-direction,1492474266
+449,pergi ke grand indonesia dari pariaman,asking-question-direction,1492474285
+450,pergi ke matraman dari manggarai,asking-question-direction,1492474303
+451,ah cupu,giving-negative-feedback,1492474314
+452,masih banyak yg gabisa,giving-negative-feedback,1492474327
+453,rute bis,asking-question-schedule,1492474366
+454,rute kereta bandung,asking-question-schedule,1492474391
+455,berangkat dari slipi ke jawa,asking-question-direction,1492474412
+456,Dari lenmarc ke st louis 1,asking-question-direction,1492477295
+457,Berangkat dari lenmarc ke smak st. Louis 1,asking-question-direction,1492477312
+458,Berangkat dari lenmarc ke polisi istimewa,asking-question-direction,1492477328
+459,Cek jadwal stasiun tangerang,asking-question-schedule,1492478502
+460,Cek jadwal stasiun duri,asking-question-schedule,1492478512
+461,tampilkan lebih banyak jadwal krl stasiun TANGERANG,asking-question-schedule,1492478536
+462,tampilkan lebih banyak jadwal krl stasiun TANGERANG,asking-question-schedule,1492478542
+463,tampilkan lebih banyak jadwal krl stasiun DURI,asking-question-schedule,1492478652
+464,Dari serdang ke ruma,asking-question-direction,1492478852
+465,Dari serdang ke bulungan,asking-question-direction,1492478863
+466,Berangkat dari serdang ke bulungan,asking-question-direction,1492478876
+467,Jadwal krl universitasindonesia,asking-question-schedule,1492479902
+468,Jadwal krl universitasindonesia,asking-question-schedule,1492481330
+469,TanyaJalan perkenalin diri dong,asking-question-other,1492481363
+470,Kamu bisa apa aja?,asking-question-other,1492481363
+471,Jadwal krl universitasindonesia,asking-question-schedule,1492481905
+472,berangkat dari grogol ke depok,asking-question-direction,1492482651
+473,berangkat dari grogol ke depok,asking-question-direction,1492482651
+474,Berangkat dari harmoni ke alam sutera,asking-question-direction,1492482753
+475,Berangkat dari gajah mada ke alam sutera,asking-question-direction,1492482829
+476,TanyaJalan perkenalin diri dong,asking-question-other,1492485869
+477,Kamu bisa apa aja?,asking-question-other,1492485884
+478,Bogor Salemba ui,asking-question-direction,1492485907
+479,Bagaimana cara dari stasiun Bogor ke metropole,asking-question-direction,1492485929
+480,Bagaimana cara dari graha orange ke salemba ui,asking-question-direction,1492485975
+481,Jadwal kereta cikini,asking-question-schedule,1492486006
+482,Jadwal krl stasiun Cikini,asking-question-schedule,1492486035
+483,tampilkan lebih banyak jadwal krl stasiun CIKINI,asking-question-schedule,1492486046
+484,Jadwal krl stasiun Cikini dari jam 21.30,asking-question-schedule,1492486067
+485,Jadwal krl stasiun Cikini jam 21.30,asking-question-schedule,1492486076
+486,Jadwal krl stasiun Cikini antara jam 21.30 hingga 22.00,asking-question-schedule,1492486094
+487,Kamu bisa ngapain aja,asking-question-other,1492486104
+488,Bagi rute busway,asking-question-schedule,1492486120
+489,TanyaJalan perkenalin diri dong,asking-question-other,1492486618
+490,Kamu bisa apa aja?,asking-question-other,1492486639
+491,Dari depok dua ke tebet yang enak naik apa ya?,asking-question-direction,1492486688
+492,Siapa pembuat kamu?,asking-question-other,1492486763
+493,Siapa pencipta kamu?,asking-question-other,1492486778
+494,Apa itu tuhan?,asking-question-other,1492486785
+495,Siapa kamu?,asking-question-other,1492486797
+496,Stasiun Bogor ke UPNVJ,asking-question-direction,1492488451
+497,Berangkat dari Kukusan ke ITC.,asking-question-direction,1492494087
+498,Berangkat dari Kukusan ke ITC Depok.,asking-question-direction,1492494172
+499,Kamu bisa apa aja?,asking-question-other,1492494250
+500,Cek jadwal krl cawang ke kampung bandan,asking-question-direction,1492454580
+501,Cek jadwal krl cawang,asking-question-direction,1492454628
+502,Tebet ke grogol,asking-question-direction,1492454754
+503,Rute busway tebet ke grogol,asking-question-direction,1492454819
+504,Busway pancoran ke tanjung duren,asking-question-direction,1492454877
+505,Bagi rute busway,asking-question-schedule,1492454924
+506,Kamu bisa apa aja?,asking-question-other,1492455764
+507,Dari petojo utara 3 ke bank dki suryopranoto,asking-question-direction,1492455797
+508,Bagi rute busway dong,asking-question-other,1492455846
+509,Kamu bisa apa aja?,asking-question-other,1492455884
+510,Dari UI ke kemenlu,asking-question-direction,1492455934
+511,dari rumah gua ke rumah bayu,asking-question-direction,1492456033
+512,Jakarta ke Malang,asking-question-direction,1492456174
+513,Jakarta ke Surabaya,asking-question-direction,1492456184
+514,Jakarta ke Jakarta,asking-question-direction,1492456218
+515,dari polsek jagakarsa ke villa bintaro regensi,asking-question-direction,1492456292
+516,dari stasiun jurangmangu ke lottemart,asking-question-direction,1492456338
+517,dari stasiun jurangmangu ke lottemart bintaro,asking-question-direction,1492456376
+518,dari stasiun jurangmangu ke lottemart bintaro,asking-question-direction,1492456376
+519,TanyaJalan perkenalin diri dong,asking-question-other,1492459364
+520,Kamu bisa apa aja?,asking-question-other,1492459364
+521,berangkat dari rawamangun ke ui,asking-question-direction,1492459449
+522,bagi rute angkot,asking-question-schedule,1492459904
+523,bagi rute,asking-question-schedule,1492459917
+524,bagi commuterline,asking-question-schedule,1492459927
+525,jalan ke itb,asking-question-direction,1492459939
+526,jalan ke its,asking-question-direction,1492459965
+527,jalan ke its,asking-question-direction,1492459965
+528,jalan ke pulogadung,asking-question-direction,1492459977
+529,jalan ke unpad,asking-question-direction,1492459989
+530,jalan ke batam,asking-question-direction,1492460000
+531,jalan ke batam,asking-question-direction,1492460000
+532,batam,other,1492460006
+533,batam,other,1492460006
+534,jalan ke madura,asking-question-direction,1492460014
+535,jalan ke unbraw,asking-question-direction,1492460023
+536,jalan ke ub,asking-question-direction,1492460028
+537,jalan ke ugm,asking-question-direction,1492460034
+538,sistem kamu gimana,asking-question-other,1492460054
+539,sistem kamu gimana,asking-question-other,1492460054
+540,enaknya kemana ya,asking-question-other,1492460061
+541,Dari FISIP UI ke rusun Jatinegara,asking-question-direction,1492460063
+542,saran lokasi,asking-question-other,1492460069
+543,jadwal angkot,asking-question-schedule,1492460077
+544,jadwal krl,asking-question-schedule,1492460081
+545,jadwal krl manggarai,asking-question-schedule,1492460087
+546,Kamu bisa apa aja?,asking-question-other,1492460385
+547,Dari sabang ke merauke,asking-question-direction,1492460452
+548,Dari simpang lima ke  kebun raya bogor,asking-question-direction,1492460475
+549,Jakarta ke bogor,asking-question-direction,1492460509
+550,Bogor ke pare,asking-question-direction,1492460537
+551,Bogor ke rangkasbitung,asking-question-direction,1492460580
+552,Bogor ke rangkasbitung,asking-question-direction,1492460580
+553,Bogor ke rangkasbitung,asking-question-direction,1492460580
+554,Bogor ke rangkasbitung,asking-question-direction,1492460580
+555,Bogor ke rangkas bitung,asking-question-direction,1492460603
+556,Dari UI ke ITB,asking-question-direction,1492460611
+557,UI ke UGM,asking-question-direction,1492460632
+558,Dari UI ke UGM,asking-question-direction,1492460640
+559,Dari UI ke Unair,asking-question-direction,1492460646
+560,Dari UI ke universitas airlangga surabaya,asking-question-direction,1492460669
+561,TanyaJalan perkenalin diri dong,asking-question-other,1492460706
+562,Dari hati gue ke hati mantan,asking-question-direction,1492460744
+563,Dari ui ke ipb,asking-question-direction,1492460770
+564,Dari ui ke ipb,asking-question-direction,1492460770
+565,dari UI ke Margo city,asking-question-direction,1492465742
+566,dari UI ke Margo city,asking-question-direction,1492465742
+567,dari UI ke Margo city,asking-question-direction,1492465743
+568,Dari UI ke vidi arena,asking-question-direction,1492465907
+569,Dari UI ke vidi arena,asking-question-direction,1492465908
+570,Dari UI ke vidi arena,asking-question-direction,1492465908
+571,Dari UI ke vidi arena,asking-question-direction,1492465908
+572,dari UI ke rumah gua,asking-question-direction,1492466044
+573,dari UI ke rumah gua,asking-question-direction,1492466045
+574,dari UI ke rumahku,asking-question-direction,1492466068
+575,dari UI ke rumahku,asking-question-direction,1492466068
+576,dari UI ke rumahku,asking-question-direction,1492466068
+577,dari UI ke denpasar,asking-question-direction,1492466113
+578,dari UI ke pantai anyer,asking-question-direction,1492466169
+579,dari UI ke pantai anyer,asking-question-direction,1492466169
+580,dari UI ke puncak,asking-question-direction,1492466184
+581,dari UI ke puncak,asking-question-direction,1492466184
+582,Kamu bisa apa aja?,asking-question-other,1492469881
+583,TanyaJalan perkenalin diri dong,asking-question-other,1492469882
+584,Kamu bisa apa aja?,asking-question-other,1492469901
+585,TanyaJalan perkenalin diri dong,asking-question-other,1492469902
+586,Kamu bisa apa aja?,asking-question-other,1492469904
+587,TanyaJalan perkenalin diri dong,asking-question-other,1492469904
+588,Kamu bisa apa aja?,asking-question-other,1492469905
+589,TanyaJalan perkenalin diri dong,asking-question-other,1492469905
+590,Kamu bisa apa aja?,asking-question-other,1492469906
+591,TanyaJalan perkenalin diri dong,asking-question-other,1492469906
+592,Kamu bisa apa aja?,asking-question-other,1492469907
+593,TanyaJalan perkenalin diri dong,asking-question-other,1492469907
+594,Kamu bisa apa aja?,asking-question-other,1492469909
+595,TanyaJalan perkenalin diri dong,asking-question-other,1492469909
+596,Kamu bisa apa aja?,asking-question-other,1492469910
+597,TanyaJalan perkenalin diri dong,asking-question-other,1492469910
+598,Kamu bisa apa aja?,asking-question-other,1492469910
+599,TanyaJalan perkenalin diri dong,asking-question-other,1492469911
+600,Kamu bisa apa aja?,asking-question-other,1492440636
+601,TanyaJalan perkenalin diri dong,asking-question-other,1492440654
+602,Dari aku ke kamu,asking-question-direction,1492440663
+603,Dari rumah saya ke Fasilkom UI,asking-question-direction,1492440716
+604,Dari rumah saya ke rumah temen saya,asking-question-direction,1492440740
+605,TanyaJalan perkenalin diri dong,asking-question-other,1492441764
+606,Kamu bisa apa aja?,asking-question-other,1492441771
+607,Tanah abang macet ga,asking-question-other,1492441787
+608,Ke jaksel dari pinang ranti,asking-question-direction,1492441820
+609,Kamu bisa apa aja?,asking-question-other,1492442220
+610,Kamu bisa apa aja?,asking-question-other,1492442220
+611,Kamu bisa apa aja?,asking-question-other,1492442220
+612,Kamu bisa apa aja?,asking-question-other,1492442220
+613,Kamu bisa apa aja?,asking-question-other,1492442221
+614,TanyaJalan perkenalin diri dong,asking-question-other,1492442222
+615,dari citeureup ke cibinong city mall,asking-question-direction,1492442258
+616,dari cibinong ke depok,asking-question-direction,1492442272
+617,dari cibinong ke universitas indonesia,asking-question-direction,1492442306
+618,Kamu bisa apa aja?,asking-question-other,1492443156
+619,TanyaJalan perkenalin diri dong,asking-question-other,1492443403
+620,cek jadwal krl stasiun Kemayoran,asking-question-schedule,1492443423
+621,Kasih tau cara jalan dari kemayoran ke kebun raya bogor,asking-question-direction,1492443751
+622,TanyaJalan perkenalin diri dong,asking-question-other,1492444017
+623,Kamu bisa apa aja?,asking-question-other,1492444027
+624,Pergi dari ITB ke fasilkom ui,asking-question-direction,1492444066
+625,Rute busway,asking-question-schedule,1492444117
+626,Kamu bisa apa aja?,asking-question-other,1492444747
+627,Rumah saya ke sman 48,asking-question-direction,1492444773
+628,Kavling thomas ke sman 48,asking-question-direction,1492444813
+629,TanyaJalan perkenalin diri dong,asking-question-other,1492445870
+630,Kamu bisa apa aja?,asking-question-direction,1492446361
+631,Prima medicha,other,1492446398
+632,Kamu bisa apa aja?,asking-question-other,1492446406
+633,TanyaJalan perkenalin diri dong,asking-question-other,1492446428
+634,pergi ke tebet,asking-question-direction,1492446449
+635,pergi ke tebet dari jatibening,asking-question-direction,1492446465
+636,pergi ke tebet dari bekasi,asking-question-direction,1492446482
+637,Berangkat ke monas,asking-question-direction,1492446539
+638,Dari pangkalan jati ke monas,asking-question-direction,1492446554
+639,Kamu bisa apa aja?,asking-question-other,1492446584
+640,Universitas Indonesia,other,1492446610
+641,Bagi rute angkot dong,asking-question-schedule,1492446679
+642,Bagi rute angkot 05 dong,asking-question-schedule,1492446691
+643,Berangkat dari Grand Depok City ke Fasilkom UI,asking-question-schedule,1492446726
+644,Kamu bisa apa aja?,asking-question-other,1492446737
+645,Berangkat dari saharjo ke buaran,asking-question-direction,1492446795
+646,Dari depok ke bekasi berapa lama?,asking-question-direction,1492446801
+647,Berangkat dari bogor ke jakarta,asking-question-direction,1492446813
+648,Thank you,giving-positive-feedback,1492446846
+649,Kamu bisa apa aja?,asking-question-other,1492447110
+650,Jadwal krl sudimara,asking-question-schedule,1492447152
+651,tampilkan lebih banyak jadwal krl stasiun SUDIMARA,asking-question-schedule,1492447170
+652,TanyaJalan perkenalin diri dong,asking-question-other,1492447180
+653,Kamu bisa apa aja?,asking-question-other,1492447197
+654,Purwokerto ke jakarta,asking-question-direction,1492447217
+655,Kamu bisa apa aja?,asking-question-other,1492447255
+656,UI ke jagakarsa,asking-question-direction,1492447282
+657,Bagi rute busway dong,asking-question-schedule,1492447326
+658,TanyaJalan perkenalin diri dong,asking-question-other,1492447346
+659,stasiun senen ke ui,asking-question-direction,1492447353
+660,Bagaimana cara dari Dago ke Prima medicha,asking-question-direction,1492447364
+661,Berangkat dari lenteng agung ke fasilkom UI,asking-question-direction,1492447388
+662,Dari lenteng agung ke margo city,asking-question-direction,1492447420
+663,Dari rumah ke rumah mantan,asking-question-direction,1492447448
+664,TanyaJalan perkenalin diri dong,asking-question-other,1492447451
+665,Dari lenteng agung ke myeongdong,asking-question-direction,1492447479
+666,Dari lenteng agung ke seoul,asking-question-direction,1492447504
+667,tampilkan lebih banyak jadwal krl stasiun LENTENGAGUNG,asking-question-schedule,1492447553
+668,TanyaJalan perkenalin diri dong,asking-question-other,1492448140
+669,TanyaJalan perkenalin diri dong,asking-question-other,1492448140
+670,Kamu bisa apa aja?,asking-question-other,1492448156
+671,Arah dari senayan ke cinere lewat mana ya ?,asking-question-direction,1492448201
+672,Arahnya gimana,asking-question-direction,1492448235
+673,Arahnya gimana,asking-question-direction,1492448235
+674,Arahnya gimana,asking-question-direction,1492448235
+675,TanyaJalan perkenalin diri dong,asking-question-other,1492449922
+676,Kamu bisa apa aja?,asking-question-other,1492450112
+677,Dari paris ke bandung,asking-question-other,1492450137
+678,Bagi rute krl,asking-question-schedule,1492450149
+679,Jadwal krl bogor,asking-question-schedule,1492450167
+680,TanyaJalan perkenalin diri dong,asking-question-other,1492450207
+681,Kamu bisa apa aja?,asking-question-other,1492450509
+682,Bagaimana cara dari Bogor ke Monas?,asking-question-direction,1492450553
+683,Kamu bisa apa aja?,asking-question-other,1492451578
+684,TanyaJalan perkenalin diri dong,asking-question-other,1492451598
+685,Rute Depok Kuningan,asking-question-direction,1492451621
+686,Bagaimana cara dari Depok ke Kuningan,asking-question-direction,1492451637
+687,Rute Depok Bogor,asking-question-schedule,1492451648
+688,Dari Depok ke Semanggi,asking-question-direction,1492451660
+689,Pergi ke bogor dari stasiun pasar turi,asking-question-direction,1492451678
+690,Kamu bisa apa aja?,asking-question-other,1492452537
+691,Tolong tunjukan jalan dari daerah Kukusan sampai ke Kampus UI di Depok.,asking-question-direction,1492452726
+692,Kamu bisa apa aja?,asking-question-other,1492452817
+693,TanyaJalan perkenalin diri dong,asking-question-other,1492452838
+694,TanyaJalan perkenalin diri dong,asking-question-other,1492452849
+695,Berangkat dari Depok ke Bogor.,asking-question-direction,1492452945
+696,Berangkat dari Depok ke Bekasi.,asking-question-direction,1492453033
+697,Berangkat dari Terminal Pinang Ranti ke Hotel Borobudur,asking-question-direction,1492453603
+698,TanyaJalan perkenalin diri dong,asking-question-other,1492454534
+699,Kamu bisa apa aja?,asking-question-other,1492454559
+700,dari depok ke pertamina,asking-question-direction,1492420756
+701,Kamu bisa apa aja?,asking-question-other,1492420793
+702,Dari The Guesthouse Mediapura ke Lotte Shopping Avenue,asking-question-direction,1492420795
+703,Dari Cotton Room ke UI Depok,asking-question-direction,1492420835
+704,Okay gapapa,giving-positive-feedback,1492420867
+705,Depok ke Ciomas,asking-question-direction,1492421031
+706,tampilkan lebih banyak jadwal krl stasiun BEKASI,asking-question-schedule,1492421123
+707,Dari UB ke Batu,asking-question-direction,1492421570
+708,Berangkat dari UB ke kota batu,asking-question-direction,1492421596
+709,Waduh,giving-negative-feedback,1492421603
+710,Gak,giving-negative-feedback,1492421615
+711,Dari Depok ke Semanggi,asking-question-direction,1492421630
+712,Dari Monas ke Istana Presiden,asking-question-direction,1492421657
+713,Kamu bisa apa aja?,asking-question-other,1492421662
+714,Dari Jl. Istana Merdeka ke Monas,asking-question-direction,1492421683
+715,Dari Mangga Dua ke Ui,asking-question-direction,1492421697
+716,Dari UB ke terminal arjosari gimana?,asking-question-direction,1492421719
+717,Dari ITB ke Kawah Putih,asking-question-direction,1492421753
+718,dari universitas brawijaya ke terminal arjosari gimana?,asking-question-direction,1492421760
+719,TanyaJalan perkenalin diri dong,asking-question-other,1492421822
+720,Kamu bisa apa aja?,asking-question-other,1492421837
+721,Jakarta ke Bandung,asking-question-direction,1492421868
+722,Jakarta Malang,asking-question-direction,1492421913
+723,Jakarta ke Malaysia,asking-question-direction,1492421927
+724,Kamu bisa apa aja?,asking-question-other,1492421932
+725,Jakarta ke Malang,asking-question-direction,1492421936
+726,TanyaJalan perkenalin diri dong,asking-question-other,1492421951
+727,Kamu bisa apa aja?,asking-question-other,1492421954
+728,TanyaJalan perkenalin diri dong,asking-question-other,1492421955
+729,Kamu bisa apa aja?,asking-question-other,1492421970
+730,Pergi ke Temanggunv dari Purwokerto,asking-question-direction,1492422008
+731,undefined,other,1492422029
+732,Kebayoran baru ke ancol,asking-question-direction,1492422078
+733,TanyaJalan perkenalin diri dong,asking-question-other,1492422099
+734,tampilkan lebih banyak jadwal krl stasiun DEPOK,asking-question-schedule,1492422193
+735,Bagi rute busway dong,asking-question-schedule,1492422212
+736,TanyaJalan perkenalin diri dong,asking-question-other,1492422718
+737,Kamu bisa apa aja?,asking-question-other,1492422729
+738,Dari kota ke roxy,asking-question-direction,1492422749
+739,Kamu bisa apa aja?,asking-question-other,1492422764
+740,Busway ke pik,asking-question-direction,1492422780
+741,Bagi rute busway dong,asking-question-schedule,1492422792
+742,Pergi ke depok dari kota,asking-question-direction,1492422863
+743,Jakarta ke Bandung,asking-question-direction,1492422882
+744,Jakarta ke Medan,asking-question-direction,1492422904
+745,Jakarta ke Bali,asking-question-direction,1492422915
+746,JAKARTA KE MALAMG,asking-question-direction,1492422922
+747,TanyaJalan perkenalin diri dong,asking-question-other,1492423285
+748,dari cijantung ke serpong,asking-question-direction,1492423317
+749,dari cijantung ke melawai,asking-question-direction,1492423374
+750,Hey,greeting,1492423581
+751,berangkat dari stasiun bogor ke botani,asking-question-direction,1492424129
+752,berangkat dari stasiun bogor ke botani square,asking-question-direction,1492424163
+753,Cupu lu(?),giving-negative-feedback,1492424314
+754,Gausah sok2 minta maaf,giving-negative-feedback,1492424328
+755,Apasi,giving-negative-feedback,1492424334
+756,Tau gak,asking-question-other,1492424363
+757,TanyaJalan perkenalin diri dong,asking-question-other,1492424400
+758,Kamu bisa apa aja?,asking-question-other,1492424412
+759,undefined,other,1492424441
+760,Kamu bisa apa aja?,asking-question-other,1492424445
+761,TanyaJalan perkenalin diri dong,asking-question-other,1492424457
+762,Ancol ke pluit,asking-question-direction,1492424474
+763,Pondok ranji,other,1492424981
+764,Berangkat dari bintaro ke bekasi,asking-question-direction,1492424994
+765,Berangkat dari bintaro ke pondok indah,asking-question-direction,1492425021
+766,TanyaJalan perkenalin diri dong,asking-question-other,1492425460
+767,TanyaJalan perkenalin diri dong,asking-question-other,1492425460
+768,Kamu bisa apa aja?,asking-question-other,1492425487
+769,Fatmawati ke jakarta,asking-question-direction,1492425533
+770,Fatmawati ke univ indo,asking-question-direction,1492425600
+771,TanyaJalan perkenalin diri dong,asking-question-other,1492425725
+772,Kamu bisa apa aja?,asking-question-other,1492425747
+773,Jadwal krl dong,asking-question-schedule,1492425788
+774,Jadwal krl stasiun bojong,asking-question-schedule,1492425812
+775,Jadwal krl stasiun universitas indonesia,asking-question-schedule,1492425835
+776,tampilkan lebih banyak jadwal krl stasiun UNIVERSITASINDONESIA,asking-question-schedule,1492425863
+777,Dari jatiwaringin ke ragunan,asking-question-direction,1492427121
+778,Dari jatiwaringin ke tebet,asking-question-direction,1492427164
+779,bekasi - blok m,asking-question-direction,1492432367
+780,bekasi - kukusan,asking-question-direction,1492432379
+781,kamu bisa ngapain aja?,asking-question-other,1492432392
+782,Bekasi ke blok m,asking-question-direction,1492432411
+783,menteng ke blok m,asking-question-direction,1492432424
+784,dari bekasi ke blok m,asking-question-direction,1492432437
+785,dari pasar minggu ke blok m,asking-question-direction,1492432448
+786,TanyaJalan perkenalin diri dong,asking-question-other,1492437408
+787,Kamu bisa apa aja?,asking-question-other,1492437438
+788,Cek jadwal krl dari bogor,asking-question-direction,1492437480
+789,Pergi ke bogor dari ui,asking-question-direction,1492437494
+790,Cek jadwal krl stasiun UI,asking-question-schedule,1492437558
+791,Cek jadwal krl stasiun Pondok Cina,asking-question-schedule,1492437575
+792,tampilkan lebih banyak jadwal krl stasiun PONDOKCINA,asking-question-schedule,1492437597
+793,Dari Stasiun Tg. Priok ke Universitas Persada YAI,asking-question-direction,1492438386
+794,TanyaJalan perkenalin diri dong,asking-question-other,1492440006
+795,Kamu bisa apa aja?,asking-question-other,1492440025
+796,Berangkat tebet ke depok,asking-question-direction,1492440056
 797,Halo,greeting,1492440258
-798,Dari Bambu Apus ke Fasilkom UI,ask-for-direction,1492440275
-799,Dari Jl. Bambu Kuning ke Fasilkom UI,ask-for-direction,1492440551
-800,Kamu bisa apa aja?,help,1492415093
-801,Pondok gede,,1492415100
-802,Mau ke UI dari bogor,ask-for-direction,1492415103
-803,Pergi ke pondok gede dari pondok cabe,ask-for-direction,1492415114
-804,Kalo naik motor?,,1492415122
-805,Dari ITB ke UI,ask-for-direction,1492415128
-806,Berangkat dari UI ke Sunter,ask-for-direction,1492415129
-807,Motor,,1492415132
-808,Pergi ke sentul dari UI,ask-for-direction,1492415147
-809,Berangkat dari UI ke stadion pakansari,ask-for-direction,1492415152
-810,TanyaJalan perkenalin diri dong,intro,1492415162
-811,Berangkat dari ui ke museum fatahillah,ask-for-direction,1492415170
-812,Dari sumedang ke ambon,ask-for-direction,1492415171
-813,Kamu bisa apa aja?,help,1492415173
-814,Oi,,1492415185
-815,Dari tamini ke pondok gede,ask-for-direction,1492415185
-816,Dari tamini square ke mall pondok gede,ask-for-direction,1492415196
-817,Kamu bisa apa aja?,help,1492415218
-818,Berangkat dari Universitas gunadarma ke kampus ui,ask-for-direction,1492415220
-819,Dari Blok M ke Tanah Abang,ask-for-direction,1492415223
-820,Berangkat Dari Universitas gunadarma kalimalang ke universitas gunadarma depok,ask-for-direction,1492415278
-821,Kamu bisa apa aja?,help,1492415315
-822,Berangkat dari Jl. Bahari 4 A2 ke Museum Fatahillah,ask-for-direction,1492415331
-823,TanyaJalan perkenalin diri dong,intro,1492415390
-824,Bagaimana cara dari bogor ke pelabuhan ratu,ask-for-direction,1492415392
-825,Kamu bisa apa aja?,help,1492416159
-826,"Kan ada stasiun tangerang, kenapa harus ke stasiun cikini?",ask-for-schedule-krl,1492416208
-827,Kamu bisa apa aja?,help,1492416336
-828,Jadwal,,1492416394
-829,TanyaJalan perkenalin diri dong,intro,1492416425
-830,Dari Fakultas Teknik UI ke Grand Indonesia,ask-for-direction,1492416426
-831,Kamu bisa apa,help,1492416437
-832,Dari UI ke Nutrifood Pulogadung,ask-for-direction,1492416461
-833,Dari Kebun Raya Residence ke Margo City,ask-for-direction,1492416525
-834,TanyaJalan perkenalin diri dong,intro,1492416546
-835,Dari UI ke Meize Hotel Bandung,ask-for-direction,1492416581
-836,Dari UI ke Danau Toba,ask-for-direction,1492416630
-837,TanyaJalan perkenalin diri dong,intro,1492416676
-838,Dari UI ke UGM,ask-for-direction,1492416683
-839,Dari depok ke tb simatupang,ask-for-direction,1492416738
-840,Bekasi ke gunadarma,ask-for-direction,1492416803
-841,Kok keren,,1492416823
-842,Bekasi ke gunadarma kampus e,ask-for-direction,1492416852
-843,Tunjukin jalan dari unpad ke bogor dong,ask-for-direction,1492416883
-844,TanyaJalan perkenalin diri dong,intro,1492417214
-845,Dari bekasi barat ke kramatjati,ask-for-direction,1492417215
-846,Berangkat dari Jatos ke Borobudur,ask-for-direction,1492417262
-847,Wkkwkwk,,1492417288
-848,Siapa tuh tong,intro,1492417294
-849,Kamu bisa apa aja?,help,1492418008
-850,Berangkat dari UI ke klender,ask-for-direction,1492418054
+798,Dari Bambu Apus ke Fasilkom UI,asking-question-direction,1492440275
+799,Dari Jl. Bambu Kuning ke Fasilkom UI,asking-question-direction,1492440551
+800,Kamu bisa apa aja?,asking-question-other,1492415093
+801,Pondok gede,other,1492415100
+802,Mau ke UI dari bogor,asking-question-direction,1492415103
+803,Pergi ke pondok gede dari pondok cabe,asking-question-direction,1492415114
+804,Kalo naik motor?,asking-question-other,1492415122
+805,Dari ITB ke UI,asking-question-direction,1492415128
+806,Berangkat dari UI ke Sunter,asking-question-direction,1492415129
+807,Motor,other,1492415132
+808,Pergi ke sentul dari UI,asking-question-direction,1492415147
+809,Berangkat dari UI ke stadion pakansari,asking-question-direction,1492415152
+810,TanyaJalan perkenalin diri dong,asking-question-other,1492415162
+811,Berangkat dari ui ke museum fatahillah,asking-question-direction,1492415170
+812,Dari sumedang ke ambon,asking-question-direction,1492415171
+813,Kamu bisa apa aja?,asking-question-other,1492415173
+814,Oi,greeting,1492415185
+815,Dari tamini ke pondok gede,asking-question-direction,1492415185
+816,Dari tamini square ke mall pondok gede,asking-question-direction,1492415196
+817,Kamu bisa apa aja?,asking-question-other,1492415218
+818,Berangkat dari Universitas gunadarma ke kampus ui,asking-question-direction,1492415220
+819,Dari Blok M ke Tanah Abang,asking-question-direction,1492415223
+820,Berangkat Dari Universitas gunadarma kalimalang ke universitas gunadarma depok,asking-question-direction,1492415278
+821,Kamu bisa apa aja?,asking-question-other,1492415315
+822,Berangkat dari Jl. Bahari 4 A2 ke Museum Fatahillah,asking-question-direction,1492415331
+823,TanyaJalan perkenalin diri dong,asking-question-other,1492415390
+824,Bagaimana cara dari bogor ke pelabuhan ratu,asking-question-direction,1492415392
+825,Kamu bisa apa aja?,asking-question-other,1492416159
+826,"Kan ada stasiun tangerang, kenapa harus ke stasiun cikini?",ask-for-schedule-krl
+827,Kamu bisa apa aja?,asking-question-other,1492416336
+828,Jadwal,asking-question-schedule,1492416394
+829,TanyaJalan perkenalin diri dong,asking-question-other,1492416425
+830,Dari Fakultas Teknik UI ke Grand Indonesia,asking-question-direction,1492416426
+831,Kamu bisa apa,asking-question-other,1492416437
+832,Dari UI ke Nutrifood Pulogadung,asking-question-direction,1492416461
+833,Dari Kebun Raya Residence ke Margo City,asking-question-direction,1492416525
+834,TanyaJalan perkenalin diri dong,asking-question-other,1492416546
+835,Dari UI ke Meize Hotel Bandung,asking-question-direction,1492416581
+836,Dari UI ke Danau Toba,asking-question-direction,1492416630
+837,TanyaJalan perkenalin diri dong,asking-question-other,1492416676
+838,Dari UI ke UGM,asking-question-direction,1492416683
+839,Dari depok ke tb simatupang,asking-question-direction,1492416738
+840,Bekasi ke gunadarma,asking-question-direction,1492416803
+841,Kok keren,giving-positive-feedback,1492416823
+842,Bekasi ke gunadarma kampus e,asking-question-direction,1492416852
+843,Tunjukin jalan dari unpad ke bogor dong,asking-question-direction,1492416883
+844,TanyaJalan perkenalin diri dong,asking-question-other,1492417214
+845,Dari bekasi barat ke kramatjati,asking-question-direction,1492417215
+846,Berangkat dari Jatos ke Borobudur,asking-question-direction,1492417262
+847,Wkkwkwk,giving-positive-feedback,1492417288
+848,Siapa tuh tong,asking-question-other,1492417294
+849,Kamu bisa apa aja?,asking-question-other,1492418008
+850,Berangkat dari UI ke klender,asking-question-direction,1492418054
 851,Hi,greeting,1492418222
-852,Kamu bisa apa aja?,help,1492418234
-853,Kamu bisa apa aja?,help,1492418289
-854,TanyaJalan perkenalin diri dong,intro,1492418300
-855,Depok pocin,,1492418320
-856,Depok ke pocin,ask-for-direction,1492418329
-857,Mau ke bogor dari depok,ask-for-direction,1492418350
-858,Mau ke bsd dari ui,ask-for-direction,1492418371
-859,Dari ui ke bintaro exchange,ask-for-direction,1492418373
-860,jadwal krl nambo dong!,ask-for-schedule-krl,1492418412
-861,berangkat dari Cibinong ke pasar minggu,ask-for-direction,1492418458
-862,Mau ke lombok nih,ask-for-direction,1492419262
-863,Berangkat dari depok ke bandung,ask-for-direction,1492419279
-864,Kamu bisa apa aja?,help,1492419321
-865,TanyaJalan perkenalin diri dong,intro,1492419332
-866,Kamu bisa apa aja?,help,1492419332
-867,Kamu bisa apa aja?,help,1492419333
-868,TanyaJalan perkenalin diri dong,intro,1492419344
-869,Yang buat kamu siapa?,intro,1492419378
-870,bagaimana cara dari kebayoran ke ui,ask-for-direction,1492419749
-871,rute krl,,1492419802
-872,cek jadwal krl stasiun kebayoran,ask-for-schedule-krl,1492419816
-873,Kamu bisa apa aja?,help,1492419840
-874,tanyajalan bye,bye,1492419849
-875,TanyaJalan perkenalin diri dong,intro,1492419851
-876,Rute ke bandung,ask-for-direction,1492419877
-877,Dari UI ke bandung,ask-for-direction,1492419901
-878,Dari UI ke balai kartini,ask-for-direction,1492419958
-879,TanyaJalan perkenalin diri dong,intro,1492419972
-880,Kamu bisa apa aja?,help,1492420011
-881,Pergi ke PIM dari Mampang,ask-for-direction,1492420016
-882,Kamu bisa apa aja?,help,1492420048
-883,Berangkat dari Depok ke Gbi Kamboja,ask-for-direction,1492420048
-884,Hai,,1492420066
-885,Kamu bisa apa aja?,help,1492420070
-886,Berangkat dari pocin ke margo city,ask-for-direction,1492420121
-887,Jadwal krl,ask-for-schedule-krl,1492420166
-888,Jadwal krl stasiun pocin,ask-for-schedule-krl,1492420179
-889,Kamu bisa apa aja?,help,1492420209
-890,Berangkat dari depok ke fasilkom ui,ask-for-direction,1492420254
-891,Berangkat dari depok ke kolam renang paragon,ask-for-direction,1492420300
-892,TanyaJalan perkenalin diri dong,intro,1492420322
-893,Kamu bisa apa aja?,help,1492420381
-894,TanyaJalan perkenalin diri dong,intro,1492420386
-895,dari depok ke wisma 77 jakarta barat,ask-for-direction,1492420441
-896,Kalo dari sini ke bogor naik apa ya,ask-for-direction,1492420473
-897,Merak ke Banyuwangi,ask-for-direction,1492420592
-898,Bekasi ke London,ask-for-direction,1492420600
-899,dari depok ke pertamina utc,ask-for-direction,1492420668
-900,Kamu bisa apa aja?,help,1492196287
-901,Dari palmerah ke gereja katedral,ask-for-direction,1492199082
-902,Kamu bisa apa aja?,help,1492205849
-903,Berangkat dari stasiun ui ke museum nasional,ask-for-direction,1492205898
-904,TanyaJalan perkenalin diri dong,intro,1492209850
-905,Kamu bisa apa aja?,help,1492209853
-906,Bagi rute busway bisa?,ask-transjakarta,1492210026
-907,Jangan bagi rute busway,ask-transjakarta,1492210038
-908,Busway,,1492210045
-909,rute busway,ask-transjakarta,1492210054
-910,boborulabsldb ajkavs. Lala rute busway,ask-transjakarta,1492210066
-911,TanyaJalan perkenalin diri dong,intro,1492228113
-912,Kamu bisa apa aja?,help,1492228114
-913,ke rumah ado dari mcd djuanda,ask-for-direction,1492228143
-914,yahhh,,1492228148
-915,:((((,,1492228153
-916,jadwal kereta,ask-for-schedule-krl,1492228182
-917,dari bandung ke Fasilkom UI,ask-for-direction,1492228196
-918,y,,1492228256
-919,kerets,positive-feedback,1492228260
-920,kerwta,,1492228262
-921,kereta,positive-feedback,1492228264
-922,cek jadwal krl stasiun pondok cina,ask-for-schedule-krl,1492228277
-923,Bagaimana Caranya dari Hotel Pullman ke Mal CIPUTRA,ask-for-direction,1492231777
-924,Kamu bisa apa aja?,help,1492232480
-925,Kamu bisa apa aja?,help,1492232497
-926,TanyaJalan perkenalin diri dong,intro,1492232509
-927,Dari stie trisakti ke stp trisakti,ask-for-direction,1492232537
-928,TanyaJalan perkenalin diri dong,intro,1492235430
-929,TanyaJalan perkenalin diri dong,intro,1492312262
-930,Kamu bisa apa aja?,help,1492312263
-931,Bagaimana cara dari depok ke sentul international convention center?,ask-for-direction,1492312300
-932,Depok ke sentul,ask-for-direction,1492312311
-933,Depok ke sicc,ask-for-direction,1492312318
-934,Universitas indonesia ke sicc,ask-for-direction,1492312330
-935,Universitas indonesia ke sicc,ask-for-direction,1492312330
-936,Ke sicc,,1492312343
-937,Ke sicc,,1492312352
-938,Pulang ke Sutera Kirana Alam Sutera lewat mana,ask-for-direction,1492323267
-939,Kamu bisa apa aja?,help,1492331656
-940,TanyaJalan perkenalin diri dong,intro,1492331667
-941,Kamu bisa apa aja?,help,1492331675
-942,Kamu bisa apa aja?,help,1492331675
-943,Kwkwkw,,1492331688
-944,Cek krl,,1492331696
-945,Dari ui ke bogor,ask-for-direction,1492331709
-946,UI ke sibolga,ask-for-direction,1492341483
-947,Ui ke ancol,ask-for-direction,1492341493
-948,UI ke kota tua,ask-for-direction,1492341556
-949,tampilkan lebih banyak jadwal krl stasiun BEKASI,ask-for-schedule-krl-complete,1492360765
-950,tampilkan lebih banyak jadwal krl stasiun BEKASI,ask-for-schedule-krl-complete,1492364008
-951,tampilkan lebih banyak jadwal krl stasiun MANGGARAI,ask-for-schedule-krl-complete,1492364237
-952,tampilkan lebih banyak jadwal krl stasiun Universitas Indonesia,ask-for-schedule-krl-complete,1492367549
-953,tampilkan lebih banyak jadwal krl stasiun Universitas Indonesia,ask-for-schedule-krl-complete,1492367990
-954,Kamu bisa apa aja?,help,1492377660
-955,Ragunan ke ancol,ask-for-direction,1492377699
-956,TanyaJalan perkenalin diri dong,intro,1492377699
-957,Kamu bisa apa aja?,help,1492377711
-958,Kamu bisa apa aja?,help,1492377732
-959,Dari blok m ke jakpus,ask-for-direction,1492377737
-960,TanyaJalan perkenalin diri dong,intro,1492377744
-961,Blok m ke kelapa gading,ask-for-direction,1492378173
-962,Dari blok m ke kelapa gading,ask-for-direction,1492378198
-963,Blok m ke kelapa gading,ask-for-direction,1492378235
-964,Dari blok m ke depok,ask-for-direction,1492378366
-965,Blok m ke jagakarsa,ask-for-direction,1492378461
-966,Bulungan ke jagakarsa,ask-for-direction,1492378478
-967,Kamu bisa apa aja?,help,1492380958
-968,Rute busway,ask-transjakarta,1492380998
-969,Stasiun pocin,ask-for-schedule-krl,1492381029
-970,Stasiun pondok cina,ask-for-schedule-krl,1492381042
-971,TanyaJalan perkenalin diri dong,intro,1492381052
-972,Kamu bisa apa aja?,help,1492381062
-973,Dari UI ke SMAN 8 jakarta,ask-for-direction,1492381750
-974,Kamu bisa apa aja?,help,1492381865
-975,Rute buseay,ask-transjakarta,1492381877
-976,Rute busway,ask-transjakarta,1492381880
-977,Dari bandung ke bogor,ask-for-direction,1492381921
-978,Ui ke kota tua,ask-for-direction,1492386193
-979,Ui ke margo,ask-for-direction,1492386206
-980,Ui ke gunadarma,ask-for-direction,1492386218
-981,Ancol ke pademangan,ask-for-direction,1492392331
-982,Kamu bisa apa aja?,help,1492392511
-983,Krl menuju tanah abang berada di mana,positive-feedback,1492392545
-984,Kamu bisa apa aja?,help,1492392958
-985,Dari sini ke condet,ask-for-direction,1492392994
-986,Dari pasar minggu ke condet,ask-for-direction,1492393015
-987,Hii,,1492402235
-988,Can you speak english,,1492402249
-989,I am ruchira,,1492402252
-990,From sri lanka,,1492402262
-991,Kamu bisa apa aja?,help,1492402321
-992,TanyaJalan perkenalin diri dong,intro,1492402323
-993,Ui ke cawang,ask-for-direction,1492411403
-994,Ui ke senayan,ask-for-direction,1492411416
-995,TanyaJalan perkenalin diri dong,intro,1492415070
-996,Kamu bisa apa aja?,help,1492415073
-997,Kamu bisa apa aja?,help,1492415075
-998,TanyaJalan perkenalin diri dong,intro,1492415083
-999,Kamu bisa apa aja?,help,1492415088
-1000,Bagaimana cara dari Bekasi ke RS pantai indah kapuk,ask-for-direction,1492066264
-1001,Berangkat bekasi ke RS PIK,ask-for-direction,1492066286
-1002,Berangkat dari Jalan baitussalam beji depok ke vesperia,ask-for-direction,1492068805
-1003,TanyaJalan perkenalin diri dong,intro,1492068834
-1004,Berangkat dari Jalan baitussalam beji depok ke altrovis,ask-for-direction,1492068838
-1005,TanyaJalan perkenalin diri dong,intro,1492068841
-1006,TanyaJalan perkenalin diri dong,intro,1492068854
-1007,TanyaJalan perkenalin diri dong,intro,1492068858
-1008,Kamu bisa apa aja?,help,1492068859
-1009,Kamu bisa apa aja?,help,1492068868
-1010,Berangkat dari vesperia ke altrovis,ask-for-direction,1492068880
-1011,Berangkat dari  altrovis ke vesperia,ask-for-direction,1492068902
-1012,Berangkat dari ui ke flipbox.,ask-for-direction,1492068953
-1013,Dari ui ke sman 1 depok,ask-for-direction,1492069003
-1014,Dari ui ke sman 8 pekan baru,ask-for-direction,1492069019
-1015,Dari ui ke sman 8 pekanbaru,ask-for-direction,1492069038
-1016,Dari ui ke sman 1 tangerang,ask-for-direction,1492069050
-1017,Dari sman 1 depok ke sman 1 tangerang,ask-for-direction,1492069094
-1018,Dari sman 1 depok ke sman 1 tangerang,ask-for-direction,1492069094
-1019,Dari ui ke sman 1 bogor,ask-for-direction,1492069116
-1020,Sman 1 tangerang ke sman 1 bogor,ask-for-direction,1492069143
-1021,Ui ke jalan mawar depok,ask-for-direction,1492069192
-1022,Ui ke Masjid al awal,ask-for-direction,1492069206
-1023,Altrovis ke flipbox,ask-for-direction,1492069246
-1024,Berangkat dari stasiun bekasi ke RS PIK,ask-for-direction,1492070340
-1025,Detos ke margo,ask-for-direction,1492071405
-1026,Pergi ke margo dari detos,ask-for-direction,1492071424
-1027,Dari fasilkom UI ke margo,ask-for-direction,1492071439
-1028,Dari fasilkom UI ke margo,ask-for-direction,1492071499
-1029,Ihhh,,1492071503
-1030,Jawab,,1492071505
-1031,Kamu bisa apa aja?,help,1492079716
-1032,Bagaimana cara dari SERPONG ke Cilebut Bogor,ask-for-direction,1492079796
-1033,Bagaimana Caranya dari SERPONG ke Rumah Sakit Pantai Indah Kapuk,ask-for-direction,1492125891
-1034,TanyaJalan perkenalin diri dong,intro,1492126718
-1035,Kamu bisa apa aja?,help,1492126727
-1036,Dari tambun ke cikarang jalurnya yg paling deket lewat mana ?,ask-for-direction,1492126839
-1037,Jadwal krl stasiun bekasi,ask-for-schedule-krl,1492126865
-1038,tampilkan lebih banyak jadwal krl stasiun BEKASI,ask-for-schedule-krl-complete,1492126880
-1039,Ke senayan city dari bekasi ?,ask-for-direction,1492126954
-1040,Klo naik kereta ?,,1492127005
-1041,Bekasi ke taman mangrove lewat mana ?,ask-for-direction,1492127041
-1042,Pergi ke taman mangrove dari bekasi ?,ask-for-direction,1492127111
-1043,Rutenya ga lengkap nih,ask-permission-to-ask,1492127140
-1044,Bekasi ke ancol ?,ask-for-direction,1492127158
-1045,Dari bekasi ke ancol,ask-for-direction,1492127187
-1046,Dari ancol ke taman mangrove,ask-for-direction,1492127332
-1047,TanyaJalan perkenalin diri dong,intro,1492129081
-1048,Kamu bisa apa aja?,help,1492129081
-1049,Dari serpong ke ui,ask-for-direction,1492129102
-1050,Yee makasih,positive-feedback,1492129133
-1051,Ke jungleland dari ui,ask-for-direction,1492129158
-1052,TanyaJalan perkenalin diri dong,intro,1492129344
-1053,Kamu bisa apa aja?,help,1492129351
-1054,TanyaJalan perkenalin diri dong,intro,1492130534
-1055,TanyaJalan perkenalin diri dong,intro,1492133066
-1056,dari depok ke hati nya,ask-for-direction,1492133076
-1057,dari universitas indonesia ke pinang ranti mansion,ask-for-direction,1492133108
-1058,Dari ui ke menteng atas,ask-for-direction,1492135388
-1059,Dari ui ke menteng atas selatan,ask-for-direction,1492135436
-1060,Dari ui ke menteng atas naik taksi,ask-for-direction,1492135460
-1061,Dari ui ke gramedia,ask-for-direction,1492135478
-1062,Dari menteng atas ke gramedia matraman,ask-for-direction,1492135527
-1063,Jalan kembali ke hatinya,ask-for-direction,1492135871
-1064,Cara kembali ke jalan yang benar,ask-for-direction,1492137201
-1065,Kamu bisa apa aja?,help,1492137238
-1066,Jadwal kereta pocin,ask-for-schedule-krl,1492137288
-1067,Jadwal kereta stasiun pondok cina,ask-for-schedule-krl,1492137306
-1068,tampilkan lebih banyak jadwal krl stasiun PONDOKCINA,ask-for-schedule-krl-complete,1492137352
-1069,tampilkan lebih banyak jadwal krl stasiun manggarai,ask-for-schedule-krl-complete,1492140109
-1070,Kamu bisa apa aja?,help,1492140551
-1071,tampilkan lebih banyak jadwal krl stasiun MANGGARAI,ask-for-schedule-krl-complete,1492140570
-1072,TanyaJalan perkenalin diri dong,intro,1492141006
-1073,Kamu bisa apa aja?,help,1492141011
-1074,Dari fasilkom ui ke tegal,ask-for-direction,1492141024
-1075,TanyaJalan perkenalin diri dong,intro,1492143964
-1076,Kamu bisa apa aja?,help,1492143965
-1077,TanyaJalan perkenalin diri dong,intro,1492156314
-1078,kereta bogor ke bekasi,ask-for-direction,1492156339
-1079,bus bogor ke garut,ask-for-direction,1492156374
-1080,bus bogor ke slipi,ask-for-direction,1492156388
-1081,kereta bogor ke kebayoran lama,ask-for-direction,1492156479
-1082,terimakasih,positive-feedback,1492156598
-1083,iya dong,ask-permission-to-ask,1492156609
-1084,jadwal KRL bogor,ask-for-schedule-krl,1492156623
-1085,Angkutan Umum Bogor ke Universitas Pakuan,ask-for-direction,1492161835
-1086,yaallah masa jalan kaki,negative-feedback,1492161867
-1087,angkutan umum ciracas ke kranji,ask-for-direction,1492163511
-1088,TanyaJalan perkenalin diri dong,intro,1492163577
-1089,Pergi ke Stasiun Bogor dari Universitas Pakuan,ask-for-direction,1492165635
-1090,Kamu bisa apa aja?,help,1492192635
-1091,TanyaJalan perkenalin diri dong,intro,1492192635
-1092,Ke gading,,1492192662
-1093,Mau ke gading,ask-for-direction,1492192670
-1094,Sudirman ke gading,ask-for-direction,1492192698
-1095,Kamu bisa apa aja?,help,1492192715
-1096,TanyaJalan perkenalin diri dong,intro,1492192719
-1097,Dari puri Casablanca ke rumah Morocco,ask-for-direction,1492193118
-1098,Puri Casablanca ke kebun binatang ragunan,ask-for-direction,1492193179
-1099,Berangkat dari UI ke Citra Gram Cibubur,ask-for-direction,1492194527
-1100,Dari dimensi 3d ke dimensi 2d,ask-for-direction,1492029834
+852,Kamu bisa apa aja?,asking-question-other,1492418234
+853,Kamu bisa apa aja?,asking-question-other,1492418289
+854,TanyaJalan perkenalin diri dong,asking-question-other,1492418300
+855,Depok pocin,asking-question-direction,1492418320
+856,Depok ke pocin,asking-question-direction,1492418329
+857,Mau ke bogor dari depok,asking-question-direction,1492418350
+858,Mau ke bsd dari ui,asking-question-direction,1492418371
+859,Dari ui ke bintaro exchange,asking-question-direction,1492418373
+860,jadwal krl nambo dong!,asking-question-schedule,1492418412
+861,berangkat dari Cibinong ke pasar minggu,asking-question-direction,1492418458
+862,Mau ke lombok nih,asking-question-direction,1492419262
+863,Berangkat dari depok ke bandung,asking-question-direction,1492419279
+864,Kamu bisa apa aja?,asking-question-other,1492419321
+865,TanyaJalan perkenalin diri dong,asking-question-other,1492419332
+866,Kamu bisa apa aja?,asking-question-other,1492419332
+867,Kamu bisa apa aja?,asking-question-other,1492419333
+868,TanyaJalan perkenalin diri dong,asking-question-other,1492419344
+869,Yang buat kamu siapa?,asking-question-other,1492419378
+870,bagaimana cara dari kebayoran ke ui,asking-question-direction,1492419749
+871,rute krl,asking-question-schedule,1492419802
+872,cek jadwal krl stasiun kebayoran,asking-question-schedule,1492419816
+873,Kamu bisa apa aja?,asking-question-other,1492419840
+874,tanyajalan bye,other,1492419849
+875,TanyaJalan perkenalin diri dong,asking-question-other,1492419851
+876,Rute ke bandung,asking-question-direction,1492419877
+877,Dari UI ke bandung,asking-question-direction,1492419901
+878,Dari UI ke balai kartini,asking-question-direction,1492419958
+879,TanyaJalan perkenalin diri dong,asking-question-other,1492419972
+880,Kamu bisa apa aja?,asking-question-other,1492420011
+881,Pergi ke PIM dari Mampang,asking-question-direction,1492420016
+882,Kamu bisa apa aja?,asking-question-other,1492420048
+883,Berangkat dari Depok ke Gbi Kamboja,asking-question-direction,1492420048
+884,Hai,greeting,1492420066
+885,Kamu bisa apa aja?,asking-question-other,1492420070
+886,Berangkat dari pocin ke margo city,asking-question-direction,1492420121
+887,Jadwal krl,asking-question-schedule,1492420166
+888,Jadwal krl stasiun pocin,asking-question-schedule,1492420179
+889,Kamu bisa apa aja?,asking-question-other,1492420209
+890,Berangkat dari depok ke fasilkom ui,asking-question-direction,1492420254
+891,Berangkat dari depok ke kolam renang paragon,asking-question-direction,1492420300
+892,TanyaJalan perkenalin diri dong,asking-question-other,1492420322
+893,Kamu bisa apa aja?,asking-question-other,1492420381
+894,TanyaJalan perkenalin diri dong,asking-question-other,1492420386
+895,dari depok ke wisma 77 jakarta barat,asking-question-direction,1492420441
+896,Kalo dari sini ke bogor naik apa ya,asking-question-direction,1492420473
+897,Merak ke Banyuwangi,asking-question-direction,1492420592
+898,Bekasi ke London,asking-question-direction,1492420600
+899,dari depok ke pertamina utc,asking-question-direction,1492420668
+900,Kamu bisa apa aja?,asking-question-other,1492196287
+901,Dari palmerah ke gereja katedral,asking-question-direction,1492199082
+902,Kamu bisa apa aja?,asking-question-other,1492205849
+903,Berangkat dari stasiun ui ke museum nasional,asking-question-direction,1492205898
+904,TanyaJalan perkenalin diri dong,asking-question-other,1492209850
+905,Kamu bisa apa aja?,asking-question-other,1492209853
+906,Bagi rute busway bisa?,asking-question-schedule,1492210026
+907,Jangan bagi rute busway,giving-negative-feedback,1492210038
+908,Busway,asking-question-schedule,1492210045
+909,rute busway,asking-question-schedule,1492210054
+910,boborulabsldb ajkavs. Lala rute busway,other,1492210066
+911,TanyaJalan perkenalin diri dong,asking-question-other,1492228113
+912,Kamu bisa apa aja?,asking-question-other,1492228114
+913,ke rumah ado dari mcd djuanda,asking-question-direction,1492228143
+914,yahhh,giving-negative-feedback,1492228148
+915,:((((,giving-negative-feedback,1492228153
+916,jadwal kereta,asking-question-schedule,1492228182
+917,dari bandung ke Fasilkom UI,asking-question-direction,1492228196
+918,y,giving-positive-feedback,1492228256
+919,kerets,other,1492228260
+920,kerwta,other,1492228262
+921,kereta,other,1492228264
+922,cek jadwal krl stasiun pondok cina,asking-question-schedule,1492228277
+923,Bagaimana Caranya dari Hotel Pullman ke Mal CIPUTRA,asking-question-direction,1492231777
+924,Kamu bisa apa aja?,asking-question-other,1492232480
+925,Kamu bisa apa aja?,asking-question-other,1492232497
+926,TanyaJalan perkenalin diri dong,asking-question-other,1492232509
+927,Dari stie trisakti ke stp trisakti,asking-question-direction,1492232537
+928,TanyaJalan perkenalin diri dong,asking-question-other,1492235430
+929,TanyaJalan perkenalin diri dong,asking-question-other,1492312262
+930,Kamu bisa apa aja?,asking-question-other,1492312263
+931,Bagaimana cara dari depok ke sentul international convention center?,asking-question-direction,1492312300
+932,Depok ke sentul,asking-question-direction,1492312311
+933,Depok ke sicc,asking-question-direction,1492312318
+934,Universitas indonesia ke sicc,asking-question-direction,1492312330
+935,Universitas indonesia ke sicc,asking-question-direction,1492312330
+936,Ke sicc,asking-question-direction,1492312343
+937,Ke sicc,asking-question-direction,1492312352
+938,Pulang ke Sutera Kirana Alam Sutera lewat mana,asking-question-direction,1492323267
+939,Kamu bisa apa aja?,asking-question-other,1492331656
+940,TanyaJalan perkenalin diri dong,asking-question-other,1492331667
+941,Kamu bisa apa aja?,asking-question-other,1492331675
+942,Kamu bisa apa aja?,asking-question-other,1492331675
+943,Kwkwkw,giving-positive-feedback,1492331688
+944,Cek krl,asking-question-schedule,1492331696
+945,Dari ui ke bogor,asking-question-direction,1492331709
+946,UI ke sibolga,asking-question-direction,1492341483
+947,Ui ke ancol,asking-question-direction,1492341493
+948,UI ke kota tua,asking-question-direction,1492341556
+949,tampilkan lebih banyak jadwal krl stasiun BEKASI,asking-question-schedule,1492360765
+950,tampilkan lebih banyak jadwal krl stasiun BEKASI,asking-question-schedule,1492364008
+951,tampilkan lebih banyak jadwal krl stasiun MANGGARAI,asking-question-schedule,1492364237
+952,tampilkan lebih banyak jadwal krl stasiun Universitas Indonesia,asking-question-schedule,1492367549
+953,tampilkan lebih banyak jadwal krl stasiun Universitas Indonesia,asking-question-schedule,1492367990
+954,Kamu bisa apa aja?,asking-question-other,1492377660
+955,Ragunan ke ancol,asking-question-direction,1492377699
+956,TanyaJalan perkenalin diri dong,asking-question-other,1492377699
+957,Kamu bisa apa aja?,asking-question-other,1492377711
+958,Kamu bisa apa aja?,asking-question-other,1492377732
+959,Dari blok m ke jakpus,asking-question-direction,1492377737
+960,TanyaJalan perkenalin diri dong,asking-question-other,1492377744
+961,Blok m ke kelapa gading,asking-question-direction,1492378173
+962,Dari blok m ke kelapa gading,asking-question-direction,1492378198
+963,Blok m ke kelapa gading,asking-question-direction,1492378235
+964,Dari blok m ke depok,asking-question-direction,1492378366
+965,Blok m ke jagakarsa,asking-question-direction,1492378461
+966,Bulungan ke jagakarsa,asking-question-direction,1492378478
+967,Kamu bisa apa aja?,asking-question-other,1492380958
+968,Rute busway,asking-question-schedule,1492380998
+969,Stasiun pocin,asking-question-schedule,1492381029
+970,Stasiun pondok cina,asking-question-schedule,1492381042
+971,TanyaJalan perkenalin diri dong,asking-question-other,1492381052
+972,Kamu bisa apa aja?,asking-question-other,1492381062
+973,Dari UI ke SMAN 8 jakarta,asking-question-direction,1492381750
+974,Kamu bisa apa aja?,asking-question-other,1492381865
+975,Rute buseay,asking-question-schedule,1492381877
+976,Rute busway,asking-question-schedule,1492381880
+977,Dari bandung ke bogor,asking-question-direction,1492381921
+978,Ui ke kota tua,asking-question-direction,1492386193
+979,Ui ke margo,asking-question-direction,1492386206
+980,Ui ke gunadarma,asking-question-direction,1492386218
+981,Ancol ke pademangan,asking-question-direction,1492392331
+982,Kamu bisa apa aja?,asking-question-other,1492392511
+983,Krl menuju tanah abang berada di mana,giving-positive-feedback,1492392545
+984,Kamu bisa apa aja?,asking-question-other,1492392958
+985,Dari sini ke condet,asking-question-direction,1492392994
+986,Dari pasar minggu ke condet,asking-question-direction,1492393015
+987,Hii,greeting,1492402235
+988,Can you speak english,other,1492402249
+989,I am ruchira,other,1492402252
+990,From sri lanka,other,1492402262
+991,Kamu bisa apa aja?,asking-question-other,1492402321
+992,TanyaJalan perkenalin diri dong,asking-question-other,1492402323
+993,Ui ke cawang,asking-question-direction,1492411403
+994,Ui ke senayan,asking-question-direction,1492411416
+995,TanyaJalan perkenalin diri dong,asking-question-other,1492415070
+996,Kamu bisa apa aja?,asking-question-other,1492415073
+997,Kamu bisa apa aja?,asking-question-other,1492415075
+998,TanyaJalan perkenalin diri dong,asking-question-other,1492415083
+999,Kamu bisa apa aja?,asking-question-other,1492415088
+1000,Bagaimana cara dari Bekasi ke RS pantai indah kapuk,asking-question-direction,1492066264
+1001,Berangkat bekasi ke RS PIK,asking-question-direction,1492066286
+1002,Berangkat dari Jalan baitussalam beji depok ke vesperia,asking-question-direction,1492068805
+1003,TanyaJalan perkenalin diri dong,asking-question-other,1492068834
+1004,Berangkat dari Jalan baitussalam beji depok ke altrovis,asking-question-direction,1492068838
+1005,TanyaJalan perkenalin diri dong,asking-question-other,1492068841
+1006,TanyaJalan perkenalin diri dong,asking-question-other,1492068854
+1007,TanyaJalan perkenalin diri dong,asking-question-other,1492068858
+1008,Kamu bisa apa aja?,asking-question-other,1492068859
+1009,Kamu bisa apa aja?,asking-question-other,1492068868
+1010,Berangkat dari vesperia ke altrovis,asking-question-direction,1492068880
+1011,Berangkat dari  altrovis ke vesperia,asking-question-direction,1492068902
+1012,Berangkat dari ui ke flipbox.,asking-question-direction,1492068953
+1013,Dari ui ke sman 1 depok,asking-question-direction,1492069003
+1014,Dari ui ke sman 8 pekan baru,asking-question-direction,1492069019
+1015,Dari ui ke sman 8 pekanbaru,asking-question-direction,1492069038
+1016,Dari ui ke sman 1 tangerang,asking-question-direction,1492069050
+1017,Dari sman 1 depok ke sman 1 tangerang,asking-question-direction,1492069094
+1018,Dari sman 1 depok ke sman 1 tangerang,asking-question-direction,1492069094
+1019,Dari ui ke sman 1 bogor,asking-question-direction,1492069116
+1020,Sman 1 tangerang ke sman 1 bogor,asking-question-direction,1492069143
+1021,Ui ke jalan mawar depok,asking-question-direction,1492069192
+1022,Ui ke Masjid al awal,asking-question-direction,1492069206
+1023,Altrovis ke flipbox,asking-question-direction,1492069246
+1024,Berangkat dari stasiun bekasi ke RS PIK,asking-question-direction,1492070340
+1025,Detos ke margo,asking-question-direction,1492071405
+1026,Pergi ke margo dari detos,asking-question-direction,1492071424
+1027,Dari fasilkom UI ke margo,asking-question-direction,1492071439
+1028,Dari fasilkom UI ke margo,asking-question-direction,1492071499
+1029,Ihhh,giving-negative-feedback,1492071503
+1030,Jawab,other,1492071505
+1031,Kamu bisa apa aja?,asking-question-other,1492079716
+1032,Bagaimana cara dari SERPONG ke Cilebut Bogor,asking-question-direction,1492079796
+1033,Bagaimana Caranya dari SERPONG ke Rumah Sakit Pantai Indah Kapuk,asking-question-direction,1492125891
+1034,TanyaJalan perkenalin diri dong,asking-question-other,1492126718
+1035,Kamu bisa apa aja?,asking-question-other,1492126727
+1036,Dari tambun ke cikarang jalurnya yg paling deket lewat mana ?,asking-question-direction,1492126839
+1037,Jadwal krl stasiun bekasi,asking-question-schedule,1492126865
+1038,tampilkan lebih banyak jadwal krl stasiun BEKASI,asking-question-schedule,1492126880
+1039,Ke senayan city dari bekasi ?,asking-question-direction,1492126954
+1040,Klo naik kereta ?,asking-question-direction,1492127005
+1041,Bekasi ke taman mangrove lewat mana ?,asking-question-direction,1492127041
+1042,Pergi ke taman mangrove dari bekasi ?,asking-question-direction,1492127111
+1043,Rutenya ga lengkap nih,giving-negative-feedback,1492127140
+1044,Bekasi ke ancol ?,asking-question-direction,1492127158
+1045,Dari bekasi ke ancol,asking-question-direction,1492127187
+1046,Dari ancol ke taman mangrove,asking-question-direction,1492127332
+1047,TanyaJalan perkenalin diri dong,asking-question-other,1492129081
+1048,Kamu bisa apa aja?,asking-question-other,1492129081
+1049,Dari serpong ke ui,asking-question-direction,1492129102
+1050,Yee makasih,giving-positive-feedback,1492129133
+1051,Ke jungleland dari ui,asking-question-direction,1492129158
+1052,TanyaJalan perkenalin diri dong,asking-question-other,1492129344
+1053,Kamu bisa apa aja?,asking-question-other,1492129351
+1054,TanyaJalan perkenalin diri dong,asking-question-other,1492130534
+1055,TanyaJalan perkenalin diri dong,asking-question-other,1492133066
+1056,dari depok ke hati nya,asking-question-direction,1492133076
+1057,dari universitas indonesia ke pinang ranti mansion,asking-question-direction,1492133108
+1058,Dari ui ke menteng atas,asking-question-direction,1492135388
+1059,Dari ui ke menteng atas selatan,asking-question-direction,1492135436
+1060,Dari ui ke menteng atas naik taksi,asking-question-direction,1492135460
+1061,Dari ui ke gramedia,asking-question-direction,1492135478
+1062,Dari menteng atas ke gramedia matraman,asking-question-direction,1492135527
+1063,Jalan kembali ke hatinya,asking-question-direction,1492135871
+1064,Cara kembali ke jalan yang benar,asking-question-other,1492137201
+1065,Kamu bisa apa aja?,asking-question-other,1492137238
+1066,Jadwal kereta pocin,asking-question-schedule,1492137288
+1067,Jadwal kereta stasiun pondok cina,asking-question-schedule,1492137306
+1068,tampilkan lebih banyak jadwal krl stasiun PONDOKCINA,asking-question-schedule,1492137352
+1069,tampilkan lebih banyak jadwal krl stasiun manggarai,asking-question-schedule,1492140109
+1070,Kamu bisa apa aja?,asking-question-other,1492140551
+1071,tampilkan lebih banyak jadwal krl stasiun MANGGARAI,asking-question-schedule,1492140570
+1072,TanyaJalan perkenalin diri dong,asking-question-other,1492141006
+1073,Kamu bisa apa aja?,asking-question-other,1492141011
+1074,Dari fasilkom ui ke tegal,asking-question-direction,1492141024
+1075,TanyaJalan perkenalin diri dong,asking-question-other,1492143964
+1076,Kamu bisa apa aja?,asking-question-other,1492143965
+1077,TanyaJalan perkenalin diri dong,asking-question-other,1492156314
+1078,kereta bogor ke bekasi,asking-question-direction,1492156339
+1079,bus bogor ke garut,asking-question-direction,1492156374
+1080,bus bogor ke slipi,asking-question-direction,1492156388
+1081,kereta bogor ke kebayoran lama,asking-question-direction,1492156479
+1082,terimakasih,giving-positive-feedback,1492156598
+1083,iya dong,giving-positive-feedback,1492156609
+1084,jadwal KRL bogor,asking-question-schedule,1492156623
+1085,Angkutan Umum Bogor ke Universitas Pakuan,asking-question-direction,1492161835
+1086,yaallah masa jalan kaki,giving-negative-feedback,1492161867
+1087,angkutan umum ciracas ke kranji,asking-question-direction,1492163511
+1088,TanyaJalan perkenalin diri dong,asking-question-other,1492163577
+1089,Pergi ke Stasiun Bogor dari Universitas Pakuan,asking-question-direction,1492165635
+1090,Kamu bisa apa aja?,asking-question-other,1492192635
+1091,TanyaJalan perkenalin diri dong,asking-question-other,1492192635
+1092,Ke gading,asking-question-direction,1492192662
+1093,Mau ke gading,asking-question-direction,1492192670
+1094,Sudirman ke gading,asking-question-direction,1492192698
+1095,Kamu bisa apa aja?,asking-question-other,1492192715
+1096,TanyaJalan perkenalin diri dong,asking-question-other,1492192719
+1097,Dari puri Casablanca ke rumah Morocco,asking-question-direction,1492193118
+1098,Puri Casablanca ke kebun binatang ragunan,asking-question-direction,1492193179
+1099,Berangkat dari UI ke Citra Gram Cibubur,asking-question-direction,1492194527
+1100,Dari dimensi 3d ke dimensi 2d,asking-question-direction,1492029834
 1101,Berangkat dari semanggi ke bogor,ask-for-direction,1492029835
 1102,test,other,1492031279
 1103,test,other,1492031290
