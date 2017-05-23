@@ -50,10 +50,10 @@ def main():
 	write_feature_to_file('output/feature_balanced.csv', count_vect_balance, balanced_data['text'])
 
 	label = data['intent']
-	label.to_csv('output/label', header=['intent'], index = False)
+	label.to_csv('output/label.csv', header=['intent'], index = False)
 
 	balanced_label = balanced_data['intent']
-	balanced_label.to_csv('output/balanced_label', header=['intent'], index = False)
+	balanced_label.to_csv('output/balanced_label.csv', header=['intent'], index = False)
 
 if __name__ == '__main__':
 	main()
