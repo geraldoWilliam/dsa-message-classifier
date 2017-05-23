@@ -1,3 +1,7 @@
+input_file = 'data/curated_dump.csv'
+output_file = 'output/cleaned_dump.csv'
+output_file_intent_summary = 'output/intent_summary.csv'
+
 def convert(s):
 	if(s in ['ask-permission-to-ask', 'help', 'intro']):
 		return 'asking-question-other'
@@ -16,7 +20,7 @@ def convert(s):
 
 import pandas as pd
 
-data = pd.read_csv('dump.csv')
+data = pd.read_csv(input_file)
 count_intent = {}
 
 for i,row in data.iterrows():
@@ -26,10 +30,11 @@ for i,row in data.iterrows():
 	else:
 		count_intent[data.loc[i,'intent']] = 1
 
-unique_intent = list(set(data['intent']))
-print 'Unique intents:'
-print len(unique_intent)
-for s in unique_intent:
-	print s, count_intent[s]
+data.to_csv(output_file)
 
-data.to_csv('cleaned_dump.csv')
+unique_intent = list(set(data['intent']))
+print 'Unique intents:', len(unique_intent)
+
+intent_summary = pd.DataFrame({ 'Count': count_intent.values() }, index=count_intent.keys())
+intent_summary.to_csv(output_file_intent_summary, index_label='Intent')
+print intent_summary

@@ -2,8 +2,8 @@ import csv
 import json
 import datetime
 
-input_file = 'dump.json'
-output_file = 'dump.csv'
+input_file = 'data/dump.json'
+output_file = 'data/dump.csv'
 
 def getTime(t):
     return int(datetime.datetime.strptime(t, "%Y-%m-%dT%H:%M:%S.%fZ").strftime('%s'))

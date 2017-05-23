@@ -1,6 +1,6 @@
 import json
 
-output_file = 'dump.json'
+output_file = 'data/dump.json'
 files = []
 events = []
 
