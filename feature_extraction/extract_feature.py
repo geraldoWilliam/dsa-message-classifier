@@ -19,8 +19,7 @@ def main():
 	with open('id_stopwords.txt') as f:
 		stopwords = f.read().splitlines()
 	
-	import pandas as pd
-	data = pd.read_csv('../preprocessing/cleaned_dump.csv', index_col=0)
+	data = pd.read_csv('../preprocessing/output/cleaned_dump.csv', index_col=0)
 	
 	# normalize the text
 	for i,row in data.iterrows():
@@ -40,21 +39,21 @@ def main():
 		balanced_data = balanced_data.append(rows)
 
 	balanced_data = balanced_data.sample(frac=1)
-	balanced_data.to_csv('balanced_data.csv', index=False)
+	balanced_data.to_csv('output/balanced_data.csv', index=False)
 
 	count_vect_freq = CountVectorizer()
 	count_vect_bool = CountVectorizer(binary = True)
 	count_vect_balance = CountVectorizer()
 
-	write_feature_to_file('feature_freq.csv', count_vect_freq, data['text'])
-	write_feature_to_file('feature_bool.csv', count_vect_bool, data['text'])
-	write_feature_to_file('feature_balanced.csv', count_vect_balance, balanced_data['text'])
+	write_feature_to_file('output/feature_freq.csv', count_vect_freq, data['text'])
+	write_feature_to_file('output/feature_bool.csv', count_vect_bool, data['text'])
+	write_feature_to_file('output/feature_balanced.csv', count_vect_balance, balanced_data['text'])
 
 	label = data['intent']
-	label.to_csv('label', header=['intent'], index = False)
+	label.to_csv('output/label', header=['intent'], index = False)
 
 	balanced_label = balanced_data['intent']
-	balanced_label.to_csv('balanced_label', header=['intent'], index = False)
+	balanced_label.to_csv('output/balanced_label', header=['intent'], index = False)
 
 if __name__ == '__main__':
 	main()
