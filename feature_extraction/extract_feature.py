@@ -1,4 +1,5 @@
 import pandas as pd
+import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 
 def normalize_text(s):
@@ -54,6 +55,10 @@ def main():
 
 	balanced_label = balanced_data['intent']
 	balanced_label.to_csv('output/balanced_label.csv', header=['intent'], index = False)
+
+	pickle.dump(count_vect_freq, open('output/count_vect_freq.pkl', 'wb'))
+	pickle.dump(count_vect_bool, open('output/count_vect_bool.pkl', 'wb'))
+	pickle.dump(count_vect_balance, open('output/count_vect_balance.pkl', 'wb'))
 
 if __name__ == '__main__':
 	main()

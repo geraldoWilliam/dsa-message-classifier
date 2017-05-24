@@ -18,10 +18,12 @@ body {
 }
 
 .nav {
+    background-color: #fff;
 	width: 100%;
-	border: 1px solid #ddd;
-	padding: 0 20px;
+	border-bottom: 1px solid #ddd;
+	padding: 20px;
 	margin-bottom: 20px;
+	min-height: 10px;
 }
 
 #input-message {
@@ -31,14 +33,6 @@ body {
 	margin-bottom: 15px;
 	border: 1px solid #ddd;
 	outline: none;
-}
-
-#btn-submit {
-	cursor: pointer;
-	padding: 10px 20px;
-	font-weight: bold;
-	border: 0;
-	background-color: #eee;
 }
 
 .subtitle {
@@ -54,12 +48,13 @@ body {
 
 #message-intent {
 	display: block;	
-	margin: 5px 0 5px 5px;
+	margin: 5px 0 10px 5px;
 	color: #1eaaf1;
 }
 
 #message-details {
 	display: block;
+	overflow-x: scroll;
 	background-color: #f5f5f5;
 	min-height: 20px;
 	padding: 10px;
@@ -69,8 +64,14 @@ body {
 }
 
 #loading-message {
-	margin-left: 10px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
 	display: none;
+}
+
+#title {
+    font-size: 1.4rem;
 }
 
 #credit {
@@ -79,4 +80,26 @@ body {
 	right: 5px;
 	font-weight: bold;
 	color: #bbb;
+}
+
+.checkbox-wrapper, #select-classifier {
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+
+#btn-submit {
+	cursor: pointer;
+	padding: 12px 20px;
+	font-weight: bold;
+	border: 0;
+	background-color: #eee;
+}
+
+.checkbox-label {
+    margin-right: 20px;
+    font-size: 0.8rem;
 }

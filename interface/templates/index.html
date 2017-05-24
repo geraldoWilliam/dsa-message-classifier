@@ -2,18 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Intent Recognizer</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
   <div class="nav">
-    <h3>Intent Recognizer</h3>    
+    <span id="title">Intent Recognizer</span>
+    <span id="loading-message">Loading...</span>
   </div>
   <div class="container">
     <form id="form-message" autocomplete="off">
       <input type="text" id="input-message" placeholder="Enter message">
+      <select id="select-classifier">
+        <option value="MNB">Multinomial Naive Bayes</option>
+        <option value="tree">Decision Tree</option>
+      </select>
+      <div class="checkbox-wrapper">
+        <input type="checkbox" id="checkbox-balanced">
+        <label for="checkbox-balanced" class="checkbox-label">Balanced data</label>
+      </div>
+      <div class="checkbox-wrapper">
+        <input type="checkbox" id="checkbox-selected">
+        <label for="checkbox-selected" class="checkbox-label">Selected feature</label>
+      </div>
       <input type="submit" id="btn-submit">
-      <span id="loading-message">Loading...</span>
     </form>
   </div>
   <div class="container">
@@ -23,9 +36,6 @@
     <span id="message-intent">-</span>
     <span class="subtitle">Details</span>
     <pre id="message-details">-</pre>
-  </div>
-  <div id="credit">
-    By Adam Jordan, Geraldo William, Aulia Astrico
   </div>
   <script type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}"></script>
   <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
