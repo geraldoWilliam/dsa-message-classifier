@@ -2,39 +2,38 @@ import json
 import pickle
 import pandas as pd
 
-def getFeatures(message, balanced_data, selected_features):
-    if selected_features:
-        raise NotImplementedError
-
-    vectorizer_name = 'count_vect_' + ('balance' if balanced_data else 'freq') + '.pkl'
-    count_vect_freq = pickle.load(open('../feature_extraction/output/' + vectorizer_name, 'rb'))
-
-    features = count_vect_freq.transform([message])
-    df = pd.DataFrame(features.toarray())
-
-    return df
-
-def predictIntent(message, classifier, balanced_data, selected_features):
-    model_name = classifier + '_model_'
-    model_name += ('balanced' if balanced_data else 'biased') + '_'
-    model_name += ('selected' if selected_features else 'not-selected')
-
-    model = pickle.load(open('../training/output/' + model_name + '.pkl', 'rb'))
-
-    features = getFeatures(message, balanced_data, selected_features)
+def predict(message, model, vectorizer):
+    features = vectorizer.transform([message])
     predicted = model.predict(features)
     probabilities = zip(model.classes_, model.predict_proba(features)[0])
-
     return predicted[0], probabilities
 
+def predictIntent(message, classifier, balanced_data, selected_features, feature_mode):
+    if not selected_features:
+        raise NotImplementedError
 
-def classify(message, classifier, balanced_data, selected_features):
-    intent, probs = predictIntent(message, classifier, balanced_data, selected_features)
+    # getModel
+    model_name = classifier + '_' + feature_mode + '_'
+    model_name += ('bal' if balanced_data else 'inb')
+    model = pickle.load(open('../training_testing/output/' + model_name + '.pkl', 'rb'))
+
+    # getVectorizer
+    vectorizer_name = 'vect_' + feature_mode
+    vectorizer_name += ('_balanced' if balanced_data else '')
+    vectorizer_name += '_selected'
+    vectorizer = pickle.load(open('../feature_selection/output/' + vectorizer_name + '.pkl', 'rb'))
+
+    return predict(message, model, vectorizer)
+
+
+def classify(message, classifier, balanced_data, selected_features, feature_mode):
+    intent, probs = predictIntent(message, classifier, balanced_data, selected_features, feature_mode)
     probabilities = { i: format(x, '.8f') for i,x in probs }
     model = {
         'classifier': classifier,
         'balanced_data': balanced_data,
-        'selected_features': selected_features
+        'selected_features': selected_features,
+        'feature_mode': feature_mode
     }
     details = {
         'intent': intent,

@@ -111,7 +111,7 @@ body {
 	color: #bbb;
 }
 
-.checkbox-wrapper, #select-classifier {
+.checkbox-wrapper, #select-classifier, #select-mode {
     display: inline-block;
     margin-right: 10px;
     border: 1px solid #ddd;
