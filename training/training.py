@@ -1,101 +1,93 @@
 import pandas as pd
-import numpy as np
-from sklearn import metrics
-from sklearn.model_selection import cross_val_score
-from sklearn.model_selection import cross_val_predict
-from sklearn.feature_selection import SelectFromModel
 import pickle
-import threading
-from sys import argv
-target = open("metadata", 'w')
-#label
 
-X = pd.read_csv('../feature_extraction/feature_balanced.csv')
-y = pd.read_csv('../feature_extraction/balanced_label').values.ravel() #Force LOL
+def generate_report(model, training_data, label):
+    # classification report and k-fold cross validation
+    from sklearn.model_selection import cross_val_score
+    from sklearn import metrics
 
-X_extra = pd.read_csv('../feature_extraction/feature_freq.csv')
-y_extra = pd.read_csv('../feature_extraction/label').values.ravel() #Force LOL
+    scores = cross_val_score(model, training_data, label, cv=5)
+    print scores
+    print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
 
-# #remove extra feature -- ExtraTrees
-#select=ExtraTreesClassifier()
-#X = dataset['wkwk']
-#X_new= select.fit(X,y)
+    predicted = model.predict(training_data)
+    report = metrics.classification_report(label, predicted)
+    c_mat = metrics.confusion_matrix(label, predicted)
 
-# #remove extra feature -- SelectKBest
-#from sklearn.feature_selection import SelectKBest
-#from sklearn.feature_selection import chi2
-#
-#select = SelectKBest(chi2, k=2)
-#X_new = select.fit_transform(X, y) 
+    print c_mat
+    print report
 
-from sklearn.naive_bayes import MultinomialNB
-mnm = MultinomialNB()
-mnm.fit(X,y)
-target.write("mnm Balanced Data score: ")
-target.write(repr(mnm.score(X,y)))
-target.write("\n")
+def main():
+    training_data = pd.read_csv('../feature_extraction/output/feature_freq.csv')
+    balanced_training_data = pd.read_csv('../feature_extraction/output/feature_balanced.csv')
+    label = pd.read_csv('../feature_extraction/output/label.csv')
+    balanced_label = pd.read_csv('../feature_extraction/output/balanced_label.csv')
 
-predicted_mnm = cross_val_predict(mnm, X, y, cv=10)
-target.write("mnm Balanced Data 10-Cross fold: ")
-target.write(repr(metrics.accuracy_score(y, predicted_mnm)))
-target.write("\n")
+    training_data = training_data.as_matrix()
+    label = label['intent']
 
-predicted_mnm_all = cross_val_predict(mnm, X_extra, y_extra, cv=10)
-target.write("mnm Balanced Data 10-Cross fold All Data: ")
-target.write(repr(metrics.accuracy_score(y_extra, predicted_mnm_all)))
-target.write("\n")
-pickle.dump(mnm, open("mnmAllFeature.p","wb"))
+    balanced_training_data = balanced_training_data.as_matrix()
+    balanced_label = balanced_label['intent']
 
-umnm = MultinomialNB()
-umnm.fit(X_extra,y_extra)
-target.write("mnm UnBalanced Data score: ")
-target.write(repr(umnm.score(X_extra,y_extra)))
-target.write("\n")
+    from sklearn.feature_selection import SelectKBest
+    from sklearn.feature_selection import chi2
+    data_selected = SelectKBest(chi2, k=700).fit_transform(training_data, label)
+    balanced_data_selected = SelectKBest(chi2, k=300).fit_transform(balanced_training_data, balanced_label)
 
-predicted_umnm_all = cross_val_predict(umnm, X_extra, y_extra, cv=10)
-target.write("mnm UnBalanced Data 10-Cross fold All Data : ")
-target.write(repr(metrics.accuracy_score(y_extra, predicted_umnm_all)))
-target.write("\n")
+    from sklearn.naive_bayes import MultinomialNB
 
-predicted_umnm = cross_val_predict(umnm, X, y, cv=10)
-target.write("mnm UnBalanced Data 10-Cross fold All Data to balanced: ")
-target.write(repr(metrics.accuracy_score(y, predicted_umnm)))
-target.write("\n")
-pickle.dump(umnm, open("UmnmAllFeature.p","wb"))
+    print "MultnomialNB, biased training data"
+    MNB_model = MultinomialNB().fit(training_data, label)
+    generate_report(MNB_model, training_data, label)
+    pickle.dump(MNB_model, open('output/MNB_model_biased_not-selected.pkl', 'wb'))
+    print "*****************************\n"
 
-from sklearn.neural_network import MLPClassifier
-mlp = MLPClassifier(solver='lbfgs', alpha=1e-5,hidden_layer_sizes=(25, 100))
-mlp.fit(X,y)
-target.write("MLP Balanced Data score: ")
-target.write(repr(mlp.score(X,y)))
-target.write("\n")
+    print "MultinomialNB, biased training data, feature selected"
+    MNB_model = MultinomialNB().fit(data_selected, label)
+    generate_report(MNB_model, data_selected, label)
+    pickle.dump(MNB_model, open('output/MNB_model_biased_selected.pkl', 'wb'))
+    print "*****************************\n"
 
-predicted_mlp = cross_val_predict(mlp, X, y, cv=10)
-target.write("MLP Balanced Data 10-Cross : ")
-target.write(repr(metrics.accuracy_score(y, predicted_mlp)))
-target.write("\n")
+    print "MultinomialNB, balanced training data"
+    balanced_MNB_model = MultinomialNB().fit(balanced_training_data, balanced_label)
+    generate_report(balanced_MNB_model, balanced_training_data, balanced_label)
+    pickle.dump(balanced_MNB_model, open('output/MNB_model_balanced_not-selected.pkl', 'wb'))
+    print "*****************************\n"
 
-predicted_mlp_all = cross_val_predict(mlp, X_extra, y_extra, cv=10)
-target.write("MLP Balanced Data 10-Cross Extra All Data: ")
-target.write(repr(metrics.accuracy_score(y_extra, predicted_mlp_all)))
-target.write("\n")
-pickle.dump(mlp, open("MLPAllFeature.p","wb"))
+    print "MultinomialNB, balanced training data, feature selected"
+    balanced_MNB_model = MultinomialNB().fit(balanced_data_selected, balanced_label)
+    generate_report(balanced_MNB_model, balanced_data_selected, balanced_label)
+    pickle.dump(balanced_MNB_model, open('output/MNB_model_balanced_selected.pkl', 'wb'))
+    print "*****************************\n"
 
-umlp = MLPClassifier(solver='lbfgs', alpha=1e-5,hidden_layer_sizes=(25, 100))
-umlp.fit(X_extra,y_extra)
-target.write("MLP UnBalanced Data score: ")
-target.write(repr(umlp.score(X_extra,y_extra)))
-target.write("\n")
 
-predicted_umlp_all = cross_val_predict(umlp, X_extra, y_extra, cv=10)
-target.write("MLP UnBalanced Data 10-Cross : ")
-target.write(repr(metrics.accuracy_score(y_extra, predicted_umlp_all)))
-target.write("\n")
+    print "\n\n"
+    from sklearn.tree import DecisionTreeClassifier
 
-predicted_umlp = cross_val_predict(umlp, X, y, cv=10)
-target.write("MLP UnBalanced Data 10-Cross to balanced Data: ")
-target.write(repr(metrics.accuracy_score(y, predicted_umlp)))
-target.write("\n")
-pickle.dump(mlp, open("UMLPAllFeature.p","wb"))
+    print "DecisionTree, biased training data"
+    tree_model = DecisionTreeClassifier().fit(training_data, label)
+    generate_report(tree_model, training_data, label)
+    pickle.dump(tree_model, open('output/tree_model_biased_not-selected.pkl', 'wb'))
+    print "*****************************\n"
 
-target.close()
+    print "DecisionTree, biased training data, feature selected"
+    tree_model = DecisionTreeClassifier().fit(data_selected, label)
+    generate_report(tree_model, data_selected, label)
+    pickle.dump(tree_model, open('output/tree_model_biased_selected.pkl', 'wb'))
+    print "*****************************\n"
+
+    print "DecisionTree, balanced training data"
+    tree_model = DecisionTreeClassifier().fit(balanced_training_data, balanced_label)
+    generate_report(tree_model, balanced_training_data, balanced_label)
+    pickle.dump(tree_model, open('output/tree_model_balanced_not-selected.pkl', 'wb'))
+    print "*****************************\n"
+
+    print "DecisionTree, balanced training data, feature selected"
+    tree_model = DecisionTreeClassifier().fit(balanced_data_selected, balanced_label)
+    generate_report(tree_model, balanced_data_selected, balanced_label)
+    pickle.dump(tree_model, open('output/tree_model_balanced_selected.pkl', 'wb'))
+    print "*****************************\n"
+
+
+if __name__ == '__main__':
+    main()
