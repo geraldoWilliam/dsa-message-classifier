@@ -1,5 +1,5 @@
 input_file = 'data/curated_dump.csv'
-output_file = 'output/cleaned_dump.csv'
+output_file = 'data/converted_curated_dump.csv'
 output_file_intent_summary = 'output/intent_summary.csv'
 
 def convert(s):

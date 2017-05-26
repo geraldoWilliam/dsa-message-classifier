@@ -123,6 +123,7 @@ body {
 #btn-submit {
 	cursor: pointer;
 	padding: 12px 20px;
+	font-size: 0.8rem;
 	font-weight: bold;
 	border: 0;
 	background-color: #eee;
