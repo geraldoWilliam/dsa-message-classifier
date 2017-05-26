@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Intent Recognizer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='fonts.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='normalize.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
@@ -11,33 +13,41 @@
     <span id="title">Intent Recognizer</span>
     <span id="loading-message">Loading...</span>
   </div>
-  <div class="container">
-    <form id="form-message" autocomplete="off">
-      <input type="text" id="input-message" placeholder="Enter message">
-      <select id="select-classifier">
-        <option value="MNB">Multinomial Naive Bayes</option>
-        <option value="tree">Decision Tree</option>
-      </select>
-      <div class="checkbox-wrapper">
-        <input type="checkbox" id="checkbox-balanced">
-        <label for="checkbox-balanced" class="checkbox-label">Balanced data</label>
-      </div>
-      <div class="checkbox-wrapper">
-        <input type="checkbox" id="checkbox-selected">
-        <label for="checkbox-selected" class="checkbox-label">Selected feature</label>
-      </div>
-      <input type="submit" id="btn-submit">
-    </form>
+  <div class="container-input">
+    <div class="container-input-content">
+      <form id="form-message" autocomplete="off">
+        <input type="text" id="input-message" placeholder="Enter message">
+        <select id="select-classifier">
+          <option value="MNB">Multinomial Naive Bayes</option>
+          <option value="tree">Decision Tree</option>
+        </select>
+        <div class="checkbox-wrapper">
+          <input type="checkbox" id="checkbox-balanced">
+          <label for="checkbox-balanced" class="checkbox-label">Balanced data</label>
+        </div>
+        <div class="checkbox-wrapper">
+          <input type="checkbox" id="checkbox-selected">
+          <label for="checkbox-selected" class="checkbox-label">Selected feature</label>
+        </div>
+        <input type="submit" id="btn-submit" value="Submit">
+      </form>
+    </div>
   </div>
   <div class="container">
-    <span class="subtitle">Sentences</span>
-    <span id="message-text">-</span>
-    <span class="subtitle">Predicted Intent</span>
-    <span id="message-intent">-</span>
-    <span class="subtitle">Details</span>
-    <pre id="message-details">-</pre>
+    <div class="card">
+      <span class="subtitle">Sentences</span>
+      <span id="message-text">-</span>
+      <span class="subtitle">Predicted Intent</span>
+      <span id="message-intent">-</span>
+      <span class="subtitle">Details</span>
+      <pre id="message-details">-</pre>
+    </div>
+    <div class="card">
+      <canvas id="chart" width="400" height="250"></canvas>
+    </div>
   </div>
   <script type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='Chart.js') }}"></script>
   <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>

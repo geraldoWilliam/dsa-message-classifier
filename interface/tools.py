@@ -45,5 +45,7 @@ def classify(message, classifier, balanced_data, selected_features):
     return {
         'intent': intent,
         'text': message,
-        'details': json.dumps(details, indent=4, sort_keys=True)
+        'details': json.dumps(details, indent=4, sort_keys=True),
+        'confidence_labels': probabilities.keys(),
+        'confidence_values': probabilities.values(),
     }
