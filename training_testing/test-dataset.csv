@@ -1,71 +1,71 @@
-text, intent
-halo, greeting
-selamat malam, greeting
-selamat pagi, greeting
-apa kabar, greeting
-hai, greeting
-halo selamat siang, greeting
-hi, greeting
-hey malam, greeting
-pagi, greeting
-salam sejahtera, greeting
-Tunjukkan jalan dari UI ke Bogor, asking-question-direction
-bagaimana cara ke Stasiun Palmerah?, asking-question-direction
-rute menuju kebayoran, asking-question-direction
-ke surabaya dari bandung, asking-question-direction
-kasih rute menuju fakultas ilmu komputer dong, asking-question-direction
-bagaimana cara ke fasilkom siang ini?, asking-question-direction
-menuju kelapa dua dari margonda, asking-question-direction
-mau pergi ke central park yang ada di grogol, asking-question-direction
-kasih tau caranya ke universitas gunadarma, asking-question-direction
-dari depok ke bali, asking-question-direction
-bagaimana jadwal kereta hari ini?, asking-question-schedule
-Jadwal keberangkatan kereta di stasiun juanda, asking-question-schedule
-Jadwal terminal harmoni, asking-question-schedule
-Busway kapan datangnya di terminal slipi kemanggisan, asking-question-schedule
-Kedatangan kereta di stasiun bogor, asking-question-schedule
-Jadwal kereta dari stasiun jakarta kota ke stasiun palmerah, asking-question-schedule
-Keberangkatan krl stasion bogor, asking-question-schedule
-Coba kasih tau kapan kereta datang di stasiun manggarai, asking-question-schedule
-Jadwal bus trans jakarta koridor 7 terminal senayan city, asking-question-schedule
-Jadwal busway untuk malam ini?, asking-question-schedule
-mengapa bumi itu bulat?, asking-question-other
-apa yang dimaksud dengan chatbot?, asking-question-other
-bagaimana nilai saya nanti, asking-question-other
-apakah hari ini akan hujan, asking-question-other
-kamu bisa apa saja?, asking-question-other
-kamu biasa ngapain aja?, asking-question-other
-ini bagaimana cara menghitungnya?, asking-question-other
-kok kamu bisa tahu?, asking-question-other
-kamu tanya jalan ke siapa?, asking-question-other
-siapa yang membuat kamu?, asking-question-other
-kamu luar biasa, giving-positive-feedback
-kamu super sekali, giving-positive-feedback
-terima kasih, giving-positive-feedback
-makasih, giving-positive-feedback
-bagus, giving-positive-feedback
-keren banget, giving-positive-feedback
-wow kok tau haha, giving-positive-feedback
-terima kasih sudah membantu, giving-positive-feedback
-aduh makasih ya, giving-positive-feedback
-kamu memang sangat hebat, giving-positive-feedback
-jelek banget, giving-negative-feedback
-kok salah sih, giving-negative-feedback
-rutenya jauh banget, giving-negative-feedback
-kok dikasih rute yang salah, giving-negative-feedback
-kamu memang sampah, giving-negative-feedback
-yah kecewa, giving-negative-feedback
-masa ga bisa, giving-negative-feedback
-masa ga ketemu rutenya?, giving-negative-feedback
-payah nih, giving-negative-feedback
-bot nya bodoh, giving-negative-feedback
-ingin belajar masak, other
-selamatkan saya dari DSA, other
-aku ingin dapat nilai bagus, other
-ini tugas akhir saya, other
-extreme payload, other
-sakdlljadla, other
-satu nusa satu bangsa, other
-dahulu kala ada sebuah kisah tentang anak manusia., other
-saya mau chat dengan seseorang tapi malu, other
-ini adalah sebuah pesan, other
+text,intent
+halo,greeting
+selamat malam,greeting
+selamat pagi,greeting
+apa kabar,greeting
+hai,greeting
+halo selamat siang,greeting
+hi,greeting
+hey malam,greeting
+pagi,greeting
+salam sejahtera,greeting
+Tunjukkan jalan dari UI ke Bogor,asking-question-direction
+bagaimana cara ke Stasiun Palmerah?,asking-question-direction
+rute menuju kebayoran,asking-question-direction
+ke surabaya dari bandung,asking-question-direction
+kasih rute menuju fakultas ilmu komputer dong,asking-question-direction
+bagaimana cara ke fasilkom siang ini?,asking-question-direction
+menuju kelapa dua dari margonda,asking-question-direction
+mau pergi ke central park yang ada di grogol,asking-question-direction
+kasih tau caranya ke universitas gunadarma,asking-question-direction
+dari depok ke bali,asking-question-direction
+bagaimana jadwal kereta hari ini?,asking-question-schedule
+Jadwal keberangkatan kereta di stasiun juanda,asking-question-schedule
+Jadwal terminal harmoni,asking-question-schedule
+Busway kapan datangnya di terminal slipi kemanggisan,asking-question-schedule
+Kedatangan kereta di stasiun bogor,asking-question-schedule
+Jadwal kereta dari stasiun jakarta kota ke stasiun palmerah,asking-question-schedule
+Keberangkatan krl stasion bogor,asking-question-schedule
+Coba kasih tau kapan kereta datang di stasiun manggarai,asking-question-schedule
+Jadwal bus trans jakarta koridor 7 terminal senayan city,asking-question-schedule
+Jadwal busway untuk malam ini?,asking-question-schedule
+mengapa bumi itu bulat?,asking-question-other
+apa yang dimaksud dengan chatbot?,asking-question-other
+bagaimana nilai saya nanti,asking-question-other
+apakah hari ini akan hujan,asking-question-other
+kamu bisa apa saja?,asking-question-other
+kamu biasa ngapain aja?,asking-question-other
+ini bagaimana cara menghitungnya?,asking-question-other
+kok kamu bisa tahu?,asking-question-other
+kamu tanya jalan ke siapa?,asking-question-other
+siapa yang membuat kamu?,asking-question-other
+kamu luar biasa,giving-positive-feedback
+kamu super sekali,giving-positive-feedback
+terima kasih,giving-positive-feedback
+makasih,giving-positive-feedback
+bagus,giving-positive-feedback
+keren banget,giving-positive-feedback
+wow kok tau haha,giving-positive-feedback
+terima kasih sudah membantu,giving-positive-feedback
+aduh makasih ya,giving-positive-feedback
+kamu memang sangat hebat,giving-positive-feedback
+jelek banget,giving-negative-feedback
+kok salah sih,giving-negative-feedback
+rutenya jauh banget,giving-negative-feedback
+kok dikasih rute yang salah,giving-negative-feedback
+kamu memang sampah,giving-negative-feedback
+yah kecewa,giving-negative-feedback
+masa ga bisa,giving-negative-feedback
+masa ga ketemu rutenya?,giving-negative-feedback
+payah nih,giving-negative-feedback
+bot nya bodoh,giving-negative-feedback
+ingin belajar masak,other
+selamatkan saya dari DSA,other
+aku ingin dapat nilai bagus,other
+ini tugas akhir saya,other
+extreme payload,other
+sakdlljadla,other
+satu nusa satu bangsa,other
+dahulu kala ada sebuah kisah tentang anak manusia.,other
+saya mau chat dengan seseorang tapi malu,other
+ini adalah sebuah pesan,other

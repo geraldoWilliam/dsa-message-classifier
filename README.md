@@ -81,6 +81,7 @@ python select_feature.py
 - `features_freq_balanced_selected.csv`
 - `features_bool_balanced_selected.csv`
 - `selected_features_*.txt`
+- `vect_*_selected.pkl`
 
 Output(s) are available at `preprocessing/output/`
 
@@ -88,16 +89,28 @@ Output(s) are available at `preprocessing/output/`
 
 - Do train your model
 ```
-cd training
-python feature_select_and_train.py
+cd training_testing
+python training.py
 ```
+
+### Output:
+
+- `***model***.pkl`
+
+Output(s) are available at `preprocessing/output/`
 
 
 
 ## Model Assessments / Testing
 
-- boom
+- Generate training cross-validation reports
+- Generate performance reports on testing data
 
+```
+cd training_testing
+python genreport.py
+python assess.py
+```
 
 
 # Result and Analysis

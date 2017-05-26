@@ -1,6 +1,8 @@
 import pandas as pd
+import pickle
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import chi2
+from sklearn.feature_extraction.text import CountVectorizer
 
 def main():
 
@@ -36,16 +38,34 @@ def main():
 
 
     print '[+] Output selected features to \'output/\''
+    selected_features_freq_inb = data_freq_instances.columns.values[c2_freq_inb.get_support()]
+    selected_features_bool_inb = data_bool_instances.columns.values[c2_bool_inb.get_support()]
+    selected_features_freq_bal = balanced_data_freq_instances.columns.values[c2_freq_bal.get_support()]
+    selected_features_bool_bal = balanced_data_bool_instances.columns.values[c2_bool_bal.get_support()]
 
-    open('output/selected_features_freq.txt', 'wb').write('\n'.join(data_freq_instances.columns.values[c2_freq_inb.get_support()]))
-    open('output/selected_features_bool.txt', 'wb').write('\n'.join(data_bool_instances.columns.values[c2_bool_inb.get_support()]))
-    open('output/selected_features_freq_balanced.txt', 'wb').write('\n'.join(balanced_data_freq_instances.columns.values[c2_freq_bal.get_support()]))
-    open('output/selected_features_bool_balanced.txt', 'wb').write('\n'.join(balanced_data_bool_instances.columns.values[c2_bool_bal.get_support()]))
+    open('output/selected_features_freq.txt', 'wb').write('\n'.join(selected_features_freq_inb))
+    open('output/selected_features_bool.txt', 'wb').write('\n'.join(selected_features_bool_inb))
+    open('output/selected_features_freq_balanced.txt', 'wb').write('\n'.join(selected_features_freq_bal))
+    open('output/selected_features_bool_balanced.txt', 'wb').write('\n'.join(selected_features_bool_bal))
 
     data_freq_instances.loc[:, c2_freq_inb.get_support()].to_csv('output/features_freq_selected.csv')
     data_bool_instances.loc[:, c2_bool_inb.get_support()].to_csv('output/features_bool_selected.csv')
     balanced_data_freq_instances.loc[:, c2_freq_bal.get_support()].to_csv('output/features_freq_balanced_selected.csv')
     balanced_data_bool_instances.loc[:, c2_bool_bal.get_support()].to_csv('output/features_bool_balanced_selected.csv')
+
+    print '[+] Output updated vectorizer to \'output\''
+
+    vect_freq = CountVectorizer(vocabulary = selected_features_freq_inb)
+    vect_bool = CountVectorizer(vocabulary = selected_features_bool_inb, binary = True)
+    vect_freq_balanced = CountVectorizer(vocabulary = selected_features_freq_bal)
+    vect_bool_balanced = CountVectorizer(vocabulary = selected_features_bool_bal, binary = True)
+
+    # Dump persistence Vectorizer
+    pickle.dump(vect_freq, open('output/vect_freq_selected.pkl', 'wb'))
+    pickle.dump(vect_bool, open('output/vect_bool_selected.pkl', 'wb'))
+    pickle.dump(vect_freq_balanced, open('output/vect_freq_balanced_selected.pkl', 'wb'))
+    pickle.dump(vect_bool_balanced, open('output/vect_bool_balanced_selected.pkl', 'wb'))
+
 
 if __name__ == '__main__':
 	main()
