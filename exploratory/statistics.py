@@ -1,6 +1,5 @@
 import os
 import pandas as pd
-import constants
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import CountVectorizer
@@ -20,7 +19,7 @@ def displayWordCountChart(word_counts, filename):
     plt.bar(np.arange(30), values[0:30])
     plt.xticks(np.arange(30) + 0.75 * 0.5, indexes, rotation='vertical')
     plt.draw()
-    plt.savefig(constants.OUTPUT_FOLDER + filename)
+    plt.savefig('output/' + filename)
 
 def getWordCounts(data, label=None):
     if label is not None:
@@ -74,11 +73,17 @@ def plotLengthStats(data, filename):
     fig, ax = plt.subplots()
     series_counts.plot(ax=ax, kind='bar')
     plt.draw()
-    plt.savefig(constants.OUTPUT_FOLDER + filename)
+    plt.savefig('output/' + filename)
 
 def main():
-    data = pd.read_csv(constants.DATA_FOLDER + constants.DATASET_FILENAME, index_col=0)
-    normalized_data = pd.read_csv(constants.DATA_FOLDER + constants.NORMALIZED_DATASET_FILENAME, index_col=0)
+    data = pd.read_csv('../preprocessing/data/converted_curated_dump.csv', index_col=0)
+    normalized_data = pd.read_csv('../preprocessing/output/dataset.csv', index_col=0)
+
+    try:
+        os.stat('output')
+    except:
+        os.mkdir('output')
+
 
     ## Related to Message Length
     data_lengthCounts = countTextLength(data)
@@ -86,15 +91,10 @@ def main():
     data_lengthStats = calculateLengthStatistics(data)
     n_data_lengthStats = calculateLengthStatistics(normalized_data)
 
-    try:
-        os.stat(constants.OUTPUT_FOLDER)
-    except:
-        os.mkdir(constants.OUTPUT_FOLDER)
-
-    data_lengthCounts.to_csv(constants.OUTPUT_FOLDER + 'text_length_counts.csv', index_label='Length')
-    n_data_lengthCounts.to_csv(constants.OUTPUT_FOLDER + 'normalized_text_length_counts.csv', index_label='Length')
-    data_lengthStats.to_csv(constants.OUTPUT_FOLDER + 'text_length_stats.csv')
-    n_data_lengthStats.to_csv(constants.OUTPUT_FOLDER + 'normalized_text_length_stats.csv', index_label='Length')
+    data_lengthCounts.to_csv('output/text_length_counts.csv', index_label='Length')
+    n_data_lengthCounts.to_csv('output/normalized_text_length_counts.csv', index_label='Length')
+    data_lengthStats.to_csv('output/text_length_stats.csv')
+    n_data_lengthStats.to_csv('output/normalized_text_length_stats.csv', index_label='Length')
     plotLengthStats(data, 'text_length_statistic_chart.png')
     plotLengthStats(normalized_data, 'normalized_text_length_statistic_chart.png')
 
@@ -108,16 +108,11 @@ def main():
     n_data_word_counts = getWordCounts(normalized_data)
     n_data_word_counts_per_label = { label: getWordCounts(normalized_data, label) for label in labels }
 
-    try:
-        os.stat(constants.OUTPUT_FOLDER)
-    except:
-        os.mkdir(constants.OUTPUT_FOLDER)
-
-    data_word_counts.to_csv(constants.OUTPUT_FOLDER + 'data_word_counts.csv', index_label='Word')
-    n_data_word_counts.to_csv(constants.OUTPUT_FOLDER + 'normalized_data_word_counts.csv', index_label='Word')
+    data_word_counts.to_csv('output/data_word_counts.csv', index_label='Word')
+    n_data_word_counts.to_csv('output/normalized_data_word_counts.csv', index_label='Word')
     for label in labels:
-        data_word_counts_per_label[label].to_csv(constants.OUTPUT_FOLDER + 'data_word_counts_' + label + '.csv', index_label='Word')
-        n_data_word_counts_per_label[label].to_csv(constants.OUTPUT_FOLDER + 'normalized_data_word_counts_' + label + '.csv', index_label='Word')
+        data_word_counts_per_label[label].to_csv('output/data_word_counts_' + label + '.csv', index_label='Word')
+        n_data_word_counts_per_label[label].to_csv('output/normalized_data_word_counts_' + label + '.csv', index_label='Word')
 
     displayWordCountChart(getWordCounts(data), 'word-count-all.png')
     displayWordCountChart(getWordCounts(normalized_data), 'normalized_word-count-all.png')

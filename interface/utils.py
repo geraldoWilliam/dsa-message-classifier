@@ -23,5 +23,5 @@ def normalize_text(s):
     s = remove_symbols(s)
     s = remove_numbers(s)
     s = normalize_abbreviations(s)
-    # s = remove_stopwords(s)
+    s = remove_stopwords(s)
     return s
