@@ -6,10 +6,10 @@ import pickle
 def main():
 
     print "[+] Reading data from files"
-    dataset_freq_inb = pd.read_csv('../feature_selection/output/features_freq_selected.csv', index_col=0)
-    dataset_bool_inb = pd.read_csv('../feature_selection/output/features_bool_selected.csv', index_col=0)
-    dataset_freq_bal = pd.read_csv('../feature_selection/output/features_freq_balanced_selected.csv', index_col=0)
-    dataset_bool_bal = pd.read_csv('../feature_selection/output/features_bool_balanced_selected.csv', index_col=0)
+    dataset_freq_inb = pd.read_csv('../feature_selection/output/features_freq_selected.csv')
+    dataset_bool_inb = pd.read_csv('../feature_selection/output/features_bool_selected.csv')
+    dataset_freq_bal = pd.read_csv('../feature_selection/output/features_freq_balanced_selected.csv')
+    dataset_bool_bal = pd.read_csv('../feature_selection/output/features_bool_balanced_selected.csv')
     dataset_label = pd.read_csv('../feature_extraction/output/label.csv')['intent']
     dataset_label_bal = pd.read_csv('../feature_extraction/output/balanced_label.csv')['intent']
 

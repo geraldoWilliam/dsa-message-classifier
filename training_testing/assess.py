@@ -12,7 +12,6 @@ def gen_report(model, vectorizer, test_data):
     print str(model)
     print '*' * 70
     print report
-    print
 
 MNB_freq_inb = pickle.load(open('output/MNB_freq_inb.pkl', 'rb'))
 MNB_bool_inb = pickle.load(open('output/MNB_bool_inb.pkl', 'rb'))

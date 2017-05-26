@@ -1,0 +1,71 @@
+,text,intent
+0,halo,giving-feedback-or-greeting
+1,selamat malam,giving-feedback-or-greeting
+2,selamat pagi,giving-feedback-or-greeting
+3,apa kabar,giving-feedback-or-greeting
+4,hai,giving-feedback-or-greeting
+5,halo selamat siang,giving-feedback-or-greeting
+6,hi,giving-feedback-or-greeting
+7,hey malam,giving-feedback-or-greeting
+8,pagi,giving-feedback-or-greeting
+9,salam sejahtera,giving-feedback-or-greeting
+10,Tunjukkan jalan dari UI ke Bogor,asking-question-direction
+11,bagaimana cara ke Stasiun Palmerah?,asking-question-direction
+12,rute menuju kebayoran,asking-question-direction
+13,ke surabaya dari bandung,asking-question-direction
+14,kasih rute menuju fakultas ilmu komputer dong,asking-question-direction
+15,bagaimana cara ke fasilkom siang ini?,asking-question-direction
+16,menuju kelapa dua dari margonda,asking-question-direction
+17,mau pergi ke central park yang ada di grogol,asking-question-direction
+18,kasih tau caranya ke universitas gunadarma,asking-question-direction
+19,dari depok ke bali,asking-question-direction
+20,bagaimana jadwal kereta hari ini?,asking-question-schedule
+21,Jadwal keberangkatan kereta di stasiun juanda,asking-question-schedule
+22,Jadwal terminal harmoni,asking-question-schedule
+23,Busway kapan datangnya di terminal slipi kemanggisan,asking-question-schedule
+24,Kedatangan kereta di stasiun bogor,asking-question-schedule
+25,Jadwal kereta dari stasiun jakarta kota ke stasiun palmerah,asking-question-schedule
+26,Keberangkatan krl stasion bogor,asking-question-schedule
+27,Coba kasih tau kapan kereta datang di stasiun manggarai,asking-question-schedule
+28,Jadwal bus trans jakarta koridor 7 terminal senayan city,asking-question-schedule
+29,Jadwal busway untuk malam ini?,asking-question-schedule
+30,mengapa bumi itu bulat?,asking-question-other
+31,apa yang dimaksud dengan chatbot?,asking-question-other
+32,bagaimana nilai saya nanti,asking-question-other
+33,apakah hari ini akan hujan,asking-question-other
+34,kamu bisa apa saja?,asking-question-other
+35,kamu biasa ngapain aja?,asking-question-other
+36,ini bagaimana cara menghitungnya?,asking-question-other
+37,kok kamu bisa tahu?,asking-question-other
+38,kamu tanya jalan ke siapa?,asking-question-other
+39,siapa yang membuat kamu?,asking-question-other
+40,kamu luar biasa,giving-feedback-or-greeting
+41,kamu super sekali,giving-feedback-or-greeting
+42,terima kasih,giving-feedback-or-greeting
+43,makasih,giving-feedback-or-greeting
+44,bagus,giving-feedback-or-greeting
+45,keren banget,giving-feedback-or-greeting
+46,wow kok tau haha,giving-feedback-or-greeting
+47,terima kasih sudah membantu,giving-feedback-or-greeting
+48,aduh makasih ya,giving-feedback-or-greeting
+49,kamu memang sangat hebat,giving-feedback-or-greeting
+50,jelek banget,giving-feedback-or-greeting
+51,kok salah sih,giving-feedback-or-greeting
+52,rutenya jauh banget,giving-feedback-or-greeting
+53,kok dikasih rute yang salah,giving-feedback-or-greeting
+54,kamu memang sampah,giving-feedback-or-greeting
+55,yah kecewa,giving-feedback-or-greeting
+56,masa ga bisa,giving-feedback-or-greeting
+57,masa ga ketemu rutenya?,giving-feedback-or-greeting
+58,payah nih,giving-feedback-or-greeting
+59,bot nya bodoh,giving-feedback-or-greeting
+60,ingin belajar masak,other
+61,selamatkan saya dari DSA,other
+62,aku ingin dapat nilai bagus,other
+63,ini tugas akhir saya,other
+64,extreme payload,other
+65,sakdlljadla,other
+66,satu nusa satu bangsa,other
+67,dahulu kala ada sebuah kisah tentang anak manusia.,other
+68,saya mau chat dengan seseorang tapi malu,other
+69,ini adalah sebuah pesan,other

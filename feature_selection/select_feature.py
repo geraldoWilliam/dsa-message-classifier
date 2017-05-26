@@ -48,10 +48,10 @@ def main():
     open('output/selected_features_freq_balanced.txt', 'wb').write('\n'.join(selected_features_freq_bal))
     open('output/selected_features_bool_balanced.txt', 'wb').write('\n'.join(selected_features_bool_bal))
 
-    data_freq_instances.loc[:, c2_freq_inb.get_support()].to_csv('output/features_freq_selected.csv')
-    data_bool_instances.loc[:, c2_bool_inb.get_support()].to_csv('output/features_bool_selected.csv')
-    balanced_data_freq_instances.loc[:, c2_freq_bal.get_support()].to_csv('output/features_freq_balanced_selected.csv')
-    balanced_data_bool_instances.loc[:, c2_bool_bal.get_support()].to_csv('output/features_bool_balanced_selected.csv')
+    data_freq_instances.loc[:, c2_freq_inb.get_support()].to_csv('output/features_freq_selected.csv', index=False)
+    data_bool_instances.loc[:, c2_bool_inb.get_support()].to_csv('output/features_bool_selected.csv', index=False)
+    balanced_data_freq_instances.loc[:, c2_freq_bal.get_support()].to_csv('output/features_freq_balanced_selected.csv', index=False)
+    balanced_data_bool_instances.loc[:, c2_bool_bal.get_support()].to_csv('output/features_bool_balanced_selected.csv', index=False)
 
     print '[+] Output updated vectorizer to \'output\''
 
