@@ -1,9 +1,11 @@
 import json
 import pickle
 import pandas as pd
+from utils import normalize_text
 
 def predict(message, model, vectorizer):
-    features = vectorizer.transform([message])
+    normalized_message = normalize_text(message)
+    features = vectorizer.transform([normalized_message])
     predicted = model.predict(features)
     probabilities = zip(model.classes_, model.predict_proba(features)[0])
     return predicted[0], probabilities
