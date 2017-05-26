@@ -45,7 +45,7 @@ $(document).ready(function() {
       data: {
         labels: labels,
         datasets: [{
-          label: '% Confidence',
+          label: 'Confidence',
           data: values,
           backgroundColor: [
               'rgba(255, 99, 132, 0.8)',
