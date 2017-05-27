@@ -7,6 +7,11 @@ Run pipeline script to automate steps
 ./pipeline.sh
 ```
 
+Run web interface script to run interface in localhost
+```
+./run-interface.sh
+```
+
 
 ## Preprocessing
 
@@ -127,7 +132,6 @@ python assess.py
 - Frequency distribution of words
 ```
 cd exploratory
-python preprocessor.py // generate cleaned data to be processed
 python statistics.py
 ```
 The output (visualization and statistics) are available in `exploratory/output`
