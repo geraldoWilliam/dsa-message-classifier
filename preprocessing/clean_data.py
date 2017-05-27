@@ -32,6 +32,10 @@ def normalize_text(s):
     # s = remove_stopwords(s)
     return s
 
+def remove_instances_with_empty_text(data):
+    return data[data['text'] != '']
+
+
 def get_balanced_data(data):
     unique_intents = data['intent'].unique()
     unique_data = {elem : pd.DataFrame for elem in unique_intents}
@@ -43,17 +47,27 @@ def get_balanced_data(data):
 
     balanced_data = pd.DataFrame(columns = data.columns)
     for key in unique_data.keys():
-        rows = unique_data[key].sample(n=min_row)
+        n = min(min_row + 10, len(unique_data[key])) if key == 'other' else min_row
+        rows = unique_data[key].sample(n=n)
         balanced_data = balanced_data.append(rows)
 
     balanced_data = balanced_data.sample(frac=1)
     return balanced_data
 
+def add_question_mark_attribute(data):
+    count_question_mark = [('?' in row['text']) for i, row in data.iterrows()]
+    data['__question_mark__'] = pd.Series(count_question_mark)
+
+    return data
+
 def main():
     data = pd.read_csv(input_file, index_col=0)
+    data = add_question_mark_attribute(data)
     for i,row in data.iterrows():
         data.loc[i,'text'] = normalize_text(str(data.loc[i,'text']))
     data.to_csv(output_file, index=False)
+
+    data = remove_instances_with_empty_text(data)
 
     balanced_data = get_balanced_data(data)
     balanced_data.to_csv(balanced_output_file, index=False)

@@ -18,5 +18,5 @@ echo -e "\n"
 echo -e "\e[1;31m[*] Training / Testing\e[0m"
 cd ../training_testing
 python training.py
-python genreport.py
+# python genreport.py
 python assess.py

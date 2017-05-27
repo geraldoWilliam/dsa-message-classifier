@@ -1393,7 +1393,7 @@ id,text,intent,datetime
 1391,Terimakasih ya,positive-feedback,1491938918
 1392,Masasih?,asking-question-other,1491938928
 1393,Perkenalkan diri dong,other,1491938972
-1394,Bye,greeting,1491938974
+1394,Bye,other,1491938974
 1395,Tanyajalan perkenalkan diri dong,intro,1491938986
 1396,TanyaJalan perkenalin diri dong,intro,1491953553
 1397,Berangkat dari monas to stasiun gambir,ask-for-direction,1491953568
@@ -1523,7 +1523,7 @@ id,text,intent,datetime
 1521,Thankyouuu,positive-feedback,1491607955
 1522,Haha kamu juga,other,1491608700
 1523,halo,greeting,1491610282
-1524,apa kabar,greeting,1491610290
+1524,apa kabar,asking-question-other,1491610290
 1525,cek jadwal krl,ask-for-schedule-krl,1491610301
 1526,thanks,positive-feedback,1491610365
 1527,kamu ganteng,positive-feedback,1491610369
@@ -2284,7 +2284,7 @@ Nah keren tuh kalo bot SUSBM bisa lo selipin juga sama pesan sosial!",positive-f
 2279,Berangkat dari jelambar ke puri,asking-question-direction,1490474404
 2280,Jadwal krl stasiun duri,asking-question-schedule,1490474422
 2281,Dari bekasi ke pulau komodo,asking-question-schedule,1490474503
-2282,tanya jalan bye,greeting,1490474662
+2282,tanya jalan bye,other,1490474662
 2283,Dari bekasi ke surabaya,asking-question-direction,1490474800
 2284,Surabaya ke bekasi,asking-question-direction,1490474959
 2285,Gak mau repot,giving-negative-feedback,1490474987
@@ -2428,9 +2428,9 @@ Nah keren tuh kalo bot SUSBM bisa lo selipin juga sama pesan sosial!",positive-f
 2423,Dari stasiun bogor ke kebun raya bogor,asking-question-direction,1490421989
 2424,Dari angke ke benhil,asking-question-direction,1490422006
 2425,Berangkat dari Fasilkom ke AEON,asking-question-direction,1490422064
-2426,Bye tanya jalan,greeting,1490422075
+2426,Bye tanya jalan,asking-question-other,1490422075
 2427,undefined,other,1490422088
-2428,Tanya jalan bye,greeting,1490422095
+2428,Tanya jalan bye,other,1490422095
 2429,Bakmi golek cibubur ke legenda wisata,asking-question-direction,1490422142
 2430,Cibubur ke cileungsi,asking-question-direction,1490422157
 2431,Berangkat dari Fasilkom ke Plaza Senayan,asking-question-direction,1490422208
@@ -2607,11 +2607,11 @@ Nah keren tuh kalo bot SUSBM bisa lo selipin juga sama pesan sosial!",positive-f
 2602,thank you,giving-positive-feedback,1490234186
 2603,Kasih tau jadwal stasiun Pondok Cina dong,asking-question-schedule,1490239648
 2604,tampilkan lebih banyak jadwal krl stasiun PONDOKCINA,asking-question-schedule,1490239656
-2605,TanyaJalan bye,greeting,1490241396
+2605,TanyaJalan bye,other,1490241396
 2606,"TanyaJalan, tunjukin jalan dari depok ke museum fatahillah dong",asking-question-direction,1490241562
 2607,Nice,giving-positive-feedback,1490241576
 2608,Nice,giving-positive-feedback,1490241636
-2609,TanyaJalan bye,greeting,1490241651
+2609,TanyaJalan bye,other,1490241651
 2610,Berangkat dari tubagus angke ke tanah abang,asking-question-direction,1490244820
 2611,Tebet ke manggarai,asking-question-direction,1490252852
 2612,Jembatan 2 ke gedung bppt,asking-question-direction,1490252876
@@ -2643,7 +2643,7 @@ Nah keren tuh kalo bot SUSBM bisa lo selipin juga sama pesan sosial!",positive-f
 2638,Dari meruya ke slipi,asking-question-direction,1490326407
 2639,Dari UI ke Alam Sutera,asking-question-direction,1490326642
 2640,"Tanyajalan, perkenalkan diri",greeting,1490326839
-2641,Tanyajalan bye,greeting,1490326863
+2641,TanyaJalan bye,other,1490326863
 2642,Jadwal KRL stasiun Manggarai,asking-question-schedule,1490327693
 2643,Jadwal krl stasiun ui,asking-question-schedule,1490327719
 2644,Jadwal krl stasiun Universitas Indonesia,asking-question-schedule,1490327742
@@ -2803,9 +2803,9 @@ Nah keren tuh kalo bot SUSBM bisa lo selipin juga sama pesan sosial!",positive-f
 2798,Halo,greeting,1490234117
 2799,Nice,giving-positive-feedback,1490234169
 2800,Btw,other,1489919204
-2801,TanyaJalan bye,greeting,1489919216
+2801,TanyaJalan bye,other,1489919216
 2802,TanyaJalan perkenalkan diri,greeting,1489919334
-2803,TanyaJalan bye,greeting,1489919342
+2803,TanyaJalan bye,other,1489919342
 2804,Tanyajalan help,asking-question-other,1489919640
 2805,Bagaimana cara dari mangga besar ke ui ?,asking-question-direction,1489919663
 2806,Jauh amat,giving-negative-feedback,1489919688
@@ -2815,7 +2815,7 @@ Nah keren tuh kalo bot SUSBM bisa lo selipin juga sama pesan sosial!",positive-f
 2810,Cek jadwal krl stasiun jakarta kota,asking-question-schedule,1489920513
 2811,Oke,greeting,1489920566
 2812,Gamau,giving-negative-feedback,1489920583
-2813,Iya gpp,greeting,1489920589
+2813,Iya gpp,other,1489920589
 2814,Dari bogor,other,1489920603
 2815,Dari bogor ke cibubur,asking-question-direction,1489920619
 2816,Berangkat dari UI Ke Trisakti,asking-question-direction,1489934953
@@ -2833,7 +2833,7 @@ Nah keren tuh kalo bot SUSBM bisa lo selipin juga sama pesan sosial!",positive-f
 2828,Berangkat dari binus ke taman aggrek,asking-question-direction,1489951513
 2829,Tanyajalan perkenalkan diri,greeting,1489952118
 2830,Thx brii,giving-positive-feedback,1489952146
-2831,Tanyajalan bye,greeting,1489952156
+2831,TanyaJalan bye,other,1489952156
 2832,Ancol,other,1489952184
 2833,Ui ke ancol,asking-question-direction,1489952195
 2834,Berangkat dari UI Ke Pim,asking-question-direction,1489952732
@@ -2994,9 +2994,9 @@ Nah keren tuh kalo bot SUSBM bisa lo selipin juga sama pesan sosial!",positive-f
 2989,Bukan lu,giving-negative-feedback,1489916527
 2990,Jangan masukin ke hati dong,other,1489916555
 2991,dari stasiun bekasi ke binus,asking-question-direction,1489917240
-2992,Ini buat apa,greeting,1489918376
-2993,Ini buat apa,greeting,1489918382
-2994,Ini apaan sih,greeting,1489918387
+2992,Ini buat apa,asking-question-other,1489918376
+2993,Ini buat apa,asking-question-other,1489918382
+2994,Ini apaan sih,asking-question-other,1489918387
 2995,Pondok bambu ke tebet,asking-question-direction,1489918402
 2996,Dari pondok bambu ke tebet,asking-question-direction,1489918417
 2997,Dari tanah abang ke fasilkom uu,asking-question-direction,1489918429
@@ -3005,7 +3005,7 @@ Nah keren tuh kalo bot SUSBM bisa lo selipin juga sama pesan sosial!",positive-f
 3000,jadwal krl jakarta kota,asking-question-schedule,1489904958
 3001,TanyaJalan perkenalkan diri,greeting,1489904971
 3002,jadwal krl jakot,asking-question-schedule,1489904972
-3003,TanyaJalan bye,greeting,1489904976
+3003,TanyaJalan bye,other,1489904976
 3004,dari sabang sampai merauke,asking-question-direction,1489904988
 3005,pergi ke merauke dari sabang,asking-question-direction,1489905004
 3006,Berangkat dari jembatan dua ke grogol,asking-question-direction,1489905098
@@ -3048,7 +3048,7 @@ Nah keren tuh kalo bot SUSBM bisa lo selipin juga sama pesan sosial!",positive-f
 3043,TanyaJalan perkenalkan diri,greeting,1489906954
 3044,TanyaJalan perkenalkan diri dong,greeting,1489906960
 3045,TanyaJalan perkenalkan diri,greeting,1489906993
-3046,TanyaJalan bye,greeting,1489906999
+3046,TanyaJalan bye,other,1489906999
 3047,Dari angke jaya xiii ke dago,asking-question-direction,1489907021
 3048,Semangat!,giving-positive-feedback,1489907077
 3049,Rute hatiku ke hatinya,other,1489907095
@@ -3113,7 +3113,7 @@ Nah keren tuh kalo bot SUSBM bisa lo selipin juga sama pesan sosial!",positive-f
 3108,Payah,giving-negative-feedback,1488913658
 3109,Tanyajalan kenalin diri dong,greeting,1488913779
 3110,Tanyajalan kenalin diri,greeting,1488913789
-3111,Tanyajalan bye,greeting,1488913801
+3111,TanyaJalan bye,other,1488913801
 3112,Dari Denpasar ke Kuta,asking-question-direction,1488914074
 3113,Dari surabaya ke jogja,asking-question-direction,1488914134
 3114,Tunjukkan jalan dari Poris ke Grogol,asking-question-direction,1488914367
@@ -3168,13 +3168,13 @@ Nah keren tuh kalo bot SUSBM bisa lo selipin juga sama pesan sosial!",positive-f
 3163,tanyajalan,greeting,1489902904
 3164,TanyaJalan perkenalkan diri,greeting,1489902916
 3165,TanyaJalan perkenalkan diri,greeting,1489902934
-3166,TanyaJalan bye,greeting,1489902939
+3166,TanyaJalan bye,other,1489902939
 3167,TanyaJalan perkenalkan diri,greeting,1489903037
-3168,TanyaJalan bye,greeting,1489903041
+3168,TanyaJalan bye,other,1489903041
 3169,TanyaJalan perkenalkan diri,greeting,1489903097
-3170,TanyaJalan bye,greeting,1489903103
+3170,TanyaJalan bye,other,1489903103
 3171,TanyaJalan perkenalkan diri,greeting,1489903327
-3172,Tanyajalan bye,greeting,1489903334
+3172,TanyaJalan bye,other,1489903334
 3173,Pergi dari Cakung ke Cawang,asking-question-direction,1489903594
 3174,rusun bci ke tokopedia,asking-question-direction,1489903595
 3175,Yah sedih,giving-negative-feedback,1489903601
@@ -3199,7 +3199,7 @@ Nah keren tuh kalo bot SUSBM bisa lo selipin juga sama pesan sosial!",positive-f
 3194,dari cengkareng ke tokopedia,asking-question-direction,1489904040
 3195,cengkareng ke tokopedia,asking-question-direction,1489904776
 3196,tanyajalan perkenalkan diri,greeting,1489904847
-3197,tanyajalan bye,greeting,1489904857
+3197,tanyajalan bye,other,1489904857
 3198,hi,greeting,1489904929
 3199,jadwal krl stasiun jakarta kota,asking-question-schedule,1489904945
 3200,ga jelas,giving-negative-feedback,1488859624
@@ -3254,15 +3254,15 @@ Read
 3247,hi,greeting,1488875442
 3248,tanyajalan,greeting,1488875448
 3249,tanyajalan,greeting,1488875520
-3250,tanyajalan bye,greeting,1488875899
+3250,TanyaJalan bye,other,1488875899
 3251,Dari Poris ke Paris,asking-question-direction,1488875948
-3252,tanyajalan bye,greeting,1488875955
+3252,TanyaJalan bye,other,1488875955
 3253,jih,giving-negative-feedback,1488875963
 3254,Ya elah Tanah Abang mulu,giving-negative-feedback,1488875980
-3255,tanyajalan bye,greeting,1488876019
+3255,TanyaJalan bye,other,1488876019
 3256,Dari Grogol ke Depok,asking-question-direction,1488876019
-3257,tanyajalan bye,greeting,1488876033
-3258,tanyajalan bye,greeting,1488876042
+3257,TanyaJalan bye,other,1488876033
+3258,TanyaJalan bye,other,1488876042
 3259,tanyajalan,greeting,1488876106
 3260,Dari Grogol ke Depok,asking-question-direction,1488876138
 3261,Wih,giving-positive-feedback,1488876183
@@ -3291,7 +3291,7 @@ Read
 3284,Tunjukin jalan dari kelapa dua ke grogol,asking-question-direction,1488881220
 3285,Tunjukin jalan dari bogor ke grogol,asking-question-direction,1488881238
 3286,Tunjukin jalan dari bogor ke central park,asking-question-direction,1488881271
-3287,Ini apaan sih?,greeting,1488881466
+3287,Ini apaan sih?,asking-question-other,1488881466
 3288,Coba tunjukin jalan dari Bogor ke Central Park dong,asking-question-direction,1488881488
 3289,Thank you,giving-positive-feedback,1488881499
 3290,undefined,other,1488881543

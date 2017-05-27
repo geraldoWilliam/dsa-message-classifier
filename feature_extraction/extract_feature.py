@@ -4,9 +4,10 @@ import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 
 def write_feature_to_file(filename, count_vect, data):
-	feature = count_vect.fit_transform(data.values.astype('U'))
+	feature = count_vect.fit_transform(data['text'].values.astype('U'))
 	df = pd.DataFrame(feature.toarray())
-	df.to_csv(filename, header = count_vect.get_feature_names(), index=False)
+	df['__question_mark__'] = data['__question_mark__'].values
+	df.to_csv(filename, header = count_vect.get_feature_names() + ['__question_mark__'], index=False)
 
 def main():
 	data = pd.read_csv('../preprocessing/output/dataset.csv', index_col=0)
@@ -21,10 +22,10 @@ def main():
 	    os.makedirs('output')
 
 	# Fit vectorizer and Save features to files
-	write_feature_to_file('output/features_freq.csv', vect_freq, data['text'])
-	write_feature_to_file('output/features_bool.csv', vect_bool, data['text'])
-	write_feature_to_file('output/features_freq_balanced.csv', vect_freq_balanced, balanced_data['text'])
-	write_feature_to_file('output/features_bool_balanced.csv', vect_bool_balanced, balanced_data['text'])
+	write_feature_to_file('output/features_freq.csv', vect_freq, data)
+	write_feature_to_file('output/features_bool.csv', vect_bool, data)
+	write_feature_to_file('output/features_freq_balanced.csv', vect_freq_balanced, balanced_data)
+	write_feature_to_file('output/features_bool_balanced.csv', vect_bool_balanced, balanced_data)
 
 	# Save labels to files
 	label = data['intent']

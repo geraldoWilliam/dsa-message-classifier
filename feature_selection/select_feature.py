@@ -55,10 +55,10 @@ def main():
 
     print '[+] Output updated vectorizer to \'output\''
 
-    vect_freq = CountVectorizer(vocabulary = selected_features_freq_inb)
-    vect_bool = CountVectorizer(vocabulary = selected_features_bool_inb, binary = True)
-    vect_freq_balanced = CountVectorizer(vocabulary = selected_features_freq_bal)
-    vect_bool_balanced = CountVectorizer(vocabulary = selected_features_bool_bal, binary = True)
+    vect_freq = CountVectorizer(vocabulary = selected_features_freq_inb[:-1])
+    vect_bool = CountVectorizer(vocabulary = selected_features_bool_inb[:-1], binary = True)
+    vect_freq_balanced = CountVectorizer(vocabulary = selected_features_freq_bal[:-1])
+    vect_bool_balanced = CountVectorizer(vocabulary = selected_features_bool_bal[:-1], binary = True)
 
     # Dump persistence Vectorizer
     pickle.dump(vect_freq, open('output/vect_freq_selected.pkl', 'wb'))

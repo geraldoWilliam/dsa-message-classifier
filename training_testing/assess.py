@@ -32,21 +32,23 @@ def normalize_text(s):
     s = remove_stopwords(s)
     return s
 
-def write_feature_to_file(filename, count_vect, feature):
-    df = pd.DataFrame(feature.toarray())
-    df.to_csv(filename, header = count_vect.get_feature_names(), index=False)
+def add_question_mark_attribute(data):
+    count_question_mark = [('?' in row['text']) for i, row in data.iterrows()]
+    data['__question_mark__'] = pd.Series(count_question_mark)
 
-test_data = pd.read_csv('test-dataset-new.csv')
+    return data
+
+test_data = pd.read_csv('test-dataset.csv')
+test_data = add_question_mark_attribute(test_data)
+
 for i,row in test_data.iterrows():
     test_data.loc[i,'text'] = normalize_text(str(test_data.loc[i,'text']))
 
-
-
-
 def gen_report(model, vectorizer, test_data):
     features = vectorizer.transform(test_data['text'])
-    print features.shape
-    predicted = model.predict(features)
+    df = pd.DataFrame(features.toarray())
+    df['__question_mark__'] = test_data['__question_mark__'].values
+    predicted = model.predict(df)
     report = metrics.classification_report(test_data['intent'], predicted)
     c_mat = metrics.confusion_matrix(test_data['intent'], predicted)
 
@@ -59,6 +61,9 @@ def gen_report(model, vectorizer, test_data):
     print c_mat
     print report
     print
+
+        # for i in range(len(predicted)):
+        #     print "%30s %30s %s" % (test_data['intent'][i], predicted[i], 'OK' if predicted[i] == test_data['intent'][i] else '')
 
 vect_freq_selected = pickle.load( open('../feature_selection/output/vect_freq_selected.pkl', 'rb') )
 vect_freq_balanced_selected = pickle.load( open('../feature_selection/output/vect_freq_balanced_selected.pkl', 'rb') )
@@ -78,7 +83,6 @@ gen_report(MNB_freq_inb_s, vect_freq_selected, test_data)
 gen_report(MNB_freq_inb, vect_freq, test_data)
 gen_report(MNB_freq_bal_s, vect_freq_balanced_selected, test_data)
 gen_report(MNB_freq_bal, vect_freq_balanced, test_data)
-
 gen_report(tree_freq_inb_s, vect_freq_selected, test_data)
 gen_report(tree_freq_inb, vect_freq, test_data)
 gen_report(tree_freq_bal_s, vect_freq_balanced_selected, test_data)

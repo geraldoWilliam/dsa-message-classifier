@@ -7,7 +7,7 @@ $(document).ready(function() {
 
     var classifier = $('#select-classifier').val();
     var balanced_data = $('#checkbox-balanced').prop('checked');
-    var selected_features = true; // $('#checkbox-selected').prop('checked');
+    var selected_features = $('#checkbox-selected').prop('checked');
     var feature_mode = $('#select-mode').val();
 
     $('#loading-message').show();
