@@ -2,6 +2,12 @@
 
 # Steps
 
+Run pipeline script to automate steps
+```
+./pipeline.sh
+```
+
+
 ## Preprocessing
 
 Raw dumps are available at `preprocessing/raw/` directory.

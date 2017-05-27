@@ -55,9 +55,12 @@ def gen_report(model, vectorizer, test_data):
     print '*' * 70
     print str(model)
     print '*' * 70
-    scores = cross_val_score(model, features, test_data['intent'], cv=5)
-    print scores
-    print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
+
+    print("Accuracy: %0.2f" % (metrics.accuracy_score(test_data['intent'], predicted)))
+
+    # scores = cross_val_score(model, features, test_data['intent'], cv=5)
+    # print scores
+    # print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
     print c_mat
     print report
     print
@@ -81,9 +84,12 @@ tree_freq_bal = pickle.load( open('output/tree_freq_bal.pkl') )
 
 gen_report(MNB_freq_inb_s, vect_freq_selected, test_data)
 gen_report(MNB_freq_inb, vect_freq, test_data)
+
 gen_report(MNB_freq_bal_s, vect_freq_balanced_selected, test_data)
 gen_report(MNB_freq_bal, vect_freq_balanced, test_data)
+
 gen_report(tree_freq_inb_s, vect_freq_selected, test_data)
 gen_report(tree_freq_inb, vect_freq, test_data)
+
 gen_report(tree_freq_bal_s, vect_freq_balanced_selected, test_data)
 gen_report(tree_freq_bal, vect_freq_balanced, test_data)
