@@ -17,9 +17,6 @@ def predict(message, model, vectorizer):
     return predicted[0], probabilities
 
 def predictIntent(message, classifier, balanced_data, selected_features, feature_mode):
-    if not selected_features:
-        raise NotImplementedError
-
     # getModel
     model_name = classifier + '_' + feature_mode + '_'
     model_name += ('bal' if balanced_data else 'inb')
